@@ -762,7 +762,6 @@
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [
-      "ABK-20-rescue",
       "ABK-20-cache",
       "mixtape_schematics"
     ],
