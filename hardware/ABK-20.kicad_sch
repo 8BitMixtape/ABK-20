@@ -34692,7 +34692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 35.56 30.48 0)
 			(effects
 				(font
@@ -34976,7 +34976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_0805_HandSoldering"
+		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
 			(at 71.628 58.42 90)
 			(effects
 				(font
@@ -35044,7 +35044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_0805_HandSoldering"
+		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
 			(at 77.978 60.96 90)
 			(effects
 				(font
@@ -37412,7 +37412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "8Bitmixtape_reworked:SWITCH-SPDT_KIT"
 			(at 76.2 175.26 0)
 			(effects
 				(font
@@ -37755,7 +37755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_Bourns_PTL20_Single_Slide_LED"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -37833,7 +37833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_Bourns_PTL20_Single_Slide_LED"
 			(at 114.3 101.6 0)
 			(effects
 				(font
