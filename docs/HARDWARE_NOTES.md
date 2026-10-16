@@ -8,8 +8,8 @@
 | **PB1** | Pin 6 | `SPEAKERPIN` | PWM Audio Out | OC1A output (Timer1 high-speed PLL) filtered through R8 (330Ω) & C3 (100nF) to Volume Pot (`POT3-Vol1`). |
 | **PB2** | Pin 7 | `POTI_LEFT` / `ADC1` | Analog In | Wiper of Slide Potentiometer (`RV1A`) via R7 (22kΩ). |
 | **PB3** | Pin 2 | `BUTTON_PIN` / `ADC3` | Analog In / Audio In | Biased at VCC/2 (R1 & R2 22kΩ) for AC-coupled AudioBoot In (C1 100nF). Also reads the button resistor ladder. |
-| **PB4** | Pin 3 | `POTI_RIGHT` / `ADC2`| Analog In | Wiper of Rotary Potentiometer (`POT2-CV1`) via R6 (22kΩ) and push button `SW4`. |
-| **PB5** | Pin 1 | `RESET` / `GPIO` | Reset / Future I/O | Connected to `J6` (Sync Jumper). See Section 4 below for MIDI/GPIO expansion via `RSTDISBL`. |
+| **PB4** | Pin 3 | `POTI_RIGHT` / `ADC2`| Analog In | Wiper of 10kΩ Rotary Potentiometer (`POT2-CV1`) via R6 (22kΩ). |
+| **PB5** | Pin 1 | `RESET` / `GPIO` | Reset / Future I/O | Connected to Reset push button (`SW4`) and `J6` (Sync Jumper). See Section 4 below for MIDI/GPIO expansion via `RSTDISBL`. |
 
 ---
 
@@ -23,12 +23,12 @@ The button network alters the DC bias on `PB3` (ADC3) to distinguish multiple in
 
 ---
 
-## 3. Slide Potentiometer with LED (Alpha RA2045F)
+## 3. Slide Potentiometer with LED (Bourns PTL20 / Alpha RA2045F)
 
 * **Symbol**: `mixtape_schematics:Potentiometer_Slide_LED` (multi-unit):
   * **Unit A**: 20mm slide potentiometer (Pins 1, 2, 3) mapped to `PB2/A1`.
   * **Unit B**: Lever-integrated LED (Pin 5 Anode, Pin 4 Cathode) mapped through R13 (1kΩ) to `PB0` for status/bootloader pulse activity.
-* **PCB**: Merges into a single 5-pad footprint (`RV1`).
+* **Footprint**: `8Bitmixtape_reworked:Potentiometer_Bourns_PTL20_Single_Slide_LED` (or compatible 5-pad slide pot `RV1`).
 
 ---
 

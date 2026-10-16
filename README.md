@@ -20,9 +20,10 @@ The **ABK-20** is a modernized desktop hardware console redesign of the legendar
 * **Visual Display**: **20x WS2812B / SK6812 RGB NeoPixels** arranged in a 5-column × 4-row matrix for expressive animations, meters, and UI feedback.
 * **Illuminated Slide Fader**: Bourns PTL20 20mm slide potentiometer with an integrated lever LED tied to the status/data line (`PB0`).
 * **Tactile Controls**:
-  * **3-Way Navigation Switch**: Center-OFF toggle switch (`SW_SPDT_MSM`) for menu navigation and mode selection.
-  * **Rotary Potentiometer**: 10kΩ linear potentiometer with integrated push button for parameter tweaking and modulation.
-  * **Tactile Push Buttons**: Multi-state resistor ladder on ADC3 (`PB3`).
+  * **Rotary Potentiometer**: 10kΩ linear potentiometer (`POT2-CV1` on `PB4`) for parameter tweaking and modulation.
+  * **3-Way Navigation Switch**: Center-OFF toggle switch (`SW_SPDT_MSM` / `SW3`) on `PB3` for menu navigation and mode selection.
+  * **Tactile User Button**: Push button (`SW2`) on the `PB3` resistor ladder.
+  * **Hardware Reset Button**: Dedicated tactile push button (`SW4`) pulling `PB5` (Reset) to ground.
 * **Audio Circuit**:
   * High-speed 8-bit PWM audio synthesized via Timer1 64 MHz PLL.
   * On-board PAM8002 audio amplifier driving an internal speaker.
@@ -62,8 +63,8 @@ Dedicated hierarchical sub-sheet (`hardware/LED_Matrix.kicad_sch`) with the rast
 | **PB1** | Pin 6 | `PB1` | `SPEAKERPIN` | High-speed PWM audio output (Timer1 64 MHz PLL) to Volume Pot & PAM8002 amp |
 | **PB2** | Pin 7 | `PB2` | `POTI_LEFT` | Slide Potentiometer (`RV1A`) analog control input (ADC1) |
 | **PB3** | Pin 2 | `PB3` | `BUTTON_PIN` | AudioBoot audio input (AC-coupled 100nF) & multi-state button resistor ladder (ADC3) |
-| **PB4** | Pin 3 | `PB4` | `POTI_RIGHT` | Rotary Potentiometer (`POT2-CV1`) & push button switch (ADC2) |
-| **PB5** | Pin 1 | `PB5` | `RESET_PIN` | Hardware Reset line / Sync jumper (`J6`). *(Can be converted to MIDI IN with `RSTDISBL`)* |
+| **PB4** | Pin 3 | `PB4` | `POTI_RIGHT` | 10kΩ Rotary Potentiometer (`POT2-CV1`) analog control input (ADC2) |
+| **PB5** | Pin 1 | `PB5` | `RESET_PIN` | Hardware Reset button (`SW4`) & Sync jumper (`J6`). *(Can be converted to MIDI IN with `RSTDISBL`)* |
 
 ---
 
