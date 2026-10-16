@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ABK-20-cache")(type "Legacy")(uri "${KIPRJMOD}/ABK-20-cache.lib")(options "")(descr "Cached symbols"))
+  (lib (name "mixtape_schematics")(type "Legacy")(uri "${KIPRJMOD}/mixtape_schematics.lib")(options "")(descr "Custom symbols"))
+)

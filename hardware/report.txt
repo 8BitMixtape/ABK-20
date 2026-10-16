@@ -1,119 +1,120 @@
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/sym-lib-table' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/sym-lib-table-2026-10-16-16-13-08'.
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20.sch' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-2026-10-16-16-13-08.sch'.
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20.kicad_pro' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-2026-10-16-16-13-08.kicad_pro'.
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20-cache.lib' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-cache-2026-10-16-16-13-08.lib'.
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20.cache.lib' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20.cache-2026-10-16-16-13-08.lib'.
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20-rescue.lib' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-rescue-2026-10-16-16-13-08.lib'.
-Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20-rescue.dcm' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-rescue-2026-10-16-16-13-08.dcm'.
-Info: Adding library 'ABK-20-rescue', file '${KIPRJMOD}/ABK-20-rescue.lib' to project symbol library table.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/sym-lib-table' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/sym-lib-table-2026-10-16-16-47-36'.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20.sch' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-2026-10-16-16-47-36.sch'.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20.kicad_pro' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-2026-10-16-16-47-36.kicad_pro'.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20-cache.lib' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-cache-2026-10-16-16-47-36.lib'.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20.cache.lib' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20.cache-2026-10-16-16-47-36.lib'.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20-rescue.lib' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-rescue-2026-10-16-16-47-36.lib'.
+Info: Backing up file '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20-rescue.dcm' to '/home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/rescue-backup/ABK-20-rescue-2026-10-16-16-47-36.dcm'.
+Info: Adding library 'ABK-20-rescue1', file '${KIPRJMOD}/ABK-20-rescue.lib' to project symbol library table.
+Info: Adding library 'mixtape_schematics', file '${KIPRJMOD}/mixtape_schematics.lib' to project symbol library table.
 Info: Created project symbol library table.
 
-Warning: No symbol R found in symbol library table.
-Warning: No symbol POT found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol LED found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol POT found in symbol library table.
-Warning: No symbol CONN_01X02_MALE found in symbol library table.
-Warning: No symbol CONN_02X03 found in symbol library table.
-Warning: No symbol ATTINY85-20SU found in symbol library table.
-Warning: No symbol C found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol SW_Push found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol C found in symbol library table.
-Warning: No symbol C found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol JACK_TRS_6PINS found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol CONN_01X04 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol PAM8002 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol CP found in symbol library table.
-Warning: No symbol Speaker found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol C found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol C found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol USB_OTG found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol 7805 found in symbol library table.
-Warning: No symbol Battery_Cell found in symbol library table.
-Warning: No symbol Battery_Cell found in symbol library table.
-Warning: No symbol +3V3 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol JACK_TRS_6PINS found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol CONN_01X04 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol C found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol SW_Push found in symbol library table.
-Warning: No symbol SW_Push found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol POT found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol SK6812 found in symbol library table.
-Warning: No symbol R found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol LED found in symbol library table.
-Warning: No symbol CONN_01X01 found in symbol library table.
-Warning: No symbol VCC found in symbol library table.
-Warning: No symbol CONN_01X02 found in symbol library table.
-Warning: No symbol GND found in symbol library table.
-Warning: No symbol +3V3 found in symbol library table.
-Warning: No symbol SW_Push found in symbol library table.
-Warning: No symbol +3V3 found in symbol library table.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol POT mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol LED mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol POT mapped to symbol library 'ABK-20-rescue1'.
+Symbol CONN_01X02_MALE mapped to symbol library 'ABK-20-rescue1'.
+Symbol CONN_02X03 mapped to symbol library 'ABK-20-rescue1'.
+Symbol ATTINY85-20SU mapped to symbol library 'ABK-20-rescue1'.
+Symbol C mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol SW_Push mapped to symbol library 'mixtape_schematics'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol C mapped to symbol library 'ABK-20-rescue1'.
+Symbol C mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol JACK_TRS_6PINS mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol CONN_01X04 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol PAM8002 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol CP mapped to symbol library 'ABK-20-rescue1'.
+Symbol Speaker mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol C mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol C mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol USB_OTG mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol 7805 mapped to symbol library 'ABK-20-rescue1'.
+Symbol Battery_Cell mapped to symbol library 'ABK-20-rescue1'.
+Symbol Battery_Cell mapped to symbol library 'ABK-20-rescue1'.
+Symbol +3V3 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol JACK_TRS_6PINS mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol CONN_01X04 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol C mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol SW_Push mapped to symbol library 'mixtape_schematics'.
+Symbol SW_Push mapped to symbol library 'mixtape_schematics'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol POT mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol SK6812 mapped to symbol library 'ABK-20-rescue1'.
+Symbol R mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol LED mapped to symbol library 'ABK-20-rescue1'.
+Symbol CONN_01X01 mapped to symbol library 'ABK-20-rescue1'.
+Symbol VCC mapped to symbol library 'ABK-20-rescue1'.
+Symbol CONN_01X02 mapped to symbol library 'ABK-20-rescue1'.
+Symbol GND mapped to symbol library 'ABK-20-rescue1'.
+Symbol +3V3 mapped to symbol library 'ABK-20-rescue1'.
+Symbol SW_Push mapped to symbol library 'mixtape_schematics'.
+Symbol +3V3 mapped to symbol library 'ABK-20-rescue1'.
 Info: Symbol library table mapping complete!
 Info: Created project symbol library table.
 
