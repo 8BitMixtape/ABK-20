@@ -35368,7 +35368,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "22k"
 			(at 154.94 39.37 90)
 			(effects
 				(font
@@ -35503,7 +35503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 137.16 40.005 0)
 			(effects
 				(font
@@ -36840,4 +36840,126 @@
 		)
 	)
 	(embedded_fonts no)
+
+	(junction
+		(at 107.95 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06ea6f64-0754-4153-87fc-c0287c0349c7")
+	)
+	(junction
+		(at 107.95 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cfd0d4a-0496-443c-bc0e-04c8c6452063")
+	)
+	(wire
+		(pts
+			(xy 107.95 24.13) (xy 116.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffab9aa-8b14-47bb-a541-57ee718ce8e7")
+	)
+	(wire
+		(pts
+			(xy 116.84 24.13) (xy 116.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712f9ed0-7883-486b-82bf-fb3c801b015a")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 116.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f32225b-b2d5-495c-876a-ba0024891d77")
+	)
+	(wire
+		(pts
+			(xy 116.84 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec34ee6d-739a-40ee-a755-b907c83948b7")
+	)
+	(symbol
+		(lib_name "C_11")
+		(lib_id "ABK-20-rescue1:C")
+		(at 116.84 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b8d2dfe-63de-4f29-b408-0a0ffe17dabd")
+		(property "Reference" "C8"
+			(at 117.475 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 117.475 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+			(at 117.8052 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d47b1f8-e2a8-4e5a-a010-7be74edfb5c6")
+		)
+		(pin "2"
+			(uuid "e43d84d3-7a35-4651-bf5d-ceaf28b47c76")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
