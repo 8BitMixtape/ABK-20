@@ -36033,7 +36033,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bd0509f")
 		(property "Reference" "board1"
