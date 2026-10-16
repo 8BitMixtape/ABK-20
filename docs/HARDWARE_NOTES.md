@@ -41,3 +41,29 @@ The button network alters the DC bias on `PB3` (ADC3) to distinguish multiple in
 * **Bootloader & Programming Implications**:
   * **AudioBoot Compatibility**: AudioBoot does **not** rely on the hardware reset pin; it activates on **Power-On Reset** (power switch cycle). Firmware uploads via audio remain 100% operational with `RSTDISBL` set.
   * **SPI ISP Limitation**: Disabling Reset locks out standard SPI in-system programmers (USBasp, Arduino as ISP). Recovery/fuse-clearing requires a 12V High-Voltage Serial Programmer (HVSP).
+
+---
+
+## 5. Power Architecture & Diode OR-ing
+
+* **Multi-Source Inputs**:
+  * **USB-C 5V** (`VBUS` on `J5`)
+  * **DC In** (7–12V regulated to 5V via 7805 `U3`)
+  * **Battery** (3x AAA or 2x AAA / LiPo via `BT1/BT2` or `J4`)
+* **Diode Isolation**:
+  * **`D1` (SS14)**: Protects 7805 regulator output from back-driving.
+  * **`D2` (SS14)**: Protects USB port from external voltage back-feed.
+  * **`D3` (SS14)**: Protects batteries from being reverse-charged by 5V USB. Automatically shuts off battery drain when USB is connected.
+* **Master Power Switch (`SW1`)**:
+  * Latching push switch (`Push_SWITCH_hole` / `SW_SPST`) placed between combined diode cathodes and `VCC`.
+  * Cycling `SW1` (OFF then ON) provides the exact power-cycle timing required to activate the **AudioBoot** bootloader on demand.
+
+---
+
+## 6. PCB Layout & Decoupling Placement Rules
+
+When routing the PCB, place capacitors according to the following strict proximity rules:
+1. **`C2` (100nF ceramic)**: Place **immediately touching** ATtiny85 Pin 8 (`VCC`) and Pin 4 (`GND`) ($\le 3\text{ mm}$) to supply high-speed clock/PLL switching pulses.
+2. **`C4` (10µF)**: Place near ATtiny85 ($\le 10\text{ mm}$) as a local energy reservoir.
+3. **`C8` (100nF ceramic)**: Place **directly bridging** PAM8002 Pin 6 (`VCC`) and Pin 7 (`GND`) ($\le 3\text{ mm}$) to block high-frequency digital noise from the audio amp.
+4. **`C7` (220µF bulk electrolytic)**: Place near the PAM8002 / speaker block ($\le 20\text{ mm}$) to buffer low-frequency bass current spikes.

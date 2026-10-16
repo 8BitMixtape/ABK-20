@@ -28770,7 +28770,284 @@
 			)
 			(embedded_fonts no)
 		)
+	
+		(symbol "mixtape_schematics:D_Schottky"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "mixtape_schematics:D_Schottky"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Schottky_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Schottky_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
+		(symbol "mixtape_schematics:SW_SPST"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "mixtape_schematics:SW_SPST"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPST_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
 	(text "slider with LED"
 		(exclude_from_sim no)
 		(at 114.808 82.55 0)
@@ -28865,13 +29142,7 @@
 		(color 0 0 0 0)
 		(uuid "7a78b59d-a292-4ae4-bca7-9a57215fda85")
 	)
-	(junction
-		(at 58.42 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "846a1d3a-af81-49c8-bf08-a85a070a3503")
-	)
-	(junction
+		(junction
 		(at 140.97 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28937,13 +29208,7 @@
 		(color 0 0 0 0)
 		(uuid "f7627131-571b-4af7-8d29-7cf64a376ba1")
 	)
-	(junction
-		(at 69.85 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffd69a9d-fc78-4bb6-8819-719306aea266")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 248.92 152.4) (xy 242.57 152.4)
 		)
@@ -29233,17 +29498,7 @@
 		)
 		(uuid "1fd0fdf6-4ac0-4e1f-ba5e-51a4b15085f0")
 	)
-	(wire
-		(pts
-			(xy 45.72 29.21) (xy 58.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e1e87b-d56a-4d54-ab6c-ee4c2ff067f5")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 217.17 129.54) (xy 222.25 129.54)
 		)
@@ -29393,17 +29648,7 @@
 		)
 		(uuid "3a8fb83d-2db8-4717-b7ab-361c00bc138c")
 	)
-	(wire
-		(pts
-			(xy 58.42 39.37) (xy 58.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de1c70e-bbba-4d4b-9cba-649f1e814271")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 199.39 92.71) (xy 248.92 92.71)
 		)
@@ -29483,17 +29728,7 @@
 		)
 		(uuid "499dff77-0a41-4e61-86f2-8343dcded035")
 	)
-	(wire
-		(pts
-			(xy 57.15 25.4) (xy 58.42 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a6b6a4e-642b-4924-a97c-8aa5f467446d")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 246.38 157.48) (xy 246.38 160.02)
 		)
@@ -29653,17 +29888,7 @@
 		)
 		(uuid "6479c0c4-3a8d-437b-8909-603a41777d58")
 	)
-	(wire
-		(pts
-			(xy 69.85 29.21) (xy 81.28 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65660873-65a0-4c24-89aa-133c6bf7af96")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 161.29 39.37) (xy 165.1 39.37)
 		)
@@ -29743,17 +29968,7 @@
 		)
 		(uuid "71336685-709b-4a05-936f-3d286dcf9d93")
 	)
-	(wire
-		(pts
-			(xy 58.42 29.21) (xy 69.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726164c9-ad22-42b5-80db-f09dce75a655")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 71.12 137.16) (xy 71.12 142.24)
 		)
@@ -30323,17 +30538,7 @@
 		)
 		(uuid "c5379e83-8825-4b7b-afa8-dae621f9cb00")
 	)
-	(wire
-		(pts
-			(xy 69.85 25.4) (xy 69.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7661811-7ab6-48c1-8057-f7c45adbc57d")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 177.8 24.13) (xy 177.8 34.29)
 		)
@@ -30343,17 +30548,7 @@
 		)
 		(uuid "c7f50e28-1e6f-43c5-a321-03b82ede37d4")
 	)
-	(wire
-		(pts
-			(xy 57.15 21.59) (xy 57.15 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9cabc47-958e-441f-b913-3058474c00e3")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 71.12 52.07) (xy 71.12 55.88)
 		)
@@ -30393,17 +30588,7 @@
 		)
 		(uuid "ce32af6c-10be-45bc-bc4c-ed8217df24f7")
 	)
-	(wire
-		(pts
-			(xy 57.15 39.37) (xy 58.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2539bdb-886d-4a27-a541-10f3cbe8182e")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 182.88 104.14) (xy 182.88 106.68)
 		)
@@ -30413,17 +30598,7 @@
 		)
 		(uuid "d2b5b8a8-6e6c-44a8-9fbd-5e3eaf57eb98")
 	)
-	(wire
-		(pts
-			(xy 68.58 25.4) (xy 69.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3987502-f00f-481c-8603-d18eabc17bc4")
-	)
-	(wire
+		(wire
 		(pts
 			(xy 144.78 93.98) (xy 152.4 93.98)
 		)
@@ -33705,74 +33880,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "mixtape_schematics:SW_Push")
-		(at 63.5 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b47976c")
-		(property "Reference" "SW1"
-			(at 64.77 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 63.5 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Push_SWITCH_hole"
-			(at 63.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4316c04a-425b-41da-a0cf-990b63d549c9")
-		)
-		(pin "2"
-			(uuid "0285aa25-a3bb-4f80-abdb-9e35f8164780")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(symbol
 		(lib_id "mixtape_schematics:SW_Push")
 		(at 111.76 161.29 270)
 		(unit 1)
@@ -35000,7 +35108,7 @@
 	(symbol
 		(lib_name "+3V3_6")
 		(lib_id "ABK-20-rescue1:+3V3")
-		(at 57.15 21.59 0)
+		(at 52.07 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35008,7 +35116,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4d5be1")
 		(property "Reference" "#PWR026"
-			(at 57.15 25.4 0)
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35025,7 +35133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 21.59 0)
+			(at 52.07 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35034,7 +35142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 21.59 0)
+			(at 52.07 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35043,7 +35151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 21.59 0)
+			(at 52.07 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36959,6 +37067,217 @@
 					(reference "C8")
 					(unit 1)
 				)
+			)
+		)
+	)
+
+	(junction
+		(at 68.58 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e377f04-caf2-429d-997c-1c4b64b120cd")
+	)
+	(wire
+		(pts
+			(xy 45.72 29.21) (xy 49.53 29.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "4185aa99-1534-4079-931a-09b3c107fd03")
+	)
+	(wire
+		(pts
+			(xy 57.15 29.21) (xy 68.58 29.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "84d26fe5-6117-4c61-82ff-83f49889f3d0")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 60.96 39.37)
+		)
+		(stroke (width 0) (type default))
+		(uuid "2e9406f4-144c-4992-8c87-050203495afc")
+	)
+	(wire
+		(pts
+			(xy 68.58 39.37) (xy 68.58 29.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "5e8e290f-7676-4d84-af90-93cd6188939d")
+	)
+	(wire
+		(pts
+			(xy 52.07 19.05) (xy 60.96 19.05)
+		)
+		(stroke (width 0) (type default))
+		(uuid "f385d02d-813f-4634-ac9e-c71ab94083a0")
+	)
+	(wire
+		(pts
+			(xy 68.58 19.05) (xy 68.58 29.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "968219bd-4543-42b4-9f69-2c9f1229445e")
+	)
+	(wire
+		(pts
+			(xy 68.58 29.21) (xy 69.85 29.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "8e8c6804-3a48-47d4-bbaa-5deda15c4adb")
+	)
+	(wire
+		(pts
+			(xy 80.01 29.21) (xy 81.28 29.21)
+		)
+		(stroke (width 0) (type default))
+		(uuid "13499cd2-840f-49c8-ba34-bd6d05cf71a8")
+	)
+	(symbol
+		(lib_id "mixtape_schematics:D_Schottky")
+		(at 53.34 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c14f41f-e56f-49b1-91ab-ca97fa06ba3c")
+		(property "Reference" "D1"
+			(at 53.34 26.67 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SS14"
+			(at 53.34 31.75 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 53.34 29.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 53.34 29.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Schottky Diode (7805 DC In Protection)"
+			(at 53.34 29.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "0979a903-31f7-4dd7-9dcf-e7bf07b80b9f"))
+		(pin "2" (uuid "93f88efb-82cc-430f-8504-061373038f01"))
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b" (reference "D1") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "mixtape_schematics:D_Schottky")
+		(at 64.77 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f73708-e14c-4ba1-b71f-5a98710b51bd")
+		(property "Reference" "D2"
+			(at 64.77 36.83 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SS14"
+			(at 64.77 41.91 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 64.77 39.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 64.77 39.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Schottky Diode (USB VBUS Protection)"
+			(at 64.77 39.37 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "a70a7bbc-3521-4ac5-9cf0-48f5fb61103e"))
+		(pin "2" (uuid "e73fea78-9cbc-4127-9aa6-628dc5de5bba"))
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b" (reference "D2") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "mixtape_schematics:D_Schottky")
+		(at 64.77 19.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aa8fcf9-9043-43bf-8cf6-52c6b6bb9114")
+		(property "Reference" "D3"
+			(at 64.77 16.51 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SS14"
+			(at 64.77 21.59 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 64.77 19.05 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 64.77 19.05 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Schottky Diode (Battery Reverse Protection)"
+			(at 64.77 19.05 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "55afa587-e9b9-4900-858f-33bdbcc34e34"))
+		(pin "2" (uuid "dc1dea79-8d06-4355-ab4f-69108d4fecd6"))
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b" (reference "D3") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "mixtape_schematics:SW_SPST")
+		(at 74.93 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da319aa9-0657-4bc6-8ab7-55687d9da30e")
+		(property "Reference" "SW1"
+			(at 74.93 24.13 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SW_SPST"
+			(at 74.93 34.29 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Push_SWITCH_hole"
+			(at 74.93 29.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 74.93 29.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Master Latching Power Switch"
+			(at 74.93 29.21 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "d7994c4f-187c-4f7b-bc00-defc5a8c447d"))
+		(pin "2" (uuid "a8d4f734-86f3-47bf-ae6c-da2c0a2a6360"))
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b" (reference "SW1") (unit 1))
 			)
 		)
 	)

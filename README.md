@@ -29,7 +29,7 @@ The **ABK-20** is a modernized desktop hardware console redesign of the legendar
   * On-board PAM8002 audio amplifier driving an internal speaker.
   * 3.5mm stereo output jack (switchable line-out / headphones with volume control).
 * **AudioBoot Programming**: Upload new sound sketches directly through an audio cable or web browser—no external programmer or USB serial driver required.
-* **Power Supply**: Standard 5V rail via USB-C or external battery input.
+* **Power Circuit**: Automatic diode OR-ing architecture supporting USB-C (5V), 7805 DC In (7–12V), and 3x AAA Battery input with a master latching power switch (`SW1`).
 
 ---
 
