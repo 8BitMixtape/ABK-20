@@ -1,0 +1,22 @@
+# KiCad temporary and auto-save files
+*.kicad_prb
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*.lck
+*.tmp
+
+# KiCad 9 local settings / caches
+*.kicad_dru-bak
+kicad_build/
+
+# OS and Editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
