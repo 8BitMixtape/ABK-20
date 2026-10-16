@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mixtape_schematics")(type "Legacy")(uri "${KIPRJMOD}/mixtape_schematics.lib")(options "")(descr "8Bit Mixtape custom symbols"))
+  (lib (name "MixtapeNEO-3000-cache")(type "Legacy")(uri "${KIPRJMOD}/MixtapeNEO-3000-cache.lib")(options "")(descr "Cached symbols"))
+)
