@@ -26,10 +26,13 @@ The **ABK-20** is a modernized desktop hardware console redesign of the legendar
   * **Hardware Reset Button**: Dedicated tactile push button (`SW4`) pulling `PB5` (Reset) to ground.
 * **Audio Circuit**:
   * High-speed 8-bit PWM audio synthesized via Timer1 64 MHz PLL.
-  * On-board PAM8002 audio amplifier driving an internal speaker.
+  * On-board PAM8002 audio amplifier optimized for unity gain ($R_{14} = 22\text{k}\Omega$, $C_5 = 1\mu\text{F}$, $C_8 = 100\text{nF}$) to prevent clipping and preserve deep sub-bass bytebeats through the internal speaker.
   * 3.5mm stereo output jack (switchable line-out / headphones with volume control).
 * **AudioBoot Programming**: Upload new sound sketches directly through an audio cable or web browser—no external programmer or USB serial driver required.
-* **Power Circuit**: Automatic diode OR-ing architecture supporting USB-C (5V), 7805 DC In (7–12V), and 3x AAA Battery input with a master latching power switch (`SW1`).
+* **Power Circuit**:
+  * **USB-C 5V Input**: Modern 6-pin USB-C receptacle (`J5`) with dual 5.1kΩ pull-down resistors (`R17`, `R18` on CC1/CC2) for universal compatibility with USB-PD smart chargers and MacBook Type-C ports.
+  * **Diode OR-ing Protection**: Automatic seamless power switching via Schottky diodes (`SS14`) across USB-C (5V), 7805 DC In (7–12V), and 3x AAA Battery input with reverse-charge protection.
+  * **Master Power Switch**: Latching push switch (`SW1`) with power status LED (`D-POW1`). Cycling `SW1` provides the exact power-cycle timing required to activate AudioBoot sketch loading.
 
 ---
 

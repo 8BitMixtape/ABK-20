@@ -20,3 +20,7 @@ Thumbs.db
 *~
 *.swp
 .vscode/
+
+# Backups and reports
+*-backups/
+*.rpt

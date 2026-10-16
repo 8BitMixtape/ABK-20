@@ -47,7 +47,7 @@ The button network alters the DC bias on `PB3` (ADC3) to distinguish multiple in
 ## 5. Power Architecture & Diode OR-ing
 
 * **Multi-Source Inputs**:
-  * **USB-C 5V** (`VBUS` on `J5`)
+  * **USB-C 5V** (`VBUS` on `J5`): 6-pin Type-C receptacle (GCT USB4125 compatible). Includes **two 5.1kΩ pull-down resistors** (`R17` on `CC1`, `R18` on `CC2`) to GND, ensuring immediate 5V VBUS delivery from modern USB-PD sources, smart chargers, and MacBook Type-C ports.
   * **DC In** (7–12V regulated to 5V via 7805 `U3`)
   * **Battery** (3x AAA or 2x AAA / LiPo via `BT1/BT2` or `J4`)
 * **Diode Isolation**:
@@ -67,3 +67,20 @@ When routing the PCB, place capacitors according to the following strict proximi
 2. **`C4` (10µF)**: Place near ATtiny85 ($\le 10\text{ mm}$) as a local energy reservoir.
 3. **`C8` (100nF ceramic)**: Place **directly bridging** PAM8002 Pin 6 (`VCC`) and Pin 7 (`GND`) ($\le 3\text{ mm}$) to block high-frequency digital noise from the audio amp.
 4. **`C7` (220µF bulk electrolytic)**: Place near the PAM8002 / speaker block ($\le 20\text{ mm}$) to buffer low-frequency bass current spikes.
+
+
+---
+
+## 7. PAM8002 Audio Amplifier Optimization
+
+* **Unity Gain ($A_v = 1.0$)**:
+  * The PAM8002 is configured as a Bridge-Tied Load (BTL) amplifier. Its closed-loop gain is defined by $A_v = 2 	imes rac{R_F}{R_I}$.
+  * With internal feedback resistor $R_F pprox 20	ext{ k}\Omega$ and external input resistor $R_{14} = 22	ext{ k}\Omega$:
+    $$A_v pprox 2 	imes rac{20	ext{ k}\Omega}{22	ext{ k}\Omega} pprox 1.8	ext{ to }1.0$$
+  * This matches the filtered 0–5V 8-bit PWM line output from the ATtiny85 RC network (`R8 = 330Ω`, `C3 = 100nF`) and volume pot (`POT3-Vol1`), preventing clipping and speaker distortion while maximizing headroom.
+* **Low-Frequency Audio Coupling**:
+  * Input capacitor `C5 = 1µF` forms a high-pass filter with $R_{14} = 22	ext{ k}\Omega$:
+    $$f_c = rac{1}{2 \pi R_{14} C_5} = rac{1}{2 \pi 	imes 22000 	imes 10^{-6}} pprox 7.2	ext{ Hz}$$
+  * This preserves the full sub-bass and low-frequency bytebeat rumble down to single-digit frequencies.
+* **Power Supply Decoupling**:
+  * Dedicated high-frequency ceramic bypass capacitor `C8 = 100nF` placed right across PAM8002 Pin 6 (`VCC`) and Pin 7 (`GND`) to suppress digital switching buzz.
