@@ -1003,6 +1003,296 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ABK-20-rescue:Potentiometer_Slide_LED"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 2.54 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "POT_SLIDE_LED"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide potentiometer with integrated LED (Unit A: Pot, Unit B: LED)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "potentiometer fader slide alpha led illuminated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*Slide* Alpha*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Potentiometer_Slide_LED_1_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Potentiometer_Slide_LED_2_1"
+				(polyline
+					(pts
+						(xy -3.302 -1.524) (xy -2.54 -1.524) (xy -3.302 -1.524) (xy -3.302 -0.762)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -2.286) (xy -2.032 -2.286) (xy -2.794 -2.286) (xy -2.794 -1.524)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.254) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -2.794 -2.286)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at 1.27 2 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "K"
+					(at 1.27 -2 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ATTINY85-20SU_1"
 			(pin_names
 				(offset 1.016)
@@ -14011,177 +14301,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_3"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_3_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_3_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LED_4"
 			(pin_names
 				(offset 1.016)
@@ -15388,164 +15507,6 @@
 				)
 			)
 			(symbol "POT_4_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POT_5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "POT"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POT_5_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "POT_5_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -24063,6 +24024,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT_MSM"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_MSM"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -13.97 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw, center OFF position"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch spdt single-pole double-throw ON-OFF-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_MSM_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_MSM_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USB_OTG_1"
 			(pin_names
 				(offset 1.016)
@@ -28623,17 +28771,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "slider with LED"
+		(exclude_from_sim no)
+		(at 130.048 137.16 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "5e3bc298-4d3b-4578-b9de-4e8b8d384126")
+	)
 	(junction
-		(at 96.52 146.05)
+		(at 97.79 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01ecdb0b-b69f-492d-bd1a-6e002d2c0778")
 	)
 	(junction
-		(at 132.08 149.86)
+		(at 115.57 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134ce4d2-6558-4a8c-9b90-b32eec1f30e7")
+	)
+	(junction
+		(at 139.7 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16148fd6-79df-4d10-9c30-3ea42b2c9b60")
+	)
+	(junction
+		(at 106.68 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c33f636-ccbf-486f-a5b4-7f3c005f3ba0")
 	)
 	(junction
 		(at 232.41 40.64)
@@ -28648,31 +28818,31 @@
 		(uuid "2cf719e1-5fc6-4574-af9a-ce8151a4bc4c")
 	)
 	(junction
-		(at 185.42 90.17)
+		(at 186.69 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "352909c5-b6b5-4d23-bc35-32b0c30a056c")
 	)
 	(junction
-		(at 158.75 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44047675-3a54-442c-a834-165557f43444")
-	)
-	(junction
-		(at 236.22 113.03)
+		(at 237.49 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44ca9e29-f4e8-4004-a69d-d8a7dd26ee36")
 	)
 	(junction
-		(at 158.75 90.17)
+		(at 160.02 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ba64a17-3eb9-44c3-a392-f22769abc79f")
 	)
 	(junction
-		(at 85.09 120.65)
+		(at 106.68 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53bc7a38-a22f-406c-8de3-0831b2de1fdd")
+	)
+	(junction
+		(at 86.36 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54f7467d-2787-44af-9f72-34740163a27a")
@@ -28684,25 +28854,13 @@
 		(uuid "60d41b16-a1be-455a-b726-2567961ad1ec")
 	)
 	(junction
-		(at 121.92 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6736b01b-9f9d-442d-84e2-389768c6402a")
-	)
-	(junction
-		(at 111.76 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67d81710-905b-4d47-a144-202d72db8841")
-	)
-	(junction
-		(at 114.3 146.05)
+		(at 109.22 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70966b40-8556-4b72-87e7-04c2340833aa")
 	)
 	(junction
-		(at 154.94 129.54)
+		(at 156.21 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a78b59d-a292-4ae4-bca7-9a57215fda85")
@@ -28714,19 +28872,19 @@
 		(uuid "846a1d3a-af81-49c8-bf08-a85a070a3503")
 	)
 	(junction
-		(at 154.94 107.95)
+		(at 156.21 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b8b1ccb-74e6-4da2-aa47-c585dbfd17be")
 	)
 	(junction
-		(at 162.56 137.16)
+		(at 163.83 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94fe9911-26c2-475e-a5b8-febfa725074a")
 	)
 	(junction
-		(at 96.52 120.65)
+		(at 97.79 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae45c394-57b7-4f3e-bad4-4ba29928a385")
@@ -28738,13 +28896,19 @@
 		(uuid "c5bb15dc-21cf-444f-b4aa-5706765c6cfd")
 	)
 	(junction
-		(at 236.22 125.73)
+		(at 237.49 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7aec5cb-6834-4451-9812-15865ae429a4")
 	)
 	(junction
-		(at 63.5 120.65)
+		(at 106.68 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d66d87b6-ded9-4b99-828a-e717b88c6960")
+	)
+	(junction
+		(at 64.77 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d747ebc5-4de9-4956-80fe-df86faab4f77")
@@ -28756,25 +28920,19 @@
 		(uuid "e2c69301-9477-48f2-b0d9-385c7195dd4e")
 	)
 	(junction
-		(at 245.11 113.03)
+		(at 127 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b333d3-c446-4dc3-a79c-87404915f6c3")
+	)
+	(junction
+		(at 246.38 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7dd2cf7-ad90-4afd-baed-170d1fd0ead9")
 	)
 	(junction
-		(at 111.76 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2ffdae0-0477-4243-9b42-cd209b6c5da2")
-	)
-	(junction
-		(at 111.76 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f48103e6-54f2-4bf2-9180-09e80bbb75c2")
-	)
-	(junction
-		(at 245.11 125.73)
+		(at 246.38 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7627131-571b-4af7-8d29-7cf64a376ba1")
@@ -28787,7 +28945,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 146.05) (xy 256.54 146.05)
+			(xy 256.54 215.9) (xy 250.19 215.9)
 		)
 		(stroke
 			(width 0)
@@ -28797,17 +28955,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 158.75) (xy 96.52 158.75)
+			(xy 97.79 210.82) (xy 100.33 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01740b41-2a3e-4ed3-b4df-db4a463dd033")
+		(uuid "01593d52-4f58-4a1e-9ea7-9ca98cf44d05")
 	)
 	(wire
 		(pts
-			(xy 196.85 90.17) (xy 196.85 92.71)
+			(xy 198.12 148.59) (xy 198.12 151.13)
 		)
 		(stroke
 			(width 0)
@@ -28827,17 +28985,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 158.75) (xy 96.52 162.56)
+			(xy 97.79 204.47) (xy 97.79 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07315900-7d90-4f31-812c-ccbff177484e")
+		(uuid "07dec2a7-f336-4121-872d-5b7f1f55e51e")
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 170.18 137.16)
+			(xy 163.83 195.58) (xy 171.45 195.58)
 		)
 		(stroke
 			(width 0)
@@ -28847,17 +29005,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 147.32) (xy 114.3 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088a1e0b-fc62-40cc-99cf-3fea7bcdcac1")
-	)
-	(wire
-		(pts
-			(xy 85.09 114.3) (xy 85.09 120.65)
+			(xy 86.36 172.72) (xy 86.36 179.07)
 		)
 		(stroke
 			(width 0)
@@ -28867,7 +29015,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 162.56 123.19)
+			(xy 156.21 181.61) (xy 163.83 181.61)
 		)
 		(stroke
 			(width 0)
@@ -28877,7 +29025,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 120.65) (xy 111.76 120.65)
+			(xy 97.79 179.07) (xy 106.68 179.07)
 		)
 		(stroke
 			(width 0)
@@ -28887,7 +29035,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 142.24) (xy 109.22 147.32)
+			(xy 104.14 200.66) (xy 104.14 205.74)
 		)
 		(stroke
 			(width 0)
@@ -28907,7 +29055,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 92.71) (xy 231.14 92.71)
+			(xy 264.16 149.86) (xy 250.19 149.86)
 		)
 		(stroke
 			(width 0)
@@ -28917,17 +29065,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 148.59) (xy 96.52 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dce4238-fe5e-441a-87ed-d102d83214c8")
-	)
-	(wire
-		(pts
-			(xy 21.59 148.59) (xy 36.83 148.59)
+			(xy 36.83 218.44) (xy 52.07 218.44)
 		)
 		(stroke
 			(width 0)
@@ -28937,7 +29075,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 100.33) (xy 69.85 100.33)
+			(xy 72.39 158.75) (xy 71.12 158.75)
 		)
 		(stroke
 			(width 0)
@@ -28947,7 +29085,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 154.94 129.54)
+			(xy 156.21 181.61) (xy 156.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -28977,7 +29115,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 132.08 149.86)
+			(xy 139.7 209.55) (xy 139.7 212.09)
 		)
 		(stroke
 			(width 0)
@@ -28987,7 +29125,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 143.51) (xy 38.1 143.51)
+			(xy 36.83 213.36) (xy 53.34 213.36)
 		)
 		(stroke
 			(width 0)
@@ -28997,27 +29135,47 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 229.29) (xy 31.75 229.29)
+			(xy 250.19 149.86) (xy 250.19 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13e35919-e4f7-4600-92b7-a5093570426d")
+		(uuid "13f24d8c-d178-4033-9f6d-4b5a78d47e67")
 	)
 	(wire
 		(pts
-			(xy 111.76 147.32) (xy 111.76 149.86)
+			(xy 139.7 134.62) (xy 139.7 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18ad7243-059b-423c-b3bd-42638480321e")
+		(uuid "141d199f-e04a-4594-a066-43bdb0dec1e7")
 	)
 	(wire
 		(pts
-			(xy 85.09 120.65) (xy 96.52 120.65)
+			(xy 106.68 205.74) (xy 109.22 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164793f1-efae-44fa-b7ae-362a5a4aba60")
+	)
+	(polyline
+		(pts
+			(xy 123.19 151.13) (xy 123.19 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1693a207-9d20-4b3e-a22b-8d52d4686b77")
+	)
+	(wire
+		(pts
+			(xy 86.36 179.07) (xy 97.79 179.07)
 		)
 		(stroke
 			(width 0)
@@ -29027,17 +29185,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 240.72) (xy 96.52 240.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1acb86db-5c22-40ee-a57b-80bfdbd2fad7")
-	)
-	(wire
-		(pts
-			(xy 162.56 125.73) (xy 162.56 137.16)
+			(xy 163.83 184.15) (xy 163.83 195.58)
 		)
 		(stroke
 			(width 0)
@@ -29047,7 +29195,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 151.13) (xy 260.35 151.13)
+			(xy 250.19 220.98) (xy 254 220.98)
 		)
 		(stroke
 			(width 0)
@@ -29057,17 +29205,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 263.58) (xy 76.2 263.58)
+			(xy 106.68 187.96) (xy 109.22 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d4cbf69-dd16-48af-b0c6-88b88847de91")
+		(uuid "1dcc9109-929b-461d-bb13-15a854317b31")
 	)
 	(wire
 		(pts
-			(xy 114.3 129.54) (xy 114.3 134.62)
+			(xy 109.22 187.96) (xy 109.22 193.04)
 		)
 		(stroke
 			(width 0)
@@ -29077,7 +29225,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 158.75 90.17)
+			(xy 160.02 142.24) (xy 160.02 148.59)
 		)
 		(stroke
 			(width 0)
@@ -29097,17 +29245,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 195) (xy 135.89 195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2252ab3a-cd67-475d-abf7-2982a9ea18ce")
-	)
-	(wire
-		(pts
-			(xy 231.14 125.73) (xy 236.22 125.73)
+			(xy 232.41 184.15) (xy 237.49 184.15)
 		)
 		(stroke
 			(width 0)
@@ -29117,7 +29255,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 142.24) (xy 96.52 146.05)
+			(xy 97.79 200.66) (xy 97.79 204.47)
 		)
 		(stroke
 			(width 0)
@@ -29127,7 +29265,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 113.03) (xy 245.11 115.57)
+			(xy 246.38 171.45) (xy 246.38 173.99)
 		)
 		(stroke
 			(width 0)
@@ -29137,7 +29275,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 115.57) (xy 121.92 120.65)
+			(xy 115.57 172.72) (xy 115.57 179.07)
 		)
 		(stroke
 			(width 0)
@@ -29157,7 +29295,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 107.95) (xy 154.94 118.11)
+			(xy 156.21 166.37) (xy 156.21 176.53)
 		)
 		(stroke
 			(width 0)
@@ -29167,17 +29305,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 240.72) (xy 76.2 240.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29fb0ddb-c20b-4c5a-b8df-2875c20cb9e0")
-	)
-	(wire
-		(pts
-			(xy 138.43 149.86) (xy 132.08 149.86)
+			(xy 146.05 212.09) (xy 139.7 212.09)
 		)
 		(stroke
 			(width 0)
@@ -29187,7 +29315,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 134.62) (xy 96.52 120.65)
+			(xy 97.79 193.04) (xy 97.79 179.07)
 		)
 		(stroke
 			(width 0)
@@ -29197,7 +29325,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 185.42 102.87)
+			(xy 186.69 158.75) (xy 186.69 161.29)
 		)
 		(stroke
 			(width 0)
@@ -29207,7 +29335,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 146.05) (xy 38.1 146.05)
+			(xy 36.83 215.9) (xy 53.34 215.9)
 		)
 		(stroke
 			(width 0)
@@ -29215,29 +29343,19 @@
 		)
 		(uuid "2c150ca1-5735-45da-a3a7-09a1c07df54f")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 135.89 195) (xy 135.89 206.43)
+			(xy 259.08 13.97) (xy 259.08 69.85)
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "31c7a8b1-2ee9-458a-bbd0-5b97a0a14936")
+		(uuid "34a82250-2944-4d09-b625-7c68bdb543ff")
 	)
 	(wire
 		(pts
-			(xy 33.02 195) (xy 35.56 195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3466b4d7-dfa5-4b4e-a60e-88b9105c103a")
-	)
-	(wire
-		(pts
-			(xy 114.3 147.32) (xy 114.3 146.05)
+			(xy 109.22 205.74) (xy 109.22 204.47)
 		)
 		(stroke
 			(width 0)
@@ -29257,7 +29375,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 148.59) (xy 259.08 148.59)
+			(xy 250.19 218.44) (xy 252.73 218.44)
 		)
 		(stroke
 			(width 0)
@@ -29267,23 +29385,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 132.08 110.49)
+			(xy 129.54 161.29) (xy 129.54 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a8fb83d-2db8-4717-b7ab-361c00bc138c")
-	)
-	(wire
-		(pts
-			(xy 158.75 76.2) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd94713-fa23-41ef-8e67-a23264033da4")
 	)
 	(wire
 		(pts
@@ -29297,7 +29405,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 90.17) (xy 237.49 90.17)
+			(xy 214.63 147.32) (xy 264.16 147.32)
 		)
 		(stroke
 			(width 0)
@@ -29307,23 +29415,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 129.54) (xy 114.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecaf807-fbd1-47f6-8c37-53a9e568ee88")
-	)
-	(wire
-		(pts
-			(xy 162.56 137.16) (xy 162.56 149.86)
+			(xy 163.83 195.58) (xy 163.83 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f796a1a-32f6-42bf-a614-64a965b8f7d2")
+	)
+	(wire
+		(pts
+			(xy 250.19 151.13) (xy 232.41 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b187c2-3e6d-4c96-9384-e2ecd7635f08")
 	)
 	(wire
 		(pts
@@ -29337,27 +29445,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 217.86) (xy 116.84 217.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437f61e2-e118-4676-b9f4-2fa13cbbe7c2")
-	)
-	(wire
-		(pts
-			(xy 135.89 217.86) (xy 135.89 229.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c6b575-3a36-4e97-a4c0-860744cc9523")
-	)
-	(wire
-		(pts
-			(xy 57.15 110.49) (xy 57.15 106.68)
+			(xy 58.42 168.91) (xy 58.42 165.1)
 		)
 		(stroke
 			(width 0)
@@ -29367,7 +29455,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 113.03) (xy 162.56 102.87)
+			(xy 163.83 171.45) (xy 163.83 161.29)
 		)
 		(stroke
 			(width 0)
@@ -29377,7 +29465,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 146.05) (xy 114.3 142.24)
+			(xy 109.22 204.47) (xy 109.22 200.66)
 		)
 		(stroke
 			(width 0)
@@ -29387,7 +29475,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 69.85 113.03)
+			(xy 71.12 173.99) (xy 71.12 171.45)
 		)
 		(stroke
 			(width 0)
@@ -29407,33 +29495,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 154.94 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa4263b-14b9-481e-ad3d-2905877870e2")
-	)
-	(wire
-		(pts
-			(xy 260.35 151.13) (xy 260.35 153.67)
+			(xy 254 220.98) (xy 254 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4af32a47-d929-4934-b462-9ec2601e1668")
-	)
-	(wire
-		(pts
-			(xy 31.75 206.43) (xy 31.75 217.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b71b24c-8d7a-40ce-ad8b-bd9b42ce71d6")
 	)
 	(wire
 		(pts
@@ -29447,7 +29515,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 213.36 96.52)
+			(xy 201.93 154.94) (xy 214.63 154.94)
 		)
 		(stroke
 			(width 0)
@@ -29457,13 +29525,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 240.72) (xy 135.89 252.15)
+			(xy 152.4 134.62) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4df18cb3-c4b4-409f-8a80-1e3889d13564")
+		(uuid "4e105c9f-bbf5-4ec2-ad2d-071c266df4bc")
+	)
+	(wire
+		(pts
+			(xy 115.57 134.62) (xy 115.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e95e664-3b67-4426-9545-a31cbcf58262")
 	)
 	(polyline
 		(pts
@@ -29477,47 +29555,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 121.92 120.65)
+			(xy 102.87 220.98) (xy 102.87 229.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53b4c71d-c7c3-4036-867e-be1b3ccb044f")
+		(uuid "53f17956-bd7a-4133-95ab-72e285f7455d")
 	)
 	(wire
 		(pts
-			(xy 111.76 263.58) (xy 116.84 263.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "543895df-9328-44ad-bc19-2878601b7213")
-	)
-	(wire
-		(pts
-			(xy 96.52 148.59) (xy 102.87 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5505225f-f24d-4510-bfd9-55f04c6ab4af")
-	)
-	(wire
-		(pts
-			(xy 31.75 263.58) (xy 35.56 263.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a4bc2e-020b-4f1d-a3a6-bd9a623b9797")
-	)
-	(wire
-		(pts
-			(xy 109.22 129.54) (xy 111.76 129.54)
+			(xy 104.14 187.96) (xy 106.68 187.96)
 		)
 		(stroke
 			(width 0)
@@ -29527,7 +29575,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 113.03) (xy 245.11 113.03)
+			(xy 237.49 171.45) (xy 246.38 171.45)
 		)
 		(stroke
 			(width 0)
@@ -29537,7 +29585,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 162.56 115.57)
+			(xy 160.02 173.99) (xy 163.83 173.99)
 		)
 		(stroke
 			(width 0)
@@ -29557,7 +29605,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 146.05) (xy 96.52 146.05)
+			(xy 93.98 204.47) (xy 97.79 204.47)
 		)
 		(stroke
 			(width 0)
@@ -29567,13 +29615,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 195) (xy 76.2 195)
+			(xy 127 179.07) (xy 163.83 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60921bbe-a8f3-44be-89a8-606af622be2d")
+		(uuid "61d00848-1794-46ee-a338-4a6e4195fa79")
 	)
 	(wire
 		(pts
@@ -29584,6 +29632,16 @@
 			(type default)
 		)
 		(uuid "62e35d43-c5f5-4dea-9103-2948e2b1571b")
+	)
+	(polyline
+		(pts
+			(xy 123.19 151.13) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a4c7e3-6269-4100-977b-a1bc287eb47f")
 	)
 	(wire
 		(pts
@@ -29597,7 +29655,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 78.74) (xy 232.41 85.09)
+			(xy 233.68 137.16) (xy 233.68 142.24)
 		)
 		(stroke
 			(width 0)
@@ -29637,7 +29695,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 146.05) (xy 114.3 146.05)
+			(xy 115.57 146.05) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf504fb-6e20-4b0c-bdf7-26b8e67b79ae")
+	)
+	(wire
+		(pts
+			(xy 111.76 204.47) (xy 109.22 204.47)
 		)
 		(stroke
 			(width 0)
@@ -29647,17 +29715,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 160.02) (xy 111.76 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5dd163-a074-4f53-87e6-cb923fd8399f")
-	)
-	(wire
-		(pts
-			(xy 231.14 78.74) (xy 232.41 78.74)
+			(xy 232.41 137.16) (xy 233.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -29707,7 +29765,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 133.35) (xy 85.09 138.43)
+			(xy 86.36 191.77) (xy 86.36 196.85)
 		)
 		(stroke
 			(width 0)
@@ -29717,7 +29775,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 100.33) (xy 69.85 105.41)
+			(xy 71.12 158.75) (xy 71.12 163.83)
 		)
 		(stroke
 			(width 0)
@@ -29727,7 +29785,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 151.13) (xy 36.83 151.13)
+			(xy 36.83 220.98) (xy 52.07 220.98)
 		)
 		(stroke
 			(width 0)
@@ -29745,35 +29803,15 @@
 		)
 		(uuid "781bc54b-e732-4091-8a95-984395aebdb1")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 132.08 86.36) (xy 132.08 96.52)
+			(xy 147.32 138.43) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "784e862e-e80c-4d87-9fa5-86525b8571b6")
-	)
-	(wire
-		(pts
-			(xy 135.89 252.15) (xy 31.75 252.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e91e71-0349-4c7c-89ab-6af42a102cc5")
-	)
-	(wire
-		(pts
-			(xy 31.75 229.29) (xy 31.75 240.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a167639-6d8b-405f-8573-cb822f00c4a5")
+		(uuid "791f9ba1-a178-4809-a3d0-17d61f22cff9")
 	)
 	(wire
 		(pts
@@ -29797,7 +29835,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 113.03) (xy 236.22 113.03)
+			(xy 232.41 171.45) (xy 237.49 171.45)
 		)
 		(stroke
 			(width 0)
@@ -29807,7 +29845,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 57.15 110.49)
+			(xy 55.88 168.91) (xy 58.42 168.91)
 		)
 		(stroke
 			(width 0)
@@ -29817,33 +29855,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 240.72) (xy 135.89 240.72)
+			(xy 156.21 156.21) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fca2363-28cb-45cb-bf10-2344a7326421")
+		(uuid "81ffadf8-a206-40fd-8e53-31110c9c58c4")
 	)
 	(wire
 		(pts
-			(xy 22.86 182.88) (xy 25.4 182.88)
+			(xy 127 220.98) (xy 127 229.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80e1770a-29d5-48a3-8569-2a8a27c8e44b")
-	)
-	(wire
-		(pts
-			(xy 111.76 149.86) (xy 114.3 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d616c9-696b-44b6-b726-7a3edda4474c")
+		(uuid "85d9bdb5-2887-40ad-89ec-c540e06d2ca3")
 	)
 	(wire
 		(pts
@@ -29857,7 +29885,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 147.32) (xy 111.76 147.32)
+			(xy 106.68 210.82) (xy 106.68 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d41ff7-aec1-43cd-b3fd-408dc0f0704b")
+	)
+	(wire
+		(pts
+			(xy 104.14 205.74) (xy 106.68 205.74)
 		)
 		(stroke
 			(width 0)
@@ -29867,7 +29905,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 137.16) (xy 185.42 137.16)
+			(xy 176.53 195.58) (xy 186.69 195.58)
 		)
 		(stroke
 			(width 0)
@@ -29877,7 +29915,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 109.22) (xy 245.11 113.03)
+			(xy 246.38 167.64) (xy 246.38 171.45)
 		)
 		(stroke
 			(width 0)
@@ -29885,15 +29923,15 @@
 		)
 		(uuid "8eb5f46a-a7b2-4c9e-9df9-b6e746bb785b")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 50.8 217.86) (xy 55.88 217.86)
+			(xy 147.32 162.56) (xy 123.19 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92fd8113-102f-4287-8ab9-64f4f58c1f0e")
+		(uuid "92343123-3bab-4233-b149-5a35f3f1213a")
 	)
 	(wire
 		(pts
@@ -29917,27 +29955,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 151.13 90.17)
+			(xy 134.62 156.21) (xy 148.59 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9411baba-7199-4bd7-aa05-bd984c419b30")
+		(uuid "94388327-4883-4ace-9bb2-b10d09699ebd")
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 140.97 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959d4cc2-16c6-4cea-90f7-fd2f5afe154c")
-	)
-	(wire
-		(pts
-			(xy 231.14 95.25) (xy 231.14 100.33)
+			(xy 232.41 152.4) (xy 232.41 158.75)
 		)
 		(stroke
 			(width 0)
@@ -29947,7 +29975,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 156.21) (xy 139.7 156.21)
+			(xy 143.51 218.44) (xy 147.32 218.44)
 		)
 		(stroke
 			(width 0)
@@ -29957,7 +29985,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 106.68) (xy 60.96 107.95)
+			(xy 62.23 165.1) (xy 62.23 166.37)
 		)
 		(stroke
 			(width 0)
@@ -29967,7 +29995,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 95.25) (xy 237.49 95.25)
+			(xy 232.41 152.4) (xy 264.16 152.4)
 		)
 		(stroke
 			(width 0)
@@ -29987,13 +30015,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 217.86) (xy 35.56 217.86)
+			(xy 105.41 210.82) (xy 106.68 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c104cc8-0b79-495c-a38c-4e91564ecc86")
+		(uuid "9c0d701b-68f9-413d-84e9-826bdc389733")
 	)
 	(wire
 		(pts
@@ -30007,7 +30035,27 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 129.54) (xy 111.76 120.65)
+			(xy 144.78 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc55cf9-969a-407f-9a40-24800ee31587")
+	)
+	(wire
+		(pts
+			(xy 129.54 148.59) (xy 129.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e52fde9-ff8c-43c6-a096-215fb98aaf87")
+	)
+	(wire
+		(pts
+			(xy 106.68 187.96) (xy 106.68 179.07)
 		)
 		(stroke
 			(width 0)
@@ -30017,27 +30065,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 154.94 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a42b53d5-8698-4c87-b4e5-be538feb7fc2")
-	)
-	(wire
-		(pts
-			(xy 111.76 160.02) (xy 111.76 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81d32ef-fd08-4364-b7cb-da7c22eba202")
-	)
-	(wire
-		(pts
-			(xy 85.09 101.6) (xy 85.09 106.68)
+			(xy 86.36 160.02) (xy 86.36 165.1)
 		)
 		(stroke
 			(width 0)
@@ -30047,7 +30075,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 158.75 115.57)
+			(xy 160.02 148.59) (xy 160.02 173.99)
 		)
 		(stroke
 			(width 0)
@@ -30057,7 +30085,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 127) (xy 63.5 120.65)
+			(xy 64.77 185.42) (xy 64.77 179.07)
 		)
 		(stroke
 			(width 0)
@@ -30067,7 +30095,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 120.65) (xy 85.09 125.73)
+			(xy 86.36 179.07) (xy 86.36 184.15)
 		)
 		(stroke
 			(width 0)
@@ -30077,17 +30105,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 195) (xy 116.84 195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac3c1ab3-fc58-4b31-9d76-c1b7a24c9049")
-	)
-	(wire
-		(pts
-			(xy 185.42 78.74) (xy 185.42 90.17)
+			(xy 186.69 137.16) (xy 186.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -30107,17 +30125,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 217.86) (xy 135.89 217.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4c666f-6d70-4f33-8d71-1f9c1af7af5b")
-	)
-	(wire
-		(pts
-			(xy 154.94 129.54) (xy 154.94 156.21)
+			(xy 156.21 187.96) (xy 156.21 218.44)
 		)
 		(stroke
 			(width 0)
@@ -30125,9 +30133,19 @@
 		)
 		(uuid "b11a34b8-310c-4143-acd3-a04b4985afa6")
 	)
+	(polyline
+		(pts
+			(xy 123.19 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b138e04a-1c3a-4fb4-bcec-15a276c918ef")
+	)
 	(wire
 		(pts
-			(xy 57.15 106.68) (xy 60.96 106.68)
+			(xy 58.42 165.1) (xy 62.23 165.1)
 		)
 		(stroke
 			(width 0)
@@ -30137,7 +30155,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 120.65) (xy 71.12 120.65)
+			(xy 64.77 179.07) (xy 72.39 179.07)
 		)
 		(stroke
 			(width 0)
@@ -30147,7 +30165,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 156.21) (xy 147.32 156.21)
+			(xy 156.21 218.44) (xy 154.94 218.44)
 		)
 		(stroke
 			(width 0)
@@ -30157,7 +30175,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 160.02) (xy 162.56 160.02)
+			(xy 168.91 218.44) (xy 163.83 218.44)
 		)
 		(stroke
 			(width 0)
@@ -30167,17 +30185,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 263.58) (xy 55.88 263.58)
+			(xy 139.7 147.32) (xy 139.7 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7427419-8973-4bee-aa2f-5401fb6c7fd8")
+		(uuid "b4c7b08a-fe2b-4086-bcb3-6213477c61b4")
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 196.85 90.17)
+			(xy 186.69 148.59) (xy 198.12 148.59)
 		)
 		(stroke
 			(width 0)
@@ -30187,7 +30205,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 167.64 149.86)
+			(xy 163.83 208.28) (xy 168.91 208.28)
 		)
 		(stroke
 			(width 0)
@@ -30207,7 +30225,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 85.09) (xy 237.49 85.09)
+			(xy 233.68 142.24) (xy 264.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -30217,7 +30235,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 113.03) (xy 236.22 115.57)
+			(xy 237.49 171.45) (xy 237.49 173.99)
 		)
 		(stroke
 			(width 0)
@@ -30227,7 +30245,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 118.11) (xy 162.56 118.11)
+			(xy 156.21 176.53) (xy 163.83 176.53)
 		)
 		(stroke
 			(width 0)
@@ -30237,17 +30255,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 240.72) (xy 116.84 240.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd127d3b-b416-4e6e-b624-8f7e4ecab632")
-	)
-	(wire
-		(pts
-			(xy 78.74 120.65) (xy 85.09 120.65)
+			(xy 80.01 179.07) (xy 86.36 179.07)
 		)
 		(stroke
 			(width 0)
@@ -30255,9 +30263,19 @@
 		)
 		(uuid "bd8140c6-422d-4d1e-859e-78aec9faf3f0")
 	)
+	(wire
+		(pts
+			(xy 127 200.66) (xy 127 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfbf812-c5aa-4137-82f6-fcb93dbecd3b")
+	)
 	(polyline
 		(pts
-			(xy 106.68 69.85) (xy 283.21 69.85)
+			(xy 106.68 69.85) (xy 259.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -30267,43 +30285,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 240.72) (xy 35.56 240.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb48e89-398e-4553-9225-5e5dddf0213a")
-	)
-	(wire
-		(pts
-			(xy 151.13 107.95) (xy 154.94 107.95)
+			(xy 152.4 166.37) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1fb1d26-9f40-496f-904b-876ced20d06a")
-	)
-	(wire
-		(pts
-			(xy 91.44 263.58) (xy 96.52 263.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23275d0-85b5-49cd-a592-f22a326a7442")
-	)
-	(wire
-		(pts
-			(xy 50.8 240.72) (xy 55.88 240.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b2c43e-f5be-4ee6-b187-c57ca8436a97")
 	)
 	(wire
 		(pts
@@ -30327,17 +30315,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 206.43) (xy 31.75 206.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c379b99c-0a00-4882-aa41-b0e0b959703f")
-	)
-	(wire
-		(pts
-			(xy 163.83 83.82) (xy 158.75 83.82)
+			(xy 165.1 142.24) (xy 160.02 142.24)
 		)
 		(stroke
 			(width 0)
@@ -30397,13 +30375,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 185.42 92.71)
+			(xy 186.69 148.59) (xy 186.69 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce1c7d0e-1173-46c1-a21b-0c6b58ea773d")
+	)
+	(wire
+		(pts
+			(xy 115.57 179.07) (xy 127 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce32af6c-10be-45bc-bc4c-ed8217df24f7")
 	)
 	(wire
 		(pts
@@ -30417,7 +30405,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 196.85 102.87)
+			(xy 198.12 158.75) (xy 198.12 161.29)
 		)
 		(stroke
 			(width 0)
@@ -30437,7 +30425,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 166.37 90.17)
+			(xy 160.02 148.59) (xy 167.64 148.59)
 		)
 		(stroke
 			(width 0)
@@ -30447,7 +30435,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 151.13) (xy 36.83 153.67)
+			(xy 52.07 220.98) (xy 52.07 223.52)
 		)
 		(stroke
 			(width 0)
@@ -30457,7 +30445,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 160.02) (xy 132.08 165.1)
+			(xy 139.7 222.25) (xy 139.7 227.33)
 		)
 		(stroke
 			(width 0)
@@ -30467,7 +30455,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 125.73) (xy 245.11 125.73)
+			(xy 237.49 184.15) (xy 246.38 184.15)
 		)
 		(stroke
 			(width 0)
@@ -30497,37 +30485,27 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 151.13 81.28)
+			(xy 127 179.07) (xy 127 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8801192-5b79-4618-97ca-24e0f47199ab")
+		(uuid "dae18e73-7283-46b3-8cf4-ed91363ecea5")
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 132.08 86.36)
+			(xy 106.68 179.07) (xy 115.57 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc1fe50b-a103-44b9-a967-af8d974ba539")
+		(uuid "ddee7881-9768-4445-a286-c9bf776245d5")
 	)
 	(wire
 		(pts
-			(xy 50.8 195) (xy 55.88 195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1d8546-a904-4dc9-880b-09be4ee5fd34")
-	)
-	(wire
-		(pts
-			(xy 213.36 96.52) (xy 213.36 90.17)
+			(xy 214.63 154.94) (xy 214.63 147.32)
 		)
 		(stroke
 			(width 0)
@@ -30547,7 +30525,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 109.22 134.62)
+			(xy 104.14 187.96) (xy 104.14 193.04)
 		)
 		(stroke
 			(width 0)
@@ -30557,7 +30535,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 102.87) (xy 163.83 102.87)
+			(xy 163.83 161.29) (xy 165.1 161.29)
 		)
 		(stroke
 			(width 0)
@@ -30565,29 +30543,19 @@
 		)
 		(uuid "e289c85e-8a32-4b70-ad45-b95365e010d2")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 31.75 252.15) (xy 31.75 263.58)
+			(xy 147.32 154.94) (xy 147.32 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3cc1e5c-1dea-4b7b-9c1c-20b0453a7c11")
+		(uuid "e7515317-d26a-4470-b0d4-f42f283ccf73")
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 127 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e550f1a6-b048-4997-8940-8ccf6656d420")
-	)
-	(wire
-		(pts
-			(xy 54.61 120.65) (xy 63.5 120.65)
+			(xy 55.88 179.07) (xy 64.77 179.07)
 		)
 		(stroke
 			(width 0)
@@ -30597,7 +30565,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 129.54) (xy 154.94 129.54)
+			(xy 152.4 187.96) (xy 156.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -30607,17 +30575,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 195) (xy 96.52 195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec7dc3d6-dbf8-48f8-8d73-58087838b8a7")
-	)
-	(wire
-		(pts
-			(xy 245.11 123.19) (xy 245.11 125.73)
+			(xy 246.38 181.61) (xy 246.38 184.15)
 		)
 		(stroke
 			(width 0)
@@ -30627,17 +30585,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 182.88) (xy 33.02 195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef77b014-4833-4af4-97ca-55e9db4c6613")
-	)
-	(wire
-		(pts
-			(xy 132.08 149.86) (xy 132.08 152.4)
+			(xy 139.7 212.09) (xy 139.7 214.63)
 		)
 		(stroke
 			(width 0)
@@ -30647,7 +30595,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 185.42 90.17)
+			(xy 175.26 148.59) (xy 186.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -30657,17 +30605,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 217.86) (xy 76.2 217.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13d16ba-eca4-4c7e-9696-7e67c2918a4f")
-	)
-	(wire
-		(pts
-			(xy 132.08 135.89) (xy 132.08 139.7)
+			(xy 139.7 198.12) (xy 139.7 201.93)
 		)
 		(stroke
 			(width 0)
@@ -30677,7 +30615,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 125.73) (xy 236.22 123.19)
+			(xy 237.49 184.15) (xy 237.49 181.61)
 		)
 		(stroke
 			(width 0)
@@ -30687,7 +30625,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 143.51) (xy 256.54 143.51)
+			(xy 256.54 213.36) (xy 250.19 213.36)
 		)
 		(stroke
 			(width 0)
@@ -30717,6 +30655,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 148.59) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70509ff-65f6-4fa8-bd99-9e7378117159")
+	)
+	(wire
+		(pts
 			(xy 218.44 29.21) (xy 199.39 29.21)
 		)
 		(stroke
@@ -30727,7 +30675,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 125.73) (xy 245.11 130.81)
+			(xy 246.38 184.15) (xy 246.38 189.23)
 		)
 		(stroke
 			(width 0)
@@ -30757,23 +30705,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 160.02) (xy 162.56 165.1)
+			(xy 163.83 218.44) (xy 163.83 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb2e7e8e-888a-4cbe-ac8d-c11f9ee35e31")
-	)
-	(wire
-		(pts
-			(xy 91.44 217.86) (xy 96.52 217.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5d7cdc-a929-4a2a-998a-73cc2163a958")
 	)
 	(wire
 		(pts
@@ -30787,7 +30725,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 78.74) (xy 191.77 78.74)
+			(xy 186.69 137.16) (xy 193.04 137.16)
 		)
 		(stroke
 			(width 0)
@@ -30797,23 +30735,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 115.57) (xy 69.85 115.57)
+			(xy 55.88 173.99) (xy 71.12 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe65383f-fcb8-4f1d-b9bd-d6148e673851")
-	)
-	(wire
-		(pts
-			(xy 121.92 120.65) (xy 162.56 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fff58f81-7547-44d9-88c8-b98295881e22")
 	)
 	(global_label "DC_in"
 		(shape input)
@@ -30837,7 +30765,7 @@
 	)
 	(global_label "Sync_IN"
 		(shape input)
-		(at 38.1 143.51 0)
+		(at 53.34 213.36 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30846,7 +30774,7 @@
 		)
 		(uuid "02b3552f-486a-4109-bd43-a2830efb843a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 143.51 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30857,7 +30785,7 @@
 	)
 	(global_label "PB1"
 		(shape input)
-		(at 163.83 83.82 0)
+		(at 165.1 142.24 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30866,7 +30794,7 @@
 		)
 		(uuid "05840dee-3660-40ee-9db4-c66c3e06ff16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 83.82 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30877,7 +30805,7 @@
 	)
 	(global_label "But-R"
 		(shape input)
-		(at 116.84 146.05 0)
+		(at 111.76 204.47 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30886,7 +30814,7 @@
 		)
 		(uuid "29623cc4-1de9-4a54-a495-37abbd95c8f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 146.05 0)
+			(at 111.76 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30897,7 +30825,7 @@
 	)
 	(global_label "PB0"
 		(shape input)
-		(at 163.83 102.87 0)
+		(at 165.1 161.29 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30906,7 +30834,7 @@
 		)
 		(uuid "2c06a303-cd6c-43af-8721-a47ed62adcd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 102.87 0)
+			(at 165.1 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30917,7 +30845,7 @@
 	)
 	(global_label "But-L"
 		(shape input)
-		(at 92.71 146.05 180)
+		(at 93.98 204.47 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30926,7 +30854,7 @@
 		)
 		(uuid "302469d6-27a9-4dcd-ad7b-7e17b91389be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 146.05 0)
+			(at 93.98 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30937,7 +30865,7 @@
 	)
 	(global_label "Sync_OUT"
 		(shape input)
-		(at 185.42 137.16 0)
+		(at 186.69 195.58 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30946,7 +30874,7 @@
 		)
 		(uuid "32e16962-7eec-4a38-abba-8f5804a4ec09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 137.16 0)
+			(at 186.69 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30957,7 +30885,7 @@
 	)
 	(global_label "CV_IN"
 		(shape input)
-		(at 38.1 146.05 0)
+		(at 53.34 215.9 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30966,7 +30894,7 @@
 		)
 		(uuid "47905210-550e-4979-8997-8e5d5df650d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 146.05 0)
+			(at 53.34 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30977,7 +30905,7 @@
 	)
 	(global_label "CV_IN"
 		(shape input)
-		(at 71.12 100.33 0)
+		(at 72.39 158.75 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30986,7 +30914,7 @@
 		)
 		(uuid "491abaad-0866-4074-959d-7a96c33e1f02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 100.33 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30997,7 +30925,7 @@
 	)
 	(global_label "PB1"
 		(shape input)
-		(at 262.89 146.05 0)
+		(at 256.54 215.9 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31006,7 +30934,7 @@
 		)
 		(uuid "4b5bcdcd-0d75-46d4-842a-85af95d0c2a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.89 146.05 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31017,7 +30945,7 @@
 	)
 	(global_label "CV_IN"
 		(shape input)
-		(at 138.43 149.86 0)
+		(at 146.05 212.09 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31026,7 +30954,7 @@
 		)
 		(uuid "4cb2112e-4d90-4333-9899-bbea894cc35b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 149.86 0)
+			(at 146.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31037,7 +30965,7 @@
 	)
 	(global_label "Sync_OUT"
 		(shape input)
-		(at 231.14 78.74 180)
+		(at 232.41 137.16 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31046,7 +30974,7 @@
 		)
 		(uuid "4d869664-91ed-4425-9879-869cbaa75b9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 78.74 0)
+			(at 232.41 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31057,7 +30985,7 @@
 	)
 	(global_label "PB2/A1"
 		(shape input)
-		(at 151.13 107.95 180)
+		(at 152.4 166.37 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31066,7 +30994,7 @@
 		)
 		(uuid "6163cc6a-3e20-4e62-9ce5-b6fd30e48b00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 107.95 0)
+			(at 152.4 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31077,7 +31005,7 @@
 	)
 	(global_label "CV_OUT"
 		(shape input)
-		(at 191.77 78.74 0)
+		(at 193.04 137.16 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31086,7 +31014,7 @@
 		)
 		(uuid "6a28f566-19be-46de-b0e5-35b5000bb32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 78.74 0)
+			(at 193.04 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31097,7 +31025,7 @@
 	)
 	(global_label "PB4/A2"
 		(shape input)
-		(at 151.13 129.54 180)
+		(at 152.4 187.96 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31106,7 +31034,7 @@
 		)
 		(uuid "6c9e975d-a4b3-4df0-86a7-9a4e4ba2b6f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 129.54 0)
+			(at 152.4 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31115,18 +31043,18 @@
 			)
 		)
 	)
-	(global_label "PB0"
+	(global_label "MIDI"
 		(shape input)
-		(at 22.86 182.88 180)
+		(at 186.69 200.66 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "99a5340a-a85c-4ed5-81a5-03258af245e4")
+		(uuid "9e7ea914-f924-4d34-bb99-c6b942808826")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 182.88 0)
+			(at 186.69 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31155,9 +31083,29 @@
 			)
 		)
 	)
+	(global_label "PB0"
+		(shape input)
+		(at 165.1 134.62 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "b47fba83-c92f-405a-aa86-041210fb8cee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB3"
 		(shape input)
-		(at 121.92 115.57 90)
+		(at 115.57 172.72 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31166,7 +31114,7 @@
 		)
 		(uuid "d8a85732-b963-43a5-81df-e6013777927c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 115.57 0)
+			(at 115.57 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31177,7 +31125,7 @@
 	)
 	(global_label "AudioProg"
 		(shape input)
-		(at 63.5 127 270)
+		(at 64.77 185.42 270)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31186,7 +31134,7 @@
 		)
 		(uuid "eb318278-0e8a-4f2c-a0f8-fa7b64e36ebb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 127 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31197,7 +31145,7 @@
 	)
 	(global_label "Sync_OUT"
 		(shape input)
-		(at 262.89 143.51 0)
+		(at 256.54 213.36 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31206,7 +31154,7 @@
 		)
 		(uuid "edd2c901-98e1-4d1c-ad59-172afd5f236b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.89 143.51 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31217,7 +31165,7 @@
 	)
 	(global_label "Sound_OUT"
 		(shape input)
-		(at 231.14 92.71 180)
+		(at 232.41 151.13 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -31226,7 +31174,7 @@
 		)
 		(uuid "f69dd456-ffa2-4964-97a4-d3b9baae8d99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 92.71 0)
+			(at 232.41 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31238,7 +31186,7 @@
 	(symbol
 		(lib_name "POT_6")
 		(lib_id "ABK-20-rescue1:POT")
-		(at 132.08 156.21 0)
+		(at 139.7 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31246,7 +31194,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46f160")
 		(property "Reference" "POT2-CV1"
-			(at 127.635 156.21 90)
+			(at 135.255 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31254,7 +31202,7 @@
 			)
 		)
 		(property "Value" "POT 10K lin"
-			(at 129.54 156.21 90)
+			(at 137.16 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31262,7 +31210,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_backPads_noHole"
-			(at 132.08 156.21 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31271,7 +31219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 156.21 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31280,7 +31228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 156.21 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31306,79 +31254,9 @@
 		)
 	)
 	(symbol
-		(lib_name "POT_5")
-		(lib_id "ABK-20-rescue1:POT")
-		(at 132.08 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b46f2b5")
-		(property "Reference" "POT1-MAIN1"
-			(at 127.635 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "POT 10K lin"
-			(at 129.54 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_backPads_noHole"
-			(at 132.08 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb50ec2c-f4e9-45c5-99db-a6abf2715a42")
-		)
-		(pin "3"
-			(uuid "2e2fc1dd-135b-4861-999a-9e9e372ed86c")
-		)
-		(pin "2"
-			(uuid "13626297-fd17-429f-8b27-cec853640439")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "POT1-MAIN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "POT_4")
 		(lib_id "ABK-20-rescue1:POT")
-		(at 196.85 96.52 0)
+		(at 198.12 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31386,7 +31264,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46f319")
 		(property "Reference" "POT3-Vol1"
-			(at 192.405 96.52 90)
+			(at 193.675 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31394,7 +31272,7 @@
 			)
 		)
 		(property "Value" "POT 10k"
-			(at 194.31 96.52 90)
+			(at 195.58 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31402,7 +31280,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_wheel"
-			(at 196.85 96.52 0)
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31411,7 +31289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 96.52 0)
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31420,7 +31298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 96.52 0)
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31448,7 +31326,7 @@
 	(symbol
 		(lib_name "JACK_TRS_6PINS_3")
 		(lib_id "ABK-20-rescue1:JACK_TRS_6PINS")
-		(at 247.65 90.17 180)
+		(at 274.32 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31456,7 +31334,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46f49f")
 		(property "Reference" "Jack2"
-			(at 247.65 100.33 0)
+			(at 274.32 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31464,7 +31342,7 @@
 			)
 		)
 		(property "Value" "JACK_TRS_6PINS"
-			(at 248.92 82.55 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31472,7 +31350,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
-			(at 245.11 86.36 0)
+			(at 271.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31481,7 +31359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 86.36 0)
+			(at 271.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31490,7 +31368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 90.17 0)
+			(at 274.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31527,7 +31405,7 @@
 	(symbol
 		(lib_name "JACK_TRS_6PINS_4")
 		(lib_id "ABK-20-rescue1:JACK_TRS_6PINS")
-		(at 44.45 115.57 0)
+		(at 45.72 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31535,7 +31413,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46f570")
 		(property "Reference" "Jack1"
-			(at 44.45 105.41 0)
+			(at 45.72 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31543,7 +31421,7 @@
 			)
 		)
 		(property "Value" "JACK_TRS_6PINS"
-			(at 43.18 123.19 0)
+			(at 44.45 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31551,7 +31429,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
-			(at 46.99 119.38 0)
+			(at 48.26 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31560,7 +31438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 119.38 0)
+			(at 48.26 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31569,7 +31447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 115.57 0)
+			(at 45.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31606,7 +31484,7 @@
 	(symbol
 		(lib_name "R_20")
 		(lib_id "ABK-20-rescue1:R")
-		(at 127 82.55 0)
+		(at 115.57 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31614,7 +31492,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46f650")
 		(property "Reference" "R11"
-			(at 129.032 82.55 90)
+			(at 117.602 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31622,7 +31500,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 127 82.55 90)
+			(at 115.57 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31630,7 +31508,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 125.222 82.55 90)
+			(at 113.792 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31639,7 +31517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31648,7 +31526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 82.55 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31673,7 +31551,7 @@
 	(symbol
 		(lib_name "R_22")
 		(lib_id "ABK-20-rescue1:R")
-		(at 132.08 143.51 0)
+		(at 139.7 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31681,7 +31559,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46f826")
 		(property "Reference" "R10"
-			(at 134.112 143.51 90)
+			(at 141.732 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31689,7 +31567,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 132.08 143.51 90)
+			(at 139.7 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31697,7 +31575,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 130.302 143.51 90)
+			(at 137.922 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31706,7 +31584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 143.51 0)
+			(at 139.7 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31715,7 +31593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 143.51 0)
+			(at 139.7 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31740,7 +31618,7 @@
 	(symbol
 		(lib_name "C_12")
 		(lib_id "ABK-20-rescue1:C")
-		(at 74.93 120.65 90)
+		(at 76.2 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31748,7 +31626,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46fb0c")
 		(property "Reference" "C1"
-			(at 72.39 120.015 0)
+			(at 73.66 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31757,7 +31635,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.47 120.015 0)
+			(at 78.74 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31766,7 +31644,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
-			(at 78.74 119.6848 0)
+			(at 80.01 178.1048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31775,7 +31653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 120.65 0)
+			(at 76.2 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31784,7 +31662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 120.65 0)
+			(at 76.2 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31809,7 +31687,7 @@
 	(symbol
 		(lib_name "C_8")
 		(lib_id "ABK-20-rescue1:C")
-		(at 236.22 119.38 0)
+		(at 237.49 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31817,7 +31695,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46fb9f")
 		(property "Reference" "C2"
-			(at 236.855 116.84 0)
+			(at 238.125 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31826,7 +31704,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 236.855 121.92 0)
+			(at 238.125 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31835,7 +31713,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
-			(at 237.1852 123.19 0)
+			(at 238.4552 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31844,7 +31722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 119.38 0)
+			(at 237.49 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31853,7 +31731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 119.38 0)
+			(at 237.49 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31878,7 +31756,7 @@
 	(symbol
 		(lib_name "C_7")
 		(lib_id "ABK-20-rescue1:C")
-		(at 185.42 96.52 0)
+		(at 186.69 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31886,7 +31764,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46fc28")
 		(property "Reference" "C3"
-			(at 186.055 93.98 0)
+			(at 187.325 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31895,7 +31773,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.055 99.06 0)
+			(at 187.325 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31904,7 +31782,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
-			(at 186.3852 100.33 0)
+			(at 187.6552 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31913,7 +31791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 96.52 0)
+			(at 186.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31922,7 +31800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 96.52 0)
+			(at 186.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31947,7 +31825,7 @@
 	(symbol
 		(lib_name "GND_32")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 132.08 110.49 0)
+		(at 129.54 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31955,7 +31833,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46fdd8")
 		(property "Reference" "#PWR01"
-			(at 132.08 116.84 0)
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31964,7 +31842,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 114.3 0)
+			(at 129.54 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31972,7 +31850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 110.49 0)
+			(at 129.54 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31981,7 +31859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 110.49 0)
+			(at 129.54 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31990,7 +31868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 110.49 0)
+			(at 129.54 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32012,7 +31890,7 @@
 	(symbol
 		(lib_name "VCC_22")
 		(lib_id "ABK-20-rescue1:VCC")
-		(at 127 77.47 0)
+		(at 115.57 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32020,7 +31898,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46fe06")
 		(property "Reference" "#PWR02"
-			(at 127 81.28 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32029,7 +31907,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 127 73.66 0)
+			(at 115.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32037,7 +31915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 77.47 0)
+			(at 115.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32046,7 +31924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 77.47 0)
+			(at 115.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32055,7 +31933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 77.47 0)
+			(at 115.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32077,7 +31955,7 @@
 	(symbol
 		(lib_name "VCC_23")
 		(lib_id "ABK-20-rescue1:VCC")
-		(at 132.08 135.89 0)
+		(at 139.7 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32085,7 +31963,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b46fe41")
 		(property "Reference" "#PWR03"
-			(at 132.08 139.7 0)
+			(at 139.7 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32094,7 +31972,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 132.08 132.08 0)
+			(at 139.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32102,7 +31980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 135.89 0)
+			(at 139.7 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32111,7 +31989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 135.89 0)
+			(at 139.7 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32120,7 +31998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 135.89 0)
+			(at 139.7 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32142,7 +32020,7 @@
 	(symbol
 		(lib_name "R_25")
 		(lib_id "ABK-20-rescue1:R")
-		(at 144.78 100.33 270)
+		(at 152.4 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32150,7 +32028,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4700a8")
 		(property "Reference" "R7"
-			(at 144.78 102.362 90)
+			(at 152.4 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32158,7 +32036,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 144.78 100.33 90)
+			(at 152.4 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32166,7 +32044,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 144.78 98.552 90)
+			(at 152.4 154.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32175,7 +32053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 100.33 0)
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32184,7 +32062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 100.33 0)
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32209,7 +32087,7 @@
 	(symbol
 		(lib_name "R_23")
 		(lib_id "ABK-20-rescue1:R")
-		(at 143.51 156.21 270)
+		(at 151.13 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32217,7 +32095,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b47017b")
 		(property "Reference" "R6"
-			(at 143.51 158.242 90)
+			(at 151.13 220.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32225,7 +32103,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 143.51 156.21 90)
+			(at 151.13 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32233,7 +32111,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 143.51 154.432 90)
+			(at 151.13 216.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32242,7 +32120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 156.21 0)
+			(at 151.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32251,7 +32129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 156.21 0)
+			(at 151.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32276,7 +32154,7 @@
 	(symbol
 		(lib_name "R_27")
 		(lib_id "ABK-20-rescue1:R")
-		(at 85.09 110.49 0)
+		(at 86.36 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32284,7 +32162,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b47020d")
 		(property "Reference" "R1"
-			(at 87.122 110.49 90)
+			(at 88.392 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32292,7 +32170,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 85.09 110.49 90)
+			(at 86.36 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32300,7 +32178,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 83.312 110.49 90)
+			(at 84.582 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32309,7 +32187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 110.49 0)
+			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32318,7 +32196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 110.49 0)
+			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32343,7 +32221,7 @@
 	(symbol
 		(lib_name "R_30")
 		(lib_id "ABK-20-rescue1:R")
-		(at 85.09 129.54 0)
+		(at 86.36 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32351,7 +32229,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b470252")
 		(property "Reference" "R2"
-			(at 87.122 129.54 90)
+			(at 88.392 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32359,7 +32237,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 85.09 129.54 90)
+			(at 86.36 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32367,7 +32245,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 83.312 129.54 90)
+			(at 84.582 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32376,7 +32254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 129.54 0)
+			(at 86.36 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32385,7 +32263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 129.54 0)
+			(at 86.36 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32410,7 +32288,7 @@
 	(symbol
 		(lib_name "GND_48")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 85.09 138.43 0)
+		(at 86.36 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32418,7 +32296,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b470647")
 		(property "Reference" "#PWR04"
-			(at 85.09 144.78 0)
+			(at 86.36 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32427,7 +32305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 142.24 0)
+			(at 86.36 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32435,7 +32313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 138.43 0)
+			(at 86.36 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32444,7 +32322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 138.43 0)
+			(at 86.36 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32453,7 +32331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 138.43 0)
+			(at 86.36 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32475,7 +32353,7 @@
 	(symbol
 		(lib_name "VCC_25")
 		(lib_id "ABK-20-rescue1:VCC")
-		(at 85.09 101.6 0)
+		(at 86.36 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32483,7 +32361,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b47079e")
 		(property "Reference" "#PWR05"
-			(at 85.09 105.41 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32492,7 +32370,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 85.09 97.79 0)
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32500,7 +32378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 101.6 0)
+			(at 86.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32509,7 +32387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 101.6 0)
+			(at 86.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32518,7 +32396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 101.6 0)
+			(at 86.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32540,7 +32418,7 @@
 	(symbol
 		(lib_name "GND_55")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 132.08 165.1 0)
+		(at 139.7 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32548,7 +32426,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b470e5d")
 		(property "Reference" "#PWR06"
-			(at 132.08 171.45 0)
+			(at 139.7 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32557,7 +32435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 168.91 0)
+			(at 139.7 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32565,7 +32443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 165.1 0)
+			(at 139.7 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32574,7 +32452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 165.1 0)
+			(at 139.7 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32583,7 +32461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 165.1 0)
+			(at 139.7 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32605,7 +32483,7 @@
 	(symbol
 		(lib_name "R_29")
 		(lib_id "ABK-20-rescue1:R")
-		(at 96.52 138.43 0)
+		(at 97.79 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32613,7 +32491,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b471448")
 		(property "Reference" "R3"
-			(at 98.552 138.43 90)
+			(at 99.822 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32621,7 +32499,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 96.52 138.43 90)
+			(at 97.79 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32629,7 +32507,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 94.742 138.43 90)
+			(at 96.012 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32638,7 +32516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 138.43 0)
+			(at 97.79 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32647,7 +32525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 138.43 0)
+			(at 97.79 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32672,7 +32550,7 @@
 	(symbol
 		(lib_name "R_28")
 		(lib_id "ABK-20-rescue1:R")
-		(at 109.22 138.43 0)
+		(at 104.14 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32680,7 +32558,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b471586")
 		(property "Reference" "R4"
-			(at 111.252 138.43 90)
+			(at 106.172 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32688,7 +32566,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 109.22 138.43 90)
+			(at 104.14 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32696,7 +32574,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 107.442 138.43 90)
+			(at 102.362 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32705,7 +32583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 138.43 0)
+			(at 104.14 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32714,7 +32592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 138.43 0)
+			(at 104.14 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32739,7 +32617,7 @@
 	(symbol
 		(lib_name "R_24")
 		(lib_id "ABK-20-rescue1:R")
-		(at 114.3 138.43 0)
+		(at 109.22 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32747,7 +32625,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4715f6")
 		(property "Reference" "R5"
-			(at 116.332 138.43 90)
+			(at 111.252 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32755,7 +32633,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 114.3 138.43 90)
+			(at 109.22 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32763,7 +32641,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 112.522 138.43 90)
+			(at 107.442 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32772,7 +32650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 138.43 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32781,7 +32659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 138.43 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32806,7 +32684,7 @@
 	(symbol
 		(lib_name "GND_57")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 111.76 162.56 0)
+		(at 127 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32814,7 +32692,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b471aff")
 		(property "Reference" "#PWR07"
-			(at 111.76 168.91 0)
+			(at 127 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32823,7 +32701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 166.37 0)
+			(at 127 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32831,7 +32709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 162.56 0)
+			(at 127 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32840,7 +32718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 162.56 0)
+			(at 127 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32849,7 +32727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 162.56 0)
+			(at 127 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32871,7 +32749,7 @@
 	(symbol
 		(lib_name "GND_54")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 96.52 162.56 0)
+		(at 102.87 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32879,7 +32757,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b471b6e")
 		(property "Reference" "#PWR08"
-			(at 96.52 168.91 0)
+			(at 102.87 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32888,7 +32766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 166.37 0)
+			(at 102.87 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32896,7 +32774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 162.56 0)
+			(at 102.87 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32905,7 +32783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 162.56 0)
+			(at 102.87 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32914,7 +32792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 162.56 0)
+			(at 102.87 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32936,7 +32814,7 @@
 	(symbol
 		(lib_name "R_17")
 		(lib_id "ABK-20-rescue1:R")
-		(at 170.18 90.17 270)
+		(at 171.45 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32944,7 +32822,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b472143")
 		(property "Reference" "R8"
-			(at 170.18 92.202 90)
+			(at 171.45 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32952,7 +32830,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 170.18 90.17 90)
+			(at 171.45 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32960,7 +32838,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 170.18 88.392 90)
+			(at 171.45 146.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32969,7 +32847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 90.17 0)
+			(at 171.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32978,7 +32856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 90.17 0)
+			(at 171.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33003,7 +32881,7 @@
 	(symbol
 		(lib_name "GND_35")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 185.42 102.87 0)
+		(at 186.69 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33011,7 +32889,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b472279")
 		(property "Reference" "#PWR09"
-			(at 185.42 109.22 0)
+			(at 186.69 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33020,7 +32898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 106.68 0)
+			(at 186.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33028,7 +32906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 102.87 0)
+			(at 186.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33037,7 +32915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 102.87 0)
+			(at 186.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33046,7 +32924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 102.87 0)
+			(at 186.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33068,7 +32946,7 @@
 	(symbol
 		(lib_name "GND_34")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 196.85 102.87 0)
+		(at 198.12 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33076,7 +32954,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4722c3")
 		(property "Reference" "#PWR010"
-			(at 196.85 109.22 0)
+			(at 198.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33085,7 +32963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 106.68 0)
+			(at 198.12 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33093,7 +32971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 102.87 0)
+			(at 198.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33102,7 +32980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 102.87 0)
+			(at 198.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33111,7 +32989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 102.87 0)
+			(at 198.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33133,7 +33011,7 @@
 	(symbol
 		(lib_name "GND_37")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 231.14 100.33 0)
+		(at 232.41 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33141,7 +33019,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4726ef")
 		(property "Reference" "#PWR011"
-			(at 231.14 106.68 0)
+			(at 232.41 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33150,7 +33028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 104.14 0)
+			(at 232.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33158,7 +33036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 100.33 0)
+			(at 232.41 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33167,7 +33045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 100.33 0)
+			(at 232.41 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33176,7 +33054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 100.33 0)
+			(at 232.41 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33198,7 +33076,7 @@
 	(symbol
 		(lib_name "GND_50")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 60.96 107.95 0)
+		(at 62.23 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33206,7 +33084,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b472e73")
 		(property "Reference" "#PWR012"
-			(at 60.96 114.3 0)
+			(at 62.23 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33215,7 +33093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 111.76 0)
+			(at 62.23 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33223,7 +33101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 107.95 0)
+			(at 62.23 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33232,7 +33110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 107.95 0)
+			(at 62.23 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33241,7 +33119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 107.95 0)
+			(at 62.23 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33263,7 +33141,7 @@
 	(symbol
 		(lib_name "GND_49")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 36.83 153.67 0)
+		(at 52.07 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33271,7 +33149,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4736ef")
 		(property "Reference" "#PWR013"
-			(at 36.83 160.02 0)
+			(at 52.07 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33280,7 +33158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 157.48 0)
+			(at 52.07 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33288,7 +33166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 153.67 0)
+			(at 52.07 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33297,7 +33175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 153.67 0)
+			(at 52.07 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33306,7 +33184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 153.67 0)
+			(at 52.07 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33328,7 +33206,7 @@
 	(symbol
 		(lib_name "VCC_26")
 		(lib_id "ABK-20-rescue1:VCC")
-		(at 36.83 148.59 270)
+		(at 52.07 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33336,7 +33214,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b473739")
 		(property "Reference" "#PWR014"
-			(at 33.02 148.59 0)
+			(at 48.26 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33345,7 +33223,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 40.64 148.59 0)
+			(at 55.88 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33353,7 +33231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 148.59 0)
+			(at 52.07 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33362,7 +33240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 148.59 0)
+			(at 52.07 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33371,7 +33249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 148.59 0)
+			(at 52.07 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33393,7 +33271,7 @@
 	(symbol
 		(lib_name "CONN_01X02_MALE_2")
 		(lib_id "ABK-20-rescue1:CONN_01X02_MALE")
-		(at 172.72 144.78 90)
+		(at 173.99 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33401,7 +33279,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b474264")
 		(property "Reference" "J6"
-			(at 168.275 144.78 0)
+			(at 169.545 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33409,7 +33287,7 @@
 			)
 		)
 		(property "Value" "Sync_Jumper"
-			(at 177.8 144.78 0)
+			(at 179.07 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33417,7 +33295,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Sync_jumper"
-			(at 170.18 144.78 0)
+			(at 171.45 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33426,7 +33304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 144.78 0)
+			(at 171.45 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33435,7 +33313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 144.78 0)
+			(at 173.99 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33460,7 +33338,7 @@
 	(symbol
 		(lib_name "C_9")
 		(lib_id "ABK-20-rescue1:C")
-		(at 245.11 119.38 0)
+		(at 246.38 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33468,7 +33346,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4744db")
 		(property "Reference" "C4"
-			(at 245.745 116.84 0)
+			(at 247.015 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33477,7 +33355,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 245.745 121.92 0)
+			(at 247.015 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33486,7 +33364,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
-			(at 246.0752 123.19 0)
+			(at 247.3452 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33495,7 +33373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 119.38 0)
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33504,7 +33382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 119.38 0)
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33529,7 +33407,7 @@
 	(symbol
 		(lib_name "VCC_19")
 		(lib_id "ABK-20-rescue1:VCC")
-		(at 245.11 109.22 0)
+		(at 246.38 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33537,7 +33415,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4747b9")
 		(property "Reference" "#PWR015"
-			(at 245.11 113.03 0)
+			(at 246.38 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33546,7 +33424,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 245.11 105.41 0)
+			(at 246.38 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33554,7 +33432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 109.22 0)
+			(at 246.38 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33563,7 +33441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 109.22 0)
+			(at 246.38 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33572,7 +33450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 109.22 0)
+			(at 246.38 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33594,7 +33472,7 @@
 	(symbol
 		(lib_name "GND_36")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 245.11 130.81 0)
+		(at 246.38 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33602,7 +33480,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4747fb")
 		(property "Reference" "#PWR016"
-			(at 245.11 137.16 0)
+			(at 246.38 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33611,7 +33489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 134.62 0)
+			(at 246.38 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33619,7 +33497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 130.81 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33628,7 +33506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 130.81 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33637,7 +33515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 130.81 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33659,7 +33537,7 @@
 	(symbol
 		(lib_name "GND_58")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 162.56 165.1 0)
+		(at 163.83 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33667,7 +33545,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b474d0c")
 		(property "Reference" "#PWR017"
-			(at 162.56 171.45 0)
+			(at 163.83 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33676,7 +33554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 168.91 0)
+			(at 163.83 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33684,7 +33562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 165.1 0)
+			(at 163.83 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33693,7 +33571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 165.1 0)
+			(at 163.83 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33702,7 +33580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 165.1 0)
+			(at 163.83 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33724,7 +33602,7 @@
 	(symbol
 		(lib_name "ATTINY85-20SU_2")
 		(lib_id "ABK-20-rescue1:ATTINY85-20SU")
-		(at 196.85 119.38 0)
+		(at 198.12 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33732,7 +33610,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b478157")
 		(property "Reference" "U1"
-			(at 167.64 109.22 0)
+			(at 168.91 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33740,7 +33618,7 @@
 			)
 		)
 		(property "Value" "ATTINY85-20SU"
-			(at 222.25 129.54 0)
+			(at 223.52 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33748,7 +33626,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Attiny_DIP-8_W7.62mm_mod"
-			(at 220.98 119.38 0)
+			(at 222.25 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33758,7 +33636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 119.38 0)
+			(at 198.12 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33767,7 +33645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 119.38 0)
+			(at 198.12 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33876,7 +33754,7 @@
 	)
 	(symbol
 		(lib_id "mixtape_schematics:SW_Push")
-		(at 102.87 153.67 270)
+		(at 127 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33884,7 +33762,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b479808")
 		(property "Reference" "SW2"
-			(at 105.41 154.94 0)
+			(at 129.54 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33893,7 +33771,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.346 153.67 0)
+			(at 125.476 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33901,7 +33779,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:TACTILE-PTH_6mm_SMD"
-			(at 107.95 153.67 0)
+			(at 132.08 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33910,7 +33788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 153.67 0)
+			(at 132.08 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33919,7 +33797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 153.67 0)
+			(at 127 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33942,143 +33820,9 @@
 		)
 	)
 	(symbol
-		(lib_id "mixtape_schematics:SW_Push")
-		(at 114.3 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b479c56")
-		(property "Reference" "SW3"
-			(at 116.84 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 112.776 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:TACTILE-PTH_6mm_SMD"
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "481256d0-608c-49f5-8876-3ab655061fd0")
-		)
-		(pin "2"
-			(uuid "666a0fd4-2fa4-4591-aaf5-a712438dfd71")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "LED_3")
-		(lib_id "ABK-20-rescue1:LED")
-		(at 151.13 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b4a6b5d")
-		(property "Reference" "D-OUT1"
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:LED_2835_minimal"
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a09784e-f9ff-4bbe-9653-a03edd736f11")
-		)
-		(pin "2"
-			(uuid "68a253e4-7cf4-48a5-aa85-3e56e10576f1")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "D-OUT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_21")
 		(lib_id "ABK-20-rescue1:R")
-		(at 154.94 76.2 270)
+		(at 148.59 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34086,7 +33830,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4a6ca4")
 		(property "Reference" "R13"
-			(at 154.94 78.232 90)
+			(at 148.59 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34094,7 +33838,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 154.94 76.2 90)
+			(at 148.59 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34102,7 +33846,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 154.94 74.422 90)
+			(at 148.59 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34111,7 +33855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 76.2 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34120,7 +33864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 76.2 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34145,7 +33889,7 @@
 	(symbol
 		(lib_name "GND_33")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 151.13 90.17 0)
+		(at 139.7 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34153,7 +33897,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4a76c8")
 		(property "Reference" "#PWR018"
-			(at 151.13 96.52 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34162,7 +33906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 93.98 0)
+			(at 139.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34170,7 +33914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 90.17 0)
+			(at 139.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34179,7 +33923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 90.17 0)
+			(at 139.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34188,7 +33932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 90.17 0)
+			(at 139.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34754,7 +34498,7 @@
 	)
 	(symbol
 		(lib_id "mixtape_schematics:SW_Push")
-		(at 167.64 154.94 270)
+		(at 168.91 213.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34762,7 +34506,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4adf33")
 		(property "Reference" "SW4"
-			(at 170.18 156.21 0)
+			(at 171.45 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34771,7 +34515,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 166.116 154.94 0)
+			(at 167.386 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34779,7 +34523,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:SW_SPST_FSMSM"
-			(at 172.72 154.94 0)
+			(at 173.99 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34788,7 +34532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 154.94 0)
+			(at 173.99 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34797,7 +34541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 154.94 0)
+			(at 168.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34822,7 +34566,7 @@
 	(symbol
 		(lib_name "CONN_02X03_2")
 		(lib_id "ABK-20-rescue1:CONN_02X03")
-		(at 193.04 152.4 0)
+		(at 201.93 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34830,7 +34574,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4aef9f")
 		(property "Reference" "J3"
-			(at 193.04 147.32 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34838,7 +34582,7 @@
 			)
 		)
 		(property "Value" "CONN_02X03"
-			(at 193.04 157.48 0)
+			(at 201.93 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34846,7 +34590,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Socket_Strip_Straight_2x03_Pitch2.54mm"
-			(at 193.04 182.88 0)
+			(at 201.93 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34855,7 +34599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 182.88 0)
+			(at 201.93 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34864,7 +34608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 152.4 0)
+			(at 201.93 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34901,7 +34645,7 @@
 	(symbol
 		(lib_name "CONN_01X04_3")
 		(lib_id "ABK-20-rescue1:CONN_01X04")
-		(at 251.46 147.32 180)
+		(at 245.11 217.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34909,7 +34653,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4b1f07")
 		(property "Reference" "J2"
-			(at 251.46 153.67 0)
+			(at 245.11 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34917,7 +34661,7 @@
 			)
 		)
 		(property "Value" "CONN_01X04"
-			(at 248.92 147.32 90)
+			(at 242.57 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34925,7 +34669,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Angled_1x04_Pitch2.54mm-flip"
-			(at 251.46 147.32 0)
+			(at 245.11 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34934,7 +34678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 147.32 0)
+			(at 245.11 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34943,7 +34687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 147.32 0)
+			(at 245.11 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34974,7 +34718,7 @@
 	(symbol
 		(lib_name "GND_38")
 		(lib_id "ABK-20-rescue1:GND")
-		(at 260.35 153.67 0)
+		(at 254 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34982,7 +34726,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4bcac4")
 		(property "Reference" "#PWR023"
-			(at 260.35 160.02 0)
+			(at 254 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34991,7 +34735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 157.48 0)
+			(at 254 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34999,7 +34743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 153.67 0)
+			(at 254 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35008,7 +34752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 153.67 0)
+			(at 254 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35017,7 +34761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 153.67 0)
+			(at 254 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35039,7 +34783,7 @@
 	(symbol
 		(lib_name "VCC_18")
 		(lib_id "ABK-20-rescue1:VCC")
-		(at 259.08 148.59 270)
+		(at 252.73 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35047,7 +34791,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4bd4f7")
 		(property "Reference" "#PWR024"
-			(at 255.27 148.59 0)
+			(at 248.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35056,7 +34800,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 262.89 148.59 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35064,7 +34808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 148.59 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35073,7 +34817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 148.59 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35082,7 +34826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 148.59 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35364,73 +35108,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_32")
-		(lib_id "ABK-20-rescue1:R")
-		(at 29.21 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b4dda70")
-		(property "Reference" "R9"
-			(at 29.21 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 29.21 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 29.21 181.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "614c0b05-ebf9-4791-b2c6-33bf1c06b9da")
-		)
-		(pin "2"
-			(uuid "1d486993-7dc2-44c3-9264-4a5f7a503055")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CONN_01X01_2")
 		(lib_id "ABK-20-rescue1:CONN_01X01")
 		(at 127 29.21 0)
@@ -35497,7 +35174,7 @@
 	(symbol
 		(lib_name "CONN_01X04_4")
 		(lib_id "ABK-20-rescue1:CONN_01X04")
-		(at 26.67 147.32 0)
+		(at 41.91 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35505,7 +35182,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bd05abc")
 		(property "Reference" "J1"
-			(at 26.67 140.97 0)
+			(at 41.91 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35513,7 +35190,7 @@
 			)
 		)
 		(property "Value" "CONN_01X04"
-			(at 29.21 147.32 90)
+			(at 44.45 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35521,7 +35198,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:Angled_1x04_Pitch2.54mm-flip"
-			(at 26.67 147.32 0)
+			(at 41.91 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35530,7 +35207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 147.32 0)
+			(at 41.91 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35539,7 +35216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 147.32 0)
+			(at 41.91 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36724,7 +36401,7 @@
 	(symbol
 		(lib_name "R_31")
 		(lib_id "ABK-20-rescue1:R")
-		(at 69.85 109.22 0)
+		(at 71.12 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36732,7 +36409,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c7f0e0f")
 		(property "Reference" "R99"
-			(at 71.882 109.22 90)
+			(at 73.152 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36740,7 +36417,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 69.85 109.22 90)
+			(at 71.12 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36748,7 +36425,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
-			(at 68.072 109.22 90)
+			(at 69.342 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36757,7 +36434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 109.22 0)
+			(at 71.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36766,7 +36443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 109.22 0)
+			(at 71.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36789,34 +36466,35 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 43.18 202.62 0)
+		(lib_id "Switch:SW_SPDT_MSM")
+		(at 102.87 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0035aff9-f436-401f-92ac-fe9e32fbf62c")
-		(property "Reference" "#PWR102"
-			(at 43.18 208.97 0)
+		(fields_autoplaced yes)
+		(uuid "002e3e11-9b67-4f58-a4eb-c40eacfa96d2")
+		(property "Reference" "SW3"
+			(at 107.95 214.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 43.18 206.43 0)
+		(property "Value" "SW_SPDT_MSM"
+			(at 107.95 217.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 202.62 0)
+			(at 91.44 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36824,8 +36502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 43.18 202.62 0)
+		(property "Datasheet" "~"
+			(at 110.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36833,209 +36511,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 202.62 0)
+		(property "Description" "Switch, single pole double throw, center OFF position"
+			(at 102.87 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin "1"
-			(uuid "c77543d1-60e3-42c8-b499-b8db1b35f61a")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 104.14 263.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "067664c4-f671-4c28-89d9-06330ef3d102")
-		(property "Reference" "NEO19"
-			(at 109.22 257.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 105.41 269.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 105.41 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 273.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 263.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "594f821e-1b8a-4f79-9372-974ffaa8adeb")
 		)
 		(pin "3"
-			(uuid "4a1a660e-aea9-47e0-b01e-19ee54f56396")
+			(uuid "14b1e063-e394-4f47-a166-3034e57a944d")
 		)
 		(pin "1"
-			(uuid "a04d664b-11fc-4bcd-bd4d-da30b6013414")
-		)
-		(pin "4"
-			(uuid "d46dec71-b34a-416d-8c80-e812fbbcbc85")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 43.18 263.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b2dc78c-4da0-4614-9304-e6a07f31c92d")
-		(property "Reference" "NEO16"
-			(at 48.26 257.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 44.45 269.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 44.45 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 273.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 263.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "ddd33661-1a39-41d6-a0ea-3de73cb4800a")
 		)
 		(pin "2"
-			(uuid "d6f0a24d-914b-4037-a84c-04b4e583ee80")
-		)
-		(pin "3"
-			(uuid "580d54fe-93dc-48eb-b742-1a3293881488")
-		)
-		(pin "1"
-			(uuid "09961c47-ea30-4a15-a72a-b0706c888e37")
-		)
-		(pin "4"
-			(uuid "e98142e5-588e-46ec-9438-3542d0304d1c")
+			(uuid "d33715f0-e845-4aac-8f20-46ae38a39be7")
 		)
 		(instances
 			(project "ABK-20"
 				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO16")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 104.14 225.48 0)
+		(lib_name "R_24")
+		(lib_id "ABK-20-rescue1:R")
+		(at 127 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d66e342-7bae-43d0-b386-b37f7135ace8")
-		(property "Reference" "#PWR118"
-			(at 104.14 231.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 229.29 0)
+		(uuid "54b13e70-1842-4076-ba43-d581007035d1")
+		(property "Reference" "R16"
+			(at 129.032 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 225.48 0)
+		(property "Value" "6.8K"
+			(at 127 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+			(at 125.222 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37044,7 +36574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 225.48 0)
+			(at 127 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37053,7 +36583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 225.48 0)
+			(at 127 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37061,659 +36591,204 @@
 			)
 		)
 		(pin "1"
-			(uuid "e122fcb8-f3df-4f21-9d28-ac73d7e67b43")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 63.5 248.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f4c8478-55ff-433a-939c-7c3381cb79ef")
-		(property "Reference" "#PWR124"
-			(at 63.5 254.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "daf5f1f4-bd9d-4fd4-9479-f931a41c27e6")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 83.82 217.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c3d11d5-8fb2-485b-bb72-83b123d1d598")
-		(property "Reference" "NEO8"
-			(at 88.9 212.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 85.09 223.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 85.09 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 227.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 217.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "d1d18196-5569-4b74-b6f3-6ac739e09118")
 		)
 		(pin "2"
-			(uuid "f961e27e-5cde-4b90-9f91-a9eab232f7be")
+			(uuid "b72f4bf3-c64f-4d9e-9801-ffbfdf4b8311")
 		)
-		(pin "3"
-			(uuid "cea841b3-157e-4d2b-a370-902d7133e605")
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "a1baeeba-dc8f-4720-8517-4c4180cd83ca")
+	)
+	(symbol
+		(lib_id "ABK-20-rescue:Potentiometer_Slide_LED")
+		(at 139.7 143.51 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6722c610-4d4a-4cb8-9d71-ce9a7ba3873f")
+		(property "Reference" "RV1"
+			(at 142.24 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POT_SLIDE_LED"
+			(at 142.24 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide potentiometer with integrated LED (Unit A: Pot, Unit B: LED)"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c3c4b265-417e-4a66-ad99-08b90815628a")
 		)
 		(pin "4"
-			(uuid "aafcf06b-e8d4-4fd9-b920-3df13bbfb9f8")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 104.14 233.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "268f20aa-6496-40a7-aa6c-bd13ec655ebc")
-		(property "Reference" "#PWR127"
-			(at 104.14 236.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "ffb6cfe9-f112-486b-9d71-051df2473a65")
 		)
 		(pin "1"
-			(uuid "3b80492c-751b-4deb-a71b-2327bd0fe7ad")
+			(uuid "18f6c457-3bab-4690-a642-cf116e9d0dfa")
 		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 124.46 271.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26e2681f-83e3-4f35-8318-730ebd3375fe")
-		(property "Reference" "#PWR140"
-			(at 124.46 277.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 275.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fe8ee13-e524-4142-868d-541f52afcb2f")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 63.5 271.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a180ea4-61f2-4a9b-a166-fb39477e7a14")
-		(property "Reference" "#PWR134"
-			(at 63.5 277.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 275.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5c85512-6be6-4054-9a05-8ab68c959930")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 63.5 217.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3159552e-2263-46d6-852e-cad3b4921804")
-		(property "Reference" "NEO7"
-			(at 68.58 212.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 64.77 223.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 64.77 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 227.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 217.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "17658e2d-aaf0-4129-89c5-6937c834221a")
 		)
 		(pin "2"
-			(uuid "34792d38-027c-443f-8379-6b909e961a97")
-		)
-		(pin "3"
-			(uuid "81bcd0fb-c6dd-4118-a190-5140fd1114e4")
-		)
-		(pin "1"
-			(uuid "6368aca0-3347-451e-8583-7fbdbc5da46c")
-		)
-		(pin "4"
-			(uuid "4384760c-947b-4364-8922-1017809a5a48")
+			(uuid "7190d23c-7aa4-4878-b463-e48a2253d4dd")
 		)
 		(instances
 			(project "ABK-20"
 				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO7")
-					(unit 1)
+					(reference "RV1")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 83.82 195 0)
+		(lib_id "ABK-20-rescue:Potentiometer_Slide_LED")
+		(at 129.54 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "351fefd5-2d79-41b7-bb4f-6f2d66733ce9")
-		(property "Reference" "NEO3"
-			(at 88.9 189.285 0)
+		(uuid "7d6f112c-8947-4f9e-b13b-42e43063d043")
+		(property "Reference" "RV1"
+			(at 134.874 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
-		(property "Value" "SK6812"
-			(at 85.09 200.715 0)
+		(property "Value" "POT_SLIDE_LED"
+			(at 144.526 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 85.09 202.62 0)
+		(property "Footprint" ""
+			(at 129.54 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 204.525 0)
+		(property "Datasheet" "~"
+			(at 129.54 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 83.82 195 0)
+		(property "Description" "Slide potentiometer with integrated LED (Unit A: Pot, Unit B: LED)"
+			(at 129.54 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "c3c4b265-417e-4a66-ad99-08b90815628a")
+		)
+		(pin "4"
+			(uuid "ffb6cfe9-f112-486b-9d71-051df2473a65")
+		)
+		(pin "1"
+			(uuid "18f6c457-3bab-4690-a642-cf116e9d0dfa")
+		)
+		(pin "3"
+			(uuid "17658e2d-aaf0-4129-89c5-6937c834221a")
 		)
 		(pin "2"
-			(uuid "fc6f5635-4453-4e89-af38-b10d700b04a8")
-		)
-		(pin "3"
-			(uuid "65d4687a-ef9f-4ba5-8988-88264685b518")
-		)
-		(pin "1"
-			(uuid "1af143e9-d7ad-4bab-aaeb-67f9e4f915db")
-		)
-		(pin "4"
-			(uuid "df718391-253d-4855-9ace-a245da5bd9ae")
+			(uuid "7190d23c-7aa4-4878-b463-e48a2253d4dd")
 		)
 		(instances
 			(project "ABK-20"
 				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO3")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 43.18 233.1 0)
-		(unit 1)
+	(sheet
+		(at 284.48 25.4)
+		(size 45.72 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "36921a95-430e-4ca0-a425-3223b73d24c3")
-		(property "Reference" "#PWR121"
-			(at 43.18 236.91 0)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e1fdaa6-7696-4c27-9893-a4f5cec56313")
+		(property "Sheetname" "LED_Matrix"
+			(at 284.48 23.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "VCC"
-			(at 43.18 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30605856-4f1f-4447-b670-21654500fbea")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 124.46 187.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "392db00a-9c2b-4dd4-bd0e-4a95805483f9")
-		(property "Reference" "#PWR109"
-			(at 124.46 191.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 124.46 183.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e77d29b9-65bf-4ccc-816c-31d92eba489f")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 83.82 240.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c9b5ebb-7d2f-4b2e-8655-5ac00537869a")
-		(property "Reference" "NEO13"
-			(at 88.9 235.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 85.09 246.435 0)
+		(property "Sheetfile" "LED_Matrix.kicad_sch"
+			(at 284.48 52.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37721,3212 +36796,44 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 85.09 248.34 0)
+		(pin "DIN" input
+			(at 284.48 38.1 180)
+			(uuid "deb3d7ec-92b4-48ce-80ce-6e2f09e9f31d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
+				(justify left)
 			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 250.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 240.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c8259e04-6ce0-4cc8-8e46-53857b2e6405")
-		)
-		(pin "3"
-			(uuid "548b87ea-839f-4fcb-af1a-3da710d39e47")
-		)
-		(pin "1"
-			(uuid "36b35153-ecd3-401f-bd0c-d55be805408f")
-		)
-		(pin "4"
-			(uuid "faf58923-db0c-4c93-8b56-51c877e3d47b")
 		)
 		(instances
 			(project "ABK-20"
 				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO13")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 63.5 187.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3cbd2a6f-e4b9-46cb-84f9-e13bf5d759cd")
-		(property "Reference" "#PWR103"
-			(at 63.5 191.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(global_label "PB0"
+		(shape input)
+		(at 269.24 38.1 180)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify right)
 		)
-		(property "Value" "VCC"
-			(at 63.5 183.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb4025bf-9559-457b-b534-657bf906fbdc")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR103")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "b5cd09fc-96d0-4063-8794-385f03b07dc8")
 	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 124.46 210.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "417878ca-e783-4669-b895-aa9b583317d0")
-		(property "Reference" "#PWR119"
-			(at 124.46 214.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 124.46 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a04c99a-4dc8-4119-89cf-96bf010eb537")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 83.82 248.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41a55300-ab26-4af3-945e-9e2845411743")
-		(property "Reference" "#PWR126"
-			(at 83.82 254.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "096d6e3a-e1ea-4b44-8478-ca51532ceb69")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 43.18 217.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43d42e14-21d4-4146-a949-9b757ab41619")
-		(property "Reference" "NEO6"
-			(at 48.26 212.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 44.45 223.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 44.45 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 227.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 217.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8d6df71-8da5-45d6-974d-8360f530008c")
-		)
-		(pin "3"
-			(uuid "cf2624a4-e832-4ec5-9eb0-63fe02b0e3f7")
-		)
-		(pin "1"
-			(uuid "bffae817-c4c4-46ab-b9bf-7255169037dc")
-		)
-		(pin "4"
-			(uuid "9a2099bd-ebb9-4a1d-a836-06043011c653")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 104.14 202.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46814ec3-892c-4c7b-8f3d-7f54aa09751f")
-		(property "Reference" "#PWR108"
-			(at 104.14 208.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6a8d21b-f659-4ad3-b0ae-763e0641effe")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 43.18 195 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48b0f923-8e5f-44f4-8c54-1761539ff8c0")
-		(property "Reference" "NEO1"
-			(at 48.26 189.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 44.45 200.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 44.45 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 204.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ade511f-b199-495a-97f5-def4833f7a05")
-		)
-		(pin "3"
-			(uuid "1de70184-fea4-4faa-869a-4da439aab212")
-		)
-		(pin "1"
-			(uuid "12908667-9f00-464f-9c26-ab5548bf8333")
-		)
-		(pin "4"
-			(uuid "f7d3e887-934a-4b06-8efc-983a00b21f0b")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 124.46 202.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "562ef904-8328-4e86-9d7b-2193753dac5d")
-		(property "Reference" "#PWR110"
-			(at 124.46 208.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b64929a-a2c2-4039-8666-3d63a79ab4f5")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 43.18 248.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "619472a0-c896-4efa-9960-71036ad18197")
-		(property "Reference" "#PWR122"
-			(at 43.18 254.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e083b672-9572-419a-a4e3-75a3d9024016")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 124.46 225.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "628130d6-45c9-4566-a3d4-a8b1bc04056d")
-		(property "Reference" "#PWR120"
-			(at 124.46 231.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec1c44f5-8cd3-4b12-bc17-2ae0975d90d5")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 104.14 217.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a9e56c1-c712-4c57-8449-547541631e34")
-		(property "Reference" "NEO9"
-			(at 109.22 212.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 105.41 223.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 105.41 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 227.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 217.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6ca6a87a-8f01-445d-8e08-74d3d995c881")
-		)
-		(pin "3"
-			(uuid "eb5de8cd-c955-40bf-835c-9561cb32a22e")
-		)
-		(pin "1"
-			(uuid "9acf02af-4a94-4c6e-8975-d88d03569ce2")
-		)
-		(pin "4"
-			(uuid "d3b934ff-bfca-4d71-b6d2-04f692679c30")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 83.82 225.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bad5d74-f14d-4de8-8726-6901340b1b61")
-		(property "Reference" "#PWR116"
-			(at 83.82 231.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e6a67aa-5022-4f4b-8f40-a8c6d09062a7")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 83.82 271.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74023879-0388-4eeb-9edb-48c2ac122a0c")
-		(property "Reference" "#PWR136"
-			(at 83.82 277.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 275.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0dcedf2-9483-4f16-9d70-a7023043ebb7")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 104.14 195 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a918cf0-7877-464e-8e3d-68fb3c9d7a80")
-		(property "Reference" "NEO4"
-			(at 109.22 189.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 105.41 200.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 105.41 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 204.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b07b51df-88cc-4e4b-a840-374df8a2e736")
-		)
-		(pin "3"
-			(uuid "0effc395-019f-47a8-954f-0bae9066002e")
-		)
-		(pin "1"
-			(uuid "c052fea9-ee14-45c0-984e-018319b34598")
-		)
-		(pin "4"
-			(uuid "64b4e19a-46d7-4430-a712-abd7a2007910")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 104.14 255.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "826a7065-76fb-4d9a-bcbf-f48c6e61ffce")
-		(property "Reference" "#PWR137"
-			(at 104.14 259.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ddb4314-1628-4a93-9511-fb5d7e647f72")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 104.14 271.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8771ea4c-6892-49d3-8c91-0554cf85c97a")
-		(property "Reference" "#PWR138"
-			(at 104.14 277.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 275.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04cc419e-16f0-4818-ac4b-7e6c95a27d95")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 43.18 240.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87fdd7cb-99e1-491b-ac19-6186ef32016d")
-		(property "Reference" "NEO11"
-			(at 48.26 235.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 44.45 246.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 44.45 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 250.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 240.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "41c0a797-f1bd-4731-9932-dd36ffb63b1c")
-		)
-		(pin "3"
-			(uuid "86849282-ca3c-46d9-8c96-abd60aea60b0")
-		)
-		(pin "1"
-			(uuid "50fcaf36-fc94-4225-b999-4534bed9d7dc")
-		)
-		(pin "4"
-			(uuid "0f34305f-2853-48df-8e1b-873d9e3154b7")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 63.5 240.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f1088aa-f3f3-4bbb-851d-23125be1b4be")
-		(property "Reference" "NEO12"
-			(at 68.58 235.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 64.77 246.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 64.77 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 250.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 240.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d1827e8b-8d34-4eb3-8414-a107beb1461f")
-		)
-		(pin "3"
-			(uuid "95d8a3ca-e916-4445-96a0-1edaef96cf70")
-		)
-		(pin "1"
-			(uuid "af200cf4-1932-4f2e-ad07-215c7954df64")
-		)
-		(pin "4"
-			(uuid "9bb6e020-97ff-4456-bb50-a86095dcbd1b")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 124.46 217.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f3e2f36-8536-4c29-a6be-dbd15f80956d")
-		(property "Reference" "NEO10"
-			(at 129.54 212.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 125.73 223.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 125.73 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 227.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 217.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7579688b-1403-4768-9598-56ba14aa08aa")
-		)
-		(pin "3"
-			(uuid "d895b720-ee4d-4edc-b3ac-7e132f66ed0c")
-		)
-		(pin "1"
-			(uuid "be0d066c-6bf9-445b-8f29-4e0b81e592fb")
-		)
-		(pin "4"
-			(uuid "26c9e1ab-cf2a-42c0-8c37-f56f707fe421")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 43.18 225.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90e640ae-dcda-4442-abfc-818eda1423fd")
-		(property "Reference" "#PWR112"
-			(at 43.18 231.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53f6928e-8fd6-43d9-95af-64f7d8814f3c")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 124.46 240.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "931c778e-fc98-4617-9ee1-6d1f9b9f216e")
-		(property "Reference" "NEO15"
-			(at 129.54 235.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 125.73 246.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 125.73 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 250.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 240.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99009a5a-f9df-46e2-918e-a9e511cf20dd")
-		)
-		(pin "3"
-			(uuid "66521f10-6a5c-4b20-bb47-a15e6af12f10")
-		)
-		(pin "1"
-			(uuid "ffa39821-71e0-4d8a-89b6-01bbdae309b1")
-		)
-		(pin "4"
-			(uuid "79796cdf-69e8-4a3f-9403-feb9b061a7b9")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 43.18 187.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98c14eab-854c-4560-bbbb-3f26f700600b")
-		(property "Reference" "#PWR101"
-			(at 43.18 191.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 183.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "352ba80f-66f3-4802-830d-046e62e6f3a5")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 83.82 187.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99476a72-d784-4dc9-9e61-04da22832703")
-		(property "Reference" "#PWR105"
-			(at 83.82 191.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 83.82 183.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94b3189c-4942-41a2-9f74-0a593e87b2d9")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 63.5 233.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9aa2f562-daef-43b3-ad4e-e6b8e3f2e0d6")
-		(property "Reference" "#PWR123"
-			(at 63.5 236.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 63.5 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2957fd36-0b34-42e9-ad03-530c03efaff7")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 83.82 210.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bbf569f-3337-4857-aaff-6a286d8e6a42")
-		(property "Reference" "#PWR115"
-			(at 83.82 214.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 83.82 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6171323c-a326-4f63-a11d-c9bd4ef77fb3")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 63.5 255.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0861f88-5ee5-475e-bdb5-c340aac5ac1e")
-		(property "Reference" "#PWR133"
-			(at 63.5 259.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 63.5 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94b221ae-0150-4997-b62a-c319366145b5")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 83.82 263.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0f1c01f-bdd9-4e62-ab6d-909c95e640ec")
-		(property "Reference" "NEO18"
-			(at 88.9 257.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 85.09 269.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 85.09 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 273.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 263.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5ba39fea-8e29-40fe-bc12-fb6629622309")
-		)
-		(pin "3"
-			(uuid "63c98087-4266-4d26-a16b-710bfc93871e")
-		)
-		(pin "1"
-			(uuid "c55ad48a-b0b1-4f4a-be5f-f9093a1a3767")
-		)
-		(pin "4"
-			(uuid "70e9a382-a096-4ade-90fa-1ae3769ccc1a")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 83.82 202.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a32961f0-94f2-47f3-a4d3-875a82cf0628")
-		(property "Reference" "#PWR106"
-			(at 83.82 208.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb87b914-7aca-4240-ae83-fa8a9c399a03")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 83.82 233.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8146f02-58ab-4c04-8882-3923029d2d0a")
-		(property "Reference" "#PWR125"
-			(at 83.82 236.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 83.82 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "200a99e8-3c64-4cd5-8765-babc956a7f58")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 63.5 202.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0867267-abdf-4040-a326-34054bf773bd")
-		(property "Reference" "#PWR104"
-			(at 63.5 208.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b370c0c9-4932-4ec3-8827-59be47e9f48b")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 83.82 255.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1fa0686-85fe-426e-b3c3-f83d46da1c44")
-		(property "Reference" "#PWR135"
-			(at 83.82 259.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 83.82 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66382ec7-ce53-4b25-bf7d-0a8c1877db62")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 104.14 187.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3639d29-0c5b-4f5c-8ca6-6caad7e52286")
-		(property "Reference" "#PWR107"
-			(at 104.14 191.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 183.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 187.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d54ff0d9-74a9-4599-aa97-71d4a0ab79ea")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 43.18 210.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7c34387-8362-4cb4-bf7a-bf9b88600416")
-		(property "Reference" "#PWR111"
-			(at 43.18 214.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a974e35-e480-4a20-b2af-c794e947d5a6")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 43.18 255.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b82810dc-21bc-4e85-a78f-3e777994c0a1")
-		(property "Reference" "#PWR131"
-			(at 43.18 259.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd8385f1-e924-41be-aec6-9d066a559c3c")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 124.46 255.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb537a70-fd53-46cb-9421-5a2af8100811")
-		(property "Reference" "#PWR139"
-			(at 124.46 259.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 124.46 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 255.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e86087a6-6c1b-4f5c-b121-97648a4a0837")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 124.46 233.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfb63c0c-5466-4723-b4a9-387aed3357c3")
-		(property "Reference" "#PWR129"
-			(at 124.46 236.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 124.46 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 233.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45f73452-e4a6-492d-9c05-e34926b4ebc2")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 43.18 271.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1770002-24c8-4133-9bb2-567fe6a4f040")
-		(property "Reference" "#PWR132"
-			(at 43.18 277.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 275.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "482505f1-111d-4681-9c7a-b43d471280f1")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 104.14 240.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4f37ba5-23df-47b9-98d1-04fec7b1d8bc")
-		(property "Reference" "NEO14"
-			(at 109.22 235.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 105.41 246.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 105.41 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 250.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 240.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f36a591d-76ff-483a-b063-95dbba853b27")
-		)
-		(pin "3"
-			(uuid "11551797-4437-43ef-89c8-055ddd11b9e0")
-		)
-		(pin "1"
-			(uuid "40beb3fa-d274-4954-86b7-fb1a772eec3c")
-		)
-		(pin "4"
-			(uuid "d11f016c-dbba-44a8-a70b-b7a8d0de248d")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 63.5 195 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9ed1c2c-8bdc-4eb7-9350-2db748696de6")
-		(property "Reference" "NEO2"
-			(at 68.58 189.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 64.77 200.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 64.77 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 204.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "76916f16-a0bc-4a45-b7e7-18feb3751b0d")
-		)
-		(pin "3"
-			(uuid "51c3ea12-6329-4f6b-9c16-1f4ab4198912")
-		)
-		(pin "1"
-			(uuid "5ed52ef8-0545-4a0f-88d4-ecd677a03f6b")
-		)
-		(pin "4"
-			(uuid "6fc900cd-5837-4b9e-87a0-8d678a4c9171")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 63.5 210.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbc2876c-070c-4209-af03-9c2dd3f57e71")
-		(property "Reference" "#PWR113"
-			(at 63.5 214.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 63.5 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2cabc866-2841-4026-bc91-fecbd6aba7ab")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 104.14 248.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1faea9a-62b7-4f30-b134-cf95c881aff9")
-		(property "Reference" "#PWR128"
-			(at 104.14 254.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fed59314-0ab1-44e9-9f03-a425f8c6a79a")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 124.46 248.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d910f224-d857-4043-9b4e-09192ada9c1f")
-		(property "Reference" "#PWR130"
-			(at 124.46 254.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 252.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 248.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ff1e5da-4883-4102-a874-a359e2329d1d")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 124.46 195 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed9f2a8c-2abb-45b2-9658-bd4a629ceded")
-		(property "Reference" "NEO5"
-			(at 129.54 189.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 125.73 200.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 125.73 202.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 204.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2ee64028-6031-4b0e-a242-ff8089be4284")
-		)
-		(pin "3"
-			(uuid "1a3eeb07-c367-4208-af06-66afb11dba5c")
-		)
-		(pin "1"
-			(uuid "5ff24aaf-0be1-47e7-a03b-a61e14c482c9")
-		)
-		(pin "4"
-			(uuid "fab28866-e4e5-43c9-91e6-986c29030b7b")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 104.14 210.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee5da3c5-23d7-42aa-9546-438b7001094e")
-		(property "Reference" "#PWR117"
-			(at 104.14 214.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 104.14 206.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 210.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58f760b5-1b41-434d-939b-e3bc95c7846e")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 63.5 225.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efa9959c-a52e-41ff-a13d-b105d0fd8764")
-		(property "Reference" "#PWR114"
-			(at 63.5 231.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 229.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 225.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67bca341-6ea9-46ae-b76b-3ebc9447b37e")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 124.46 263.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5f68aa6-d89b-499a-aac9-4912ff3a2e8a")
-		(property "Reference" "NEO20"
-			(at 129.54 257.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 125.73 269.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 125.73 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 273.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 263.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "868f7bca-b1ad-4206-8acd-7192059d9921")
-		)
-		(pin "3"
-			(uuid "21aba919-1014-44dd-84c1-0f98393c4488")
-		)
-		(pin "1"
-			(uuid "4062271a-8467-4772-a3b7-470d11a1323d")
-		)
-		(pin "4"
-			(uuid "75b3914b-a2b5-4a84-b9e0-e9ed5f40ef3f")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 63.5 263.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fda6a844-1a9c-4345-87a8-96fa870bd6c7")
-		(property "Reference" "NEO17"
-			(at 68.58 257.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 64.77 269.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 64.77 271.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 273.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 263.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3597d2a3-aab2-40ea-8923-f1bbefad8a29")
-		)
-		(pin "3"
-			(uuid "587bd1c1-1eab-4007-95a3-f657ad3b437d")
-		)
-		(pin "1"
-			(uuid "d63842f6-0bc9-4916-a603-a0a44ccde48f")
-		)
-		(pin "4"
-			(uuid "35282379-0796-40b7-aa14-924c3ba63849")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO17")
-					(unit 1)
-				)
-			)
-		)
+	(wire
+		(pts
+			(xy 269.24 38.1) (xy 284.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af46a71c-85f6-4833-9e99-c30812d73787")
 	)
 	(sheet_instances
 		(path "/"
