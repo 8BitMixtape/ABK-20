@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "586acb5e-8acc-4ed8-b81f-7b15963d193b")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "+3V3_1"
 			(power)
@@ -28785,6 +28785,4146 @@
 		(color 0 0 0 0)
 		(uuid "ffd69a9d-fc78-4bb6-8819-719306aea266")
 	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 43.18 195.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48b0f923-8e5f-44f4-8c54-1761539ff8c0")
+		(property "Reference" "NEO1"
+			(at 48.26 189.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 44.45 200.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 44.45 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 204.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 195.00 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ade511f-b199-495a-97f5-def4833f7a05")
+		)
+		(pin "3"
+			(uuid "1de70184-fea4-4faa-869a-4da439aab212")
+		)
+		(pin "1"
+			(uuid "12908667-9f00-464f-9c26-ab5548bf8333")
+		)
+		(pin "4"
+			(uuid "f7d3e887-934a-4b06-8efc-983a00b21f0b")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 43.18 187.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98c14eab-854c-4560-bbbb-3f26f700600b")
+		(property "Reference" "#PWR101"
+			(at 43.18 191.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 183.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "352ba80f-66f3-4802-830d-046e62e6f3a5")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 43.18 202.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0035aff9-f436-401f-92ac-fe9e32fbf62c")
+		(property "Reference" "#PWR102"
+			(at 43.18 208.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c77543d1-60e3-42c8-b499-b8db1b35f61a")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 63.50 195.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ed1c2c-8bdc-4eb7-9350-2db748696de6")
+		(property "Reference" "NEO2"
+			(at 68.58 189.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 64.77 200.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 64.77 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 204.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 195.00 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76916f16-a0bc-4a45-b7e7-18feb3751b0d")
+		)
+		(pin "3"
+			(uuid "51c3ea12-6329-4f6b-9c16-1f4ab4198912")
+		)
+		(pin "1"
+			(uuid "5ed52ef8-0545-4a0f-88d4-ecd677a03f6b")
+		)
+		(pin "4"
+			(uuid "6fc900cd-5837-4b9e-87a0-8d678a4c9171")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 63.50 187.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cbd2a6f-e4b9-46cb-84f9-e13bf5d759cd")
+		(property "Reference" "#PWR103"
+			(at 63.50 191.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 63.50 183.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb4025bf-9559-457b-b534-657bf906fbdc")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 63.50 202.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0867267-abdf-4040-a326-34054bf773bd")
+		(property "Reference" "#PWR104"
+			(at 63.50 208.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.50 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b370c0c9-4932-4ec3-8827-59be47e9f48b")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 83.82 195.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "351fefd5-2d79-41b7-bb4f-6f2d66733ce9")
+		(property "Reference" "NEO3"
+			(at 88.90 189.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 85.09 200.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 85.09 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 204.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 195.00 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc6f5635-4453-4e89-af38-b10d700b04a8")
+		)
+		(pin "3"
+			(uuid "65d4687a-ef9f-4ba5-8988-88264685b518")
+		)
+		(pin "1"
+			(uuid "1af143e9-d7ad-4bab-aaeb-67f9e4f915db")
+		)
+		(pin "4"
+			(uuid "df718391-253d-4855-9ace-a245da5bd9ae")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 83.82 187.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99476a72-d784-4dc9-9e61-04da22832703")
+		(property "Reference" "#PWR105"
+			(at 83.82 191.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 83.82 183.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94b3189c-4942-41a2-9f74-0a593e87b2d9")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 83.82 202.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a32961f0-94f2-47f3-a4d3-875a82cf0628")
+		(property "Reference" "#PWR106"
+			(at 83.82 208.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb87b914-7aca-4240-ae83-fa8a9c399a03")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 104.14 195.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a918cf0-7877-464e-8e3d-68fb3c9d7a80")
+		(property "Reference" "NEO4"
+			(at 109.22 189.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 105.41 200.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 105.41 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 204.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 195.00 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b07b51df-88cc-4e4b-a840-374df8a2e736")
+		)
+		(pin "3"
+			(uuid "0effc395-019f-47a8-954f-0bae9066002e")
+		)
+		(pin "1"
+			(uuid "c052fea9-ee14-45c0-984e-018319b34598")
+		)
+		(pin "4"
+			(uuid "64b4e19a-46d7-4430-a712-abd7a2007910")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 104.14 187.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3639d29-0c5b-4f5c-8ca6-6caad7e52286")
+		(property "Reference" "#PWR107"
+			(at 104.14 191.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 183.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d54ff0d9-74a9-4599-aa97-71d4a0ab79ea")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 104.14 202.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46814ec3-892c-4c7b-8f3d-7f54aa09751f")
+		(property "Reference" "#PWR108"
+			(at 104.14 208.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6a8d21b-f659-4ad3-b0ae-763e0641effe")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 124.46 195.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed9f2a8c-2abb-45b2-9658-bd4a629ceded")
+		(property "Reference" "NEO5"
+			(at 129.54 189.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 125.73 200.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 125.73 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.00 204.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 195.00 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2ee64028-6031-4b0e-a242-ff8089be4284")
+		)
+		(pin "3"
+			(uuid "1a3eeb07-c367-4208-af06-66afb11dba5c")
+		)
+		(pin "1"
+			(uuid "5ff24aaf-0be1-47e7-a03b-a61e14c482c9")
+		)
+		(pin "4"
+			(uuid "fab28866-e4e5-43c9-91e6-986c29030b7b")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 124.46 187.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "392db00a-9c2b-4dd4-bd0e-4a95805483f9")
+		(property "Reference" "#PWR109"
+			(at 124.46 191.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 183.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 187.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e77d29b9-65bf-4ccc-816c-31d92eba489f")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 124.46 202.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "562ef904-8328-4e86-9d7b-2193753dac5d")
+		(property "Reference" "#PWR110"
+			(at 124.46 208.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 202.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b64929a-a2c2-4039-8666-3d63a79ab4f5")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 43.18 217.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d42e14-21d4-4146-a949-9b757ab41619")
+		(property "Reference" "NEO6"
+			(at 48.26 212.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 44.45 223.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 44.45 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 227.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 217.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8d6df71-8da5-45d6-974d-8360f530008c")
+		)
+		(pin "3"
+			(uuid "cf2624a4-e832-4ec5-9eb0-63fe02b0e3f7")
+		)
+		(pin "1"
+			(uuid "bffae817-c4c4-46ab-b9bf-7255169037dc")
+		)
+		(pin "4"
+			(uuid "9a2099bd-ebb9-4a1d-a836-06043011c653")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 43.18 210.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7c34387-8362-4cb4-bf7a-bf9b88600416")
+		(property "Reference" "#PWR111"
+			(at 43.18 214.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a974e35-e480-4a20-b2af-c794e947d5a6")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 43.18 225.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90e640ae-dcda-4442-abfc-818eda1423fd")
+		(property "Reference" "#PWR112"
+			(at 43.18 231.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53f6928e-8fd6-43d9-95af-64f7d8814f3c")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 63.50 217.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3159552e-2263-46d6-852e-cad3b4921804")
+		(property "Reference" "NEO7"
+			(at 68.58 212.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 64.77 223.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 64.77 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 227.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 217.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34792d38-027c-443f-8379-6b909e961a97")
+		)
+		(pin "3"
+			(uuid "81bcd0fb-c6dd-4118-a190-5140fd1114e4")
+		)
+		(pin "1"
+			(uuid "6368aca0-3347-451e-8583-7fbdbc5da46c")
+		)
+		(pin "4"
+			(uuid "4384760c-947b-4364-8922-1017809a5a48")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 63.50 210.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbc2876c-070c-4209-af03-9c2dd3f57e71")
+		(property "Reference" "#PWR113"
+			(at 63.50 214.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 63.50 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cabc866-2841-4026-bc91-fecbd6aba7ab")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 63.50 225.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efa9959c-a52e-41ff-a13d-b105d0fd8764")
+		(property "Reference" "#PWR114"
+			(at 63.50 231.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.50 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67bca341-6ea9-46ae-b76b-3ebc9447b37e")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 83.82 217.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3d11d5-8fb2-485b-bb72-83b123d1d598")
+		(property "Reference" "NEO8"
+			(at 88.90 212.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 85.09 223.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 85.09 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 227.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 217.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f961e27e-5cde-4b90-9f91-a9eab232f7be")
+		)
+		(pin "3"
+			(uuid "cea841b3-157e-4d2b-a370-902d7133e605")
+		)
+		(pin "1"
+			(uuid "a1baeeba-dc8f-4720-8517-4c4180cd83ca")
+		)
+		(pin "4"
+			(uuid "aafcf06b-e8d4-4fd9-b920-3df13bbfb9f8")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 83.82 210.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bbf569f-3337-4857-aaff-6a286d8e6a42")
+		(property "Reference" "#PWR115"
+			(at 83.82 214.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 83.82 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6171323c-a326-4f63-a11d-c9bd4ef77fb3")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 83.82 225.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bad5d74-f14d-4de8-8726-6901340b1b61")
+		(property "Reference" "#PWR116"
+			(at 83.82 231.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e6a67aa-5022-4f4b-8f40-a8c6d09062a7")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 104.14 217.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a9e56c1-c712-4c57-8449-547541631e34")
+		(property "Reference" "NEO9"
+			(at 109.22 212.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 105.41 223.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 105.41 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 227.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 217.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ca6a87a-8f01-445d-8e08-74d3d995c881")
+		)
+		(pin "3"
+			(uuid "eb5de8cd-c955-40bf-835c-9561cb32a22e")
+		)
+		(pin "1"
+			(uuid "9acf02af-4a94-4c6e-8975-d88d03569ce2")
+		)
+		(pin "4"
+			(uuid "d3b934ff-bfca-4d71-b6d2-04f692679c30")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 104.14 210.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee5da3c5-23d7-42aa-9546-438b7001094e")
+		(property "Reference" "#PWR117"
+			(at 104.14 214.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58f760b5-1b41-434d-939b-e3bc95c7846e")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 104.14 225.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d66e342-7bae-43d0-b386-b37f7135ace8")
+		(property "Reference" "#PWR118"
+			(at 104.14 231.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e122fcb8-f3df-4f21-9d28-ac73d7e67b43")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 124.46 217.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3e2f36-8536-4c29-a6be-dbd15f80956d")
+		(property "Reference" "NEO10"
+			(at 129.54 212.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 125.73 223.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 125.73 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.00 227.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 217.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7579688b-1403-4768-9598-56ba14aa08aa")
+		)
+		(pin "3"
+			(uuid "d895b720-ee4d-4edc-b3ac-7e132f66ed0c")
+		)
+		(pin "1"
+			(uuid "be0d066c-6bf9-445b-8f29-4e0b81e592fb")
+		)
+		(pin "4"
+			(uuid "26c9e1ab-cf2a-42c0-8c37-f56f707fe421")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 124.46 210.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417878ca-e783-4669-b895-aa9b583317d0")
+		(property "Reference" "#PWR119"
+			(at 124.46 214.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 206.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 210.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a04c99a-4dc8-4119-89cf-96bf010eb537")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 124.46 225.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "628130d6-45c9-4566-a3d4-a8b1bc04056d")
+		(property "Reference" "#PWR120"
+			(at 124.46 231.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 225.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec1c44f5-8cd3-4b12-bc17-2ae0975d90d5")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 43.18 240.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87fdd7cb-99e1-491b-ac19-6186ef32016d")
+		(property "Reference" "NEO11"
+			(at 48.26 235.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 44.45 246.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 44.45 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 250.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 240.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41c0a797-f1bd-4731-9932-dd36ffb63b1c")
+		)
+		(pin "3"
+			(uuid "86849282-ca3c-46d9-8c96-abd60aea60b0")
+		)
+		(pin "1"
+			(uuid "50fcaf36-fc94-4225-b999-4534bed9d7dc")
+		)
+		(pin "4"
+			(uuid "0f34305f-2853-48df-8e1b-873d9e3154b7")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 43.18 233.10 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36921a95-430e-4ca0-a425-3223b73d24c3")
+		(property "Reference" "#PWR121"
+			(at 43.18 236.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30605856-4f1f-4447-b670-21654500fbea")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 43.18 248.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "619472a0-c896-4efa-9960-71036ad18197")
+		(property "Reference" "#PWR122"
+			(at 43.18 254.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e083b672-9572-419a-a4e3-75a3d9024016")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 63.50 240.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f1088aa-f3f3-4bbb-851d-23125be1b4be")
+		(property "Reference" "NEO12"
+			(at 68.58 235.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 64.77 246.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 64.77 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 250.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 240.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d1827e8b-8d34-4eb3-8414-a107beb1461f")
+		)
+		(pin "3"
+			(uuid "95d8a3ca-e916-4445-96a0-1edaef96cf70")
+		)
+		(pin "1"
+			(uuid "af200cf4-1932-4f2e-ad07-215c7954df64")
+		)
+		(pin "4"
+			(uuid "9bb6e020-97ff-4456-bb50-a86095dcbd1b")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 63.50 233.10 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aa2f562-daef-43b3-ad4e-e6b8e3f2e0d6")
+		(property "Reference" "#PWR123"
+			(at 63.50 236.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 63.50 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2957fd36-0b34-42e9-ad03-530c03efaff7")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 63.50 248.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4c8478-55ff-433a-939c-7c3381cb79ef")
+		(property "Reference" "#PWR124"
+			(at 63.50 254.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.50 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daf5f1f4-bd9d-4fd4-9479-f931a41c27e6")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 83.82 240.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c9b5ebb-7d2f-4b2e-8655-5ac00537869a")
+		(property "Reference" "NEO13"
+			(at 88.90 235.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 85.09 246.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 85.09 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 250.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 240.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c8259e04-6ce0-4cc8-8e46-53857b2e6405")
+		)
+		(pin "3"
+			(uuid "548b87ea-839f-4fcb-af1a-3da710d39e47")
+		)
+		(pin "1"
+			(uuid "36b35153-ecd3-401f-bd0c-d55be805408f")
+		)
+		(pin "4"
+			(uuid "faf58923-db0c-4c93-8b56-51c877e3d47b")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 83.82 233.10 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8146f02-58ab-4c04-8882-3923029d2d0a")
+		(property "Reference" "#PWR125"
+			(at 83.82 236.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 83.82 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "200a99e8-3c64-4cd5-8765-babc956a7f58")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 83.82 248.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41a55300-ab26-4af3-945e-9e2845411743")
+		(property "Reference" "#PWR126"
+			(at 83.82 254.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "096d6e3a-e1ea-4b44-8478-ca51532ceb69")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 104.14 240.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4f37ba5-23df-47b9-98d1-04fec7b1d8bc")
+		(property "Reference" "NEO14"
+			(at 109.22 235.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 105.41 246.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 105.41 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 250.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 240.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f36a591d-76ff-483a-b063-95dbba853b27")
+		)
+		(pin "3"
+			(uuid "11551797-4437-43ef-89c8-055ddd11b9e0")
+		)
+		(pin "1"
+			(uuid "40beb3fa-d274-4954-86b7-fb1a772eec3c")
+		)
+		(pin "4"
+			(uuid "d11f016c-dbba-44a8-a70b-b7a8d0de248d")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 104.14 233.10 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "268f20aa-6496-40a7-aa6c-bd13ec655ebc")
+		(property "Reference" "#PWR127"
+			(at 104.14 236.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b80492c-751b-4deb-a71b-2327bd0fe7ad")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 104.14 248.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1faea9a-62b7-4f30-b134-cf95c881aff9")
+		(property "Reference" "#PWR128"
+			(at 104.14 254.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fed59314-0ab1-44e9-9f03-a425f8c6a79a")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 124.46 240.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "931c778e-fc98-4617-9ee1-6d1f9b9f216e")
+		(property "Reference" "NEO15"
+			(at 129.54 235.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 125.73 246.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 125.73 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.00 250.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 240.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99009a5a-f9df-46e2-918e-a9e511cf20dd")
+		)
+		(pin "3"
+			(uuid "66521f10-6a5c-4b20-bb47-a15e6af12f10")
+		)
+		(pin "1"
+			(uuid "ffa39821-71e0-4d8a-89b6-01bbdae309b1")
+		)
+		(pin "4"
+			(uuid "79796cdf-69e8-4a3f-9403-feb9b061a7b9")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 124.46 233.10 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfb63c0c-5466-4723-b4a9-387aed3357c3")
+		(property "Reference" "#PWR129"
+			(at 124.46 236.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 229.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 233.10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45f73452-e4a6-492d-9c05-e34926b4ebc2")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 124.46 248.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d910f224-d857-4043-9b4e-09192ada9c1f")
+		(property "Reference" "#PWR130"
+			(at 124.46 254.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 248.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ff1e5da-4883-4102-a874-a359e2329d1d")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 43.18 263.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b2dc78c-4da0-4614-9304-e6a07f31c92d")
+		(property "Reference" "NEO16"
+			(at 48.26 257.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 44.45 269.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 44.45 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 273.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 263.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d6f0a24d-914b-4037-a84c-04b4e583ee80")
+		)
+		(pin "3"
+			(uuid "580d54fe-93dc-48eb-b742-1a3293881488")
+		)
+		(pin "1"
+			(uuid "09961c47-ea30-4a15-a72a-b0706c888e37")
+		)
+		(pin "4"
+			(uuid "e98142e5-588e-46ec-9438-3542d0304d1c")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 43.18 255.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b82810dc-21bc-4e85-a78f-3e777994c0a1")
+		(property "Reference" "#PWR131"
+			(at 43.18 259.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd8385f1-e924-41be-aec6-9d066a559c3c")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 43.18 271.20 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1770002-24c8-4133-9bb2-567fe6a4f040")
+		(property "Reference" "#PWR132"
+			(at 43.18 277.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 275.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "482505f1-111d-4681-9c7a-b43d471280f1")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 63.50 263.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda6a844-1a9c-4345-87a8-96fa870bd6c7")
+		(property "Reference" "NEO17"
+			(at 68.58 257.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 64.77 269.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 64.77 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 273.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 263.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3597d2a3-aab2-40ea-8923-f1bbefad8a29")
+		)
+		(pin "3"
+			(uuid "587bd1c1-1eab-4007-95a3-f657ad3b437d")
+		)
+		(pin "1"
+			(uuid "d63842f6-0bc9-4916-a603-a0a44ccde48f")
+		)
+		(pin "4"
+			(uuid "35282379-0796-40b7-aa14-924c3ba63849")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 63.50 255.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0861f88-5ee5-475e-bdb5-c340aac5ac1e")
+		(property "Reference" "#PWR133"
+			(at 63.50 259.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 63.50 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94b221ae-0150-4997-b62a-c319366145b5")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 63.50 271.20 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a180ea4-61f2-4a9b-a166-fb39477e7a14")
+		(property "Reference" "#PWR134"
+			(at 63.50 277.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.50 275.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.50 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.50 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.50 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5c85512-6be6-4054-9a05-8ab68c959930")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 83.82 263.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f1c01f-bdd9-4e62-ab6d-909c95e640ec")
+		(property "Reference" "NEO18"
+			(at 88.90 257.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 85.09 269.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 85.09 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 273.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 263.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ba39fea-8e29-40fe-bc12-fb6629622309")
+		)
+		(pin "3"
+			(uuid "63c98087-4266-4d26-a16b-710bfc93871e")
+		)
+		(pin "1"
+			(uuid "c55ad48a-b0b1-4f4a-be5f-f9093a1a3767")
+		)
+		(pin "4"
+			(uuid "70e9a382-a096-4ade-90fa-1ae3769ccc1a")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 83.82 255.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1fa0686-85fe-426e-b3c3-f83d46da1c44")
+		(property "Reference" "#PWR135"
+			(at 83.82 259.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 83.82 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66382ec7-ce53-4b25-bf7d-0a8c1877db62")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 83.82 271.20 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74023879-0388-4eeb-9edb-48c2ac122a0c")
+		(property "Reference" "#PWR136"
+			(at 83.82 277.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 275.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0dcedf2-9483-4f16-9d70-a7023043ebb7")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 104.14 263.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "067664c4-f671-4c28-89d9-06330ef3d102")
+		(property "Reference" "NEO19"
+			(at 109.22 257.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 105.41 269.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 105.41 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 273.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 263.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "594f821e-1b8a-4f79-9372-974ffaa8adeb")
+		)
+		(pin "3"
+			(uuid "4a1a660e-aea9-47e0-b01e-19ee54f56396")
+		)
+		(pin "1"
+			(uuid "a04d664b-11fc-4bcd-bd4d-da30b6013414")
+		)
+		(pin "4"
+			(uuid "d46dec71-b34a-416d-8c80-e812fbbcbc85")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 104.14 255.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "826a7065-76fb-4d9a-bcbf-f48c6e61ffce")
+		(property "Reference" "#PWR137"
+			(at 104.14 259.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ddb4314-1628-4a93-9511-fb5d7e647f72")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 104.14 271.20 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8771ea4c-6892-49d3-8c91-0554cf85c97a")
+		(property "Reference" "#PWR138"
+			(at 104.14 277.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 275.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04cc419e-16f0-4818-ac4b-7e6c95a27d95")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812_9")
+		(lib_id "ABK-20-rescue1:SK6812")
+		(at 124.46 263.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5f68aa6-d89b-499a-aac9-4912ff3a2e8a")
+		(property "Reference" "NEO20"
+			(at 129.54 257.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 125.73 269.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
+			(at 125.73 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.00 273.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 263.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "868f7bca-b1ad-4206-8acd-7192059d9921")
+		)
+		(pin "3"
+			(uuid "21aba919-1014-44dd-84c1-0f98393c4488")
+		)
+		(pin "1"
+			(uuid "4062271a-8467-4772-a3b7-470d11a1323d")
+		)
+		(pin "4"
+			(uuid "75b3914b-a2b5-4a84-b9e0-e9ed5f40ef3f")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "NEO20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_31")
+		(lib_id "ABK-20-rescue1:VCC")
+		(at 124.46 255.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb537a70-fd53-46cb-9421-5a2af8100811")
+		(property "Reference" "#PWR139"
+			(at 124.46 259.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 252.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 255.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e86087a6-6c1b-4f5c-b121-97648a4a0837")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_59")
+		(lib_id "ABK-20-rescue1:GND")
+		(at 124.46 271.20 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26e2681f-83e3-4f35-8318-730ebd3375fe")
+		(property "Reference" "#PWR140"
+			(at 124.46 277.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 275.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 271.20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fe8ee13-e524-4142-868d-541f52afcb2f")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "#PWR140")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(wire
 		(pts
 			(xy 262.89 146.05) (xy 256.54 146.05)
@@ -28824,16 +32964,6 @@
 			(type default)
 		)
 		(uuid "0406b156-0097-4a00-8fb5-5ba3322f796e")
-	)
-	(wire
-		(pts
-			(xy 118.11 182.88) (xy 116.84 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040822f4-ad51-41f5-9605-21237e855a1e")
 	)
 	(wire
 		(pts
@@ -29097,16 +33227,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 182.88) (xy 33.02 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262b96a2-eff9-4f24-85df-1c1405dcea75")
-	)
-	(wire
-		(pts
 			(xy 245.11 113.03) (xy 245.11 115.57)
 		)
 		(stroke
@@ -29134,16 +33254,6 @@
 			(type default)
 		)
 		(uuid "286f4da8-5ba8-4ecb-91ac-460be1b3ab94")
-	)
-	(wire
-		(pts
-			(xy 52.07 182.88) (xy 50.8 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289ffd76-b383-4463-86ab-a41c96fb5c48")
 	)
 	(wire
 		(pts
@@ -29194,16 +33304,6 @@
 			(type default)
 		)
 		(uuid "2c150ca1-5735-45da-a3a7-09a1c07df54f")
-	)
-	(wire
-		(pts
-			(xy 68.58 182.88) (xy 67.31 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "320fb66d-6564-4d93-9c3a-6f4fbde29e0c")
 	)
 	(wire
 		(pts
@@ -29404,16 +33504,6 @@
 			(type dash)
 		)
 		(uuid "5145c81d-56eb-43ce-ac9f-23a73dfd5125")
-	)
-	(wire
-		(pts
-			(xy 134.62 182.88) (xy 133.35 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520b2bdc-89ed-4b79-84b6-8f291c5030ba")
 	)
 	(wire
 		(pts
@@ -30017,16 +34107,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 182.88) (xy 83.82 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8aa567e-16dd-49fa-bb38-9e0a30e5d41c")
-	)
-	(wire
-		(pts
 			(xy 162.56 149.86) (xy 167.64 149.86)
 		)
 		(stroke
@@ -30174,16 +34254,6 @@
 			(type default)
 		)
 		(uuid "ca2b70ee-d230-4b58-b2a5-521162dfcc4a")
-	)
-	(wire
-		(pts
-			(xy 151.13 182.88) (xy 149.86 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc4f2a1a-165a-4c20-a1c9-3745f5115b1e")
 	)
 	(wire
 		(pts
@@ -30354,16 +34424,6 @@
 			(type default)
 		)
 		(uuid "e289c85e-8a32-4b70-ad45-b95365e010d2")
-	)
-	(wire
-		(pts
-			(xy 101.6 182.88) (xy 100.33 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3191d84-7355-405c-b767-4d70fcc2dea4")
 	)
 	(wire
 		(pts
@@ -35114,136 +39174,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_51")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 43.18 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b4dbb82")
-		(property "Reference" "#PWR028"
-			(at 43.18 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c13f9ad7-0b78-480b-8366-21dc9b4a137a")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_27")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 43.18 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b4dbca0")
-		(property "Reference" "#PWR029"
-			(at 43.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9acf6b23-59fd-4698-ad39-b1d63758ed54")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_32")
 		(lib_id "ABK-20-rescue1:R")
 		(at 29.21 182.88 270)
@@ -36602,1532 +40532,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SK6812_9")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 43.18 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60c1bd")
-		(property "Reference" "NEO1"
-			(at 48.26 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 44.45 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 44.45 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d05bf6e-b102-4114-8083-5d638609f4a2")
-		)
-		(pin "3"
-			(uuid "b772642c-3301-477a-8e03-f6d52d3a7ffd")
-		)
-		(pin "1"
-			(uuid "31d26faf-2512-45b0-a11d-ce43aada81dc")
-		)
-		(pin "4"
-			(uuid "7bcd149c-fb1b-426d-9d43-72555a6ec611")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_52")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 59.69 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f090")
-		(property "Reference" "#PWR038"
-			(at 59.69 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d956a9ea-209d-49bb-8cf1-cb13aedf0e85")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_29")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 59.69 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f096")
-		(property "Reference" "#PWR039"
-			(at 59.69 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17633b84-f319-48fd-8e45-c776ec51710c")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_11")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 59.69 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f09c")
-		(property "Reference" "NEO2"
-			(at 64.77 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 60.96 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 60.96 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7b738d6-6a61-42eb-a941-2b6a8e59ff2f")
-		)
-		(pin "3"
-			(uuid "fc139037-4f1b-4004-b4bc-eaee3f98d75c")
-		)
-		(pin "1"
-			(uuid "3889bf58-9b4d-43c1-b7b5-be7f862c44d5")
-		)
-		(pin "4"
-			(uuid "a2f36758-717c-4b2d-ba94-a6d20139696c")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_53")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 76.2 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f156")
-		(property "Reference" "#PWR040"
-			(at 76.2 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d182e8bc-9f42-4c43-b91e-fc9499708625")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_28")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 76.2 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f15c")
-		(property "Reference" "#PWR041"
-			(at 76.2 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 76.2 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fb38ca3-2850-41f6-8c41-e7fb2c87fa1b")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_10")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 76.2 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f162")
-		(property "Reference" "NEO3"
-			(at 81.28 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 77.47 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 77.47 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f2dfe834-54c8-48ff-8e75-37738eebd0e2")
-		)
-		(pin "3"
-			(uuid "c21adee5-1a1b-45dd-9cae-6280028e530a")
-		)
-		(pin "1"
-			(uuid "61cdd3c3-b274-4b5f-ba91-3d8d01b38873")
-		)
-		(pin "4"
-			(uuid "3cdccae4-e2c6-45c6-a494-604374031374")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_60")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 92.71 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f225")
-		(property "Reference" "#PWR042"
-			(at 92.71 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "872bdef5-dcb5-47b7-92c8-d4f6e3b134b7")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_32")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 92.71 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f22b")
-		(property "Reference" "#PWR043"
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 92.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a93b964-ea5d-49d1-9268-07fe188b01fe")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_14")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 92.71 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f231")
-		(property "Reference" "NEO4"
-			(at 97.79 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 93.98 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 93.98 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fd303b9c-dfc6-4633-93a6-a9f334be1513")
-		)
-		(pin "3"
-			(uuid "bc0b5f78-d9eb-4c9b-8084-3118d888c837")
-		)
-		(pin "1"
-			(uuid "f28a1491-a4bd-4fef-80bc-4f0d384f5859")
-		)
-		(pin "4"
-			(uuid "e56f4e21-5670-4590-bcbd-7f04d484639c")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_61")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 109.22 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f321")
-		(property "Reference" "#PWR044"
-			(at 109.22 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6de090c0-c7dd-46d8-ab51-43ad6bc38845")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_33")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 109.22 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f327")
-		(property "Reference" "#PWR045"
-			(at 109.22 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e79fcd4-f87f-4e9c-98b7-4b79a4a21aa0")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_15")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 109.22 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f32d")
-		(property "Reference" "NEO5"
-			(at 114.3 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 110.49 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 110.49 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a8e40720-96dd-45d1-afcc-81953c27a1da")
-		)
-		(pin "3"
-			(uuid "be72a695-287a-40e9-9b76-7cab3d1d6c37")
-		)
-		(pin "1"
-			(uuid "35a02e0e-6625-4c27-9561-b33a5aff013c")
-		)
-		(pin "4"
-			(uuid "f38c8ba8-99fb-4d01-a1af-61f4158a06a9")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_56")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 125.73 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f3ee")
-		(property "Reference" "#PWR046"
-			(at 125.73 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8233b6f0-605b-4e5a-adb6-d49fcbb40c4e")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_30")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 125.73 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f3f4")
-		(property "Reference" "#PWR047"
-			(at 125.73 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 125.73 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45c5fa7d-2527-48a8-b9d6-6b9a1e5f5362")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_12")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 125.73 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f3fa")
-		(property "Reference" "NEO6"
-			(at 130.81 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 127 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 127 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0e6b7413-2a5e-4337-8b12-1442da0dd681")
-		)
-		(pin "3"
-			(uuid "4ed203d1-83ab-4225-991a-5594a6b9197e")
-		)
-		(pin "1"
-			(uuid "65b4569f-9494-440d-ba24-29358057baad")
-		)
-		(pin "4"
-			(uuid "7c42deff-bddb-42ca-8670-9197a01257bd")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_62")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 142.24 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f830")
-		(property "Reference" "#PWR048"
-			(at 142.24 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52c70d20-110e-4f34-9875-063d383625e5")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_34")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 142.24 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f836")
-		(property "Reference" "#PWR049"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75ffa9a0-3d67-41fd-8abc-57bcdcb7f710")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_16")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 142.24 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f83c")
-		(property "Reference" "NEO7"
-			(at 147.32 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 143.51 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 143.51 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "38376bdc-ff22-44aa-a76e-852a2569b3a8")
-		)
-		(pin "3"
-			(uuid "36725d47-985a-4cd4-8502-6ce6affb8a95")
-		)
-		(pin "1"
-			(uuid "83df54f4-879a-4ebd-879c-390f9085a7a1")
-		)
-		(pin "4"
-			(uuid "5e6fb411-271c-40df-9dc3-9dc0ffc9ee29")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_59")
-		(lib_id "ABK-20-rescue1:GND")
-		(at 158.75 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f8f9")
-		(property "Reference" "#PWR050"
-			(at 158.75 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a8d2459-a9e2-4342-92c3-8bc58e3977bc")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_31")
-		(lib_id "ABK-20-rescue1:VCC")
-		(at 158.75 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f8ff")
-		(property "Reference" "#PWR051"
-			(at 158.75 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 158.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9079b0ea-ce6d-4fda-bb97-e118141350cf")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SK6812_13")
-		(lib_id "ABK-20-rescue1:SK6812")
-		(at 158.75 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c60f905")
-		(property "Reference" "NEO8"
-			(at 163.83 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 160.02 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
-			(at 160.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a03921e0-7f07-4406-afc3-9b041b30b2a1")
-		)
-		(pin "3"
-			(uuid "cb80e87f-ed6d-4fae-af56-2698ad435ed3")
-		)
-		(pin "1"
-			(uuid "77804b39-0629-4710-833d-b5659cba57aa")
-		)
-		(pin "4"
-			(uuid "21770f1c-f545-412e-8a68-9e69343ddc0d")
-		)
-		(instances
-			(project "ABK-20"
-				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
-					(reference "NEO8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_31")
 		(lib_id "ABK-20-rescue1:R")
 		(at 69.85 109.22 0)
@@ -38200,4 +40604,290 @@
 		)
 	)
 	(embedded_fonts no)
+	(wire
+		(pts
+			(xy 33.02 182.88) (xy 33.02 195.0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef77b014-4833-4af4-97ca-55e9db4c6613")
+	)
+	(wire
+		(pts
+			(xy 33.02 195.0) (xy 35.56 195.0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3466b4d7-dfa5-4b4e-a60e-88b9105c103a")
+	)
+	(wire
+		(pts
+			(xy 50.80 195.00) (xy 55.88 195.00)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1d8546-a904-4dc9-880b-09be4ee5fd34")
+	)
+	(wire
+		(pts
+			(xy 71.12 195.00) (xy 76.20 195.00)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60921bbe-a8f3-44be-89a8-606af622be2d")
+	)
+	(wire
+		(pts
+			(xy 91.44 195.00) (xy 96.52 195.00)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7dc3d6-dbf8-48f8-8d73-58087838b8a7")
+	)
+	(wire
+		(pts
+			(xy 111.76 195.00) (xy 116.84 195.00)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3c1ab3-fc58-4b31-9d76-c1b7a24c9049")
+	)
+	(wire
+		(pts
+			(xy 132.08 195.00) (xy 135.89 195.00)
+		)
+		(stroke (width 0) (type default))
+		(uuid "2252ab3a-cd67-475d-abf7-2982a9ea18ce")
+	)
+	(wire
+		(pts
+			(xy 135.89 195.00) (xy 135.89 206.43)
+		)
+		(stroke (width 0) (type default))
+		(uuid "31c7a8b1-2ee9-458a-bbd0-5b97a0a14936")
+	)
+	(wire
+		(pts
+			(xy 135.89 206.43) (xy 31.75 206.43)
+		)
+		(stroke (width 0) (type default))
+		(uuid "c379b99c-0a00-4882-aa41-b0e0b959703f")
+	)
+	(wire
+		(pts
+			(xy 31.75 206.43) (xy 31.75 217.86)
+		)
+		(stroke (width 0) (type default))
+		(uuid "4b71b24c-8d7a-40ce-ad8b-bd9b42ce71d6")
+	)
+	(wire
+		(pts
+			(xy 31.75 217.86) (xy 35.56 217.86)
+		)
+		(stroke (width 0) (type default))
+		(uuid "9c104cc8-0b79-495c-a38c-4e91564ecc86")
+	)
+	(wire
+		(pts
+			(xy 50.80 217.86) (xy 55.88 217.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fd8113-102f-4287-8ab9-64f4f58c1f0e")
+	)
+	(wire
+		(pts
+			(xy 71.12 217.86) (xy 76.20 217.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13d16ba-eca4-4c7e-9696-7e67c2918a4f")
+	)
+	(wire
+		(pts
+			(xy 91.44 217.86) (xy 96.52 217.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5d7cdc-a929-4a2a-998a-73cc2163a958")
+	)
+	(wire
+		(pts
+			(xy 111.76 217.86) (xy 116.84 217.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437f61e2-e118-4676-b9f4-2fa13cbbe7c2")
+	)
+	(wire
+		(pts
+			(xy 132.08 217.86) (xy 135.89 217.86)
+		)
+		(stroke (width 0) (type default))
+		(uuid "ae4c666f-6d70-4f33-8d71-1f9c1af7af5b")
+	)
+	(wire
+		(pts
+			(xy 135.89 217.86) (xy 135.89 229.29)
+		)
+		(stroke (width 0) (type default))
+		(uuid "43c6b575-3a36-4e97-a4c0-860744cc9523")
+	)
+	(wire
+		(pts
+			(xy 135.89 229.29) (xy 31.75 229.29)
+		)
+		(stroke (width 0) (type default))
+		(uuid "13e35919-e4f7-4600-92b7-a5093570426d")
+	)
+	(wire
+		(pts
+			(xy 31.75 229.29) (xy 31.75 240.72)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7a167639-6d8b-405f-8573-cb822f00c4a5")
+	)
+	(wire
+		(pts
+			(xy 31.75 240.72) (xy 35.56 240.72)
+		)
+		(stroke (width 0) (type default))
+		(uuid "bfb48e89-398e-4553-9225-5e5dddf0213a")
+	)
+	(wire
+		(pts
+			(xy 50.80 240.72) (xy 55.88 240.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b2c43e-f5be-4ee6-b187-c57ca8436a97")
+	)
+	(wire
+		(pts
+			(xy 71.12 240.72) (xy 76.20 240.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fb0ddb-c20b-4c5a-b8df-2875c20cb9e0")
+	)
+	(wire
+		(pts
+			(xy 91.44 240.72) (xy 96.52 240.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acb86db-5c22-40ee-a57b-80bfdbd2fad7")
+	)
+	(wire
+		(pts
+			(xy 111.76 240.72) (xy 116.84 240.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd127d3b-b416-4e6e-b624-8f7e4ecab632")
+	)
+	(wire
+		(pts
+			(xy 132.08 240.72) (xy 135.89 240.72)
+		)
+		(stroke (width 0) (type default))
+		(uuid "7fca2363-28cb-45cb-bf10-2344a7326421")
+	)
+	(wire
+		(pts
+			(xy 135.89 240.72) (xy 135.89 252.15)
+		)
+		(stroke (width 0) (type default))
+		(uuid "4df18cb3-c4b4-409f-8a80-1e3889d13564")
+	)
+	(wire
+		(pts
+			(xy 135.89 252.15) (xy 31.75 252.15)
+		)
+		(stroke (width 0) (type default))
+		(uuid "78e91e71-0349-4c7c-89ab-6af42a102cc5")
+	)
+	(wire
+		(pts
+			(xy 31.75 252.15) (xy 31.75 263.58)
+		)
+		(stroke (width 0) (type default))
+		(uuid "e3cc1e5c-1dea-4b7b-9c1c-20b0453a7c11")
+	)
+	(wire
+		(pts
+			(xy 31.75 263.58) (xy 35.56 263.58)
+		)
+		(stroke (width 0) (type default))
+		(uuid "55a4bc2e-020b-4f1d-a3a6-bd9a623b9797")
+	)
+	(wire
+		(pts
+			(xy 50.80 263.58) (xy 55.88 263.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7427419-8973-4bee-aa2f-5401fb6c7fd8")
+	)
+	(wire
+		(pts
+			(xy 71.12 263.58) (xy 76.20 263.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4cbf69-dd16-48af-b0c6-88b88847de91")
+	)
+	(wire
+		(pts
+			(xy 91.44 263.58) (xy 96.52 263.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23275d0-85b5-49cd-a592-f22a326a7442")
+	)
+	(wire
+		(pts
+			(xy 111.76 263.58) (xy 116.84 263.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543895df-9328-44ad-bc19-2878601b7213")
+	)
+
 )
