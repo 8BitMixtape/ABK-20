@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "8Bitmixtape_reworked")(type "KiCad")(uri "${KIPRJMOD}/8Bitmixtape_reworked.pretty")(options "")(descr "8Bit Mixtape reworked footprints"))
+)
