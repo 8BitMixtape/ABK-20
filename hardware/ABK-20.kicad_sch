@@ -37782,7 +37782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_Bourns_PTL30_Single_Slide_LED"
+		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_Bourns_PTL20_Single_Slide_LED"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -37925,7 +37925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_Bourns_PTL30_Single_Slide_LED"
+		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_Bourns_PTL20_Single_Slide_LED"
 			(at 114.3 109.22 0)
 			(effects
 				(font
