@@ -2275,7 +2275,7 @@
 			)
 		)
 		(fp_text user "+B"
-			(at 17.8 3.75 90)
+			(at 17.8 1.25 90)
 			(layer "F.SilkS")
 			(uuid "be159e26-dcbf-4267-9104-7da73772e8dc")
 			(effects
@@ -2286,7 +2286,7 @@
 			)
 		)
 		(fp_text user "3"
-			(at 18 -1.25 90)
+			(at 18 -3.75 90)
 			(layer "F.SilkS")
 			(uuid "ef4f187d-d1d2-45d0-a17d-38dbefcf6968")
 			(effects
@@ -2319,7 +2319,7 @@
 			(uuid "ae60a36f-298b-402c-95ef-ed3eb01692d5")
 		)
 		(pad "3" thru_hole circle
-			(at 20 -1.25 270)
+			(at 20 -3.75 270)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2341,7 +2341,7 @@
 			(uuid "92185d08-a46e-4ecb-acc4-63c7510a540a")
 		)
 		(pad "5" thru_hole circle
-			(at 20 3.75 270)
+			(at 20 1.25 270)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
