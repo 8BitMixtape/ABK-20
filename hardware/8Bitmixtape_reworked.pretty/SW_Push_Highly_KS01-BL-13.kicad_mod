@@ -1,0 +1,182 @@
+(footprint "SW_Push_Highly_KS01-BL-13"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Highly Electric KS01-BL-13 Illuminated Keypad Switch, round frosted cap D=12mm, Bi-color LED, https://www.tme.eu/ch/en/details/ks01-bl-13/keypad-switches/highly-electric/ks01-blv-13/")
+	(tags "Highly KS01 KS01-BL-13 switch button illuminated LED tactile THT 12mm")
+	(property "Reference" "REF**"
+		(at 0 -7.2 0)
+		(layer "F.SilkS")
+		(uuid "a0e8070b-2b37-4853-9e9b-765c5fa405df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push_Highly_KS01-BL-13"
+		(at 0 7.5 0)
+		(layer "F.Fab")
+		(uuid "b5381b22-de1f-4732-9509-9c195255ac9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.eu/Document/445b24673c2c7fe28e59716d9a77095b/KS01+series.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce89e1b9-b9d0-4239-b2ce-ecec9cf8d02e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Highly Electric KS01-BL-13 Illuminated Push Button"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddb79286-64c5-42a7-9459-9320a29d5108")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c6a4c083-89cf-41c6-adec-7885db3e8cae")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "67ab3848-f43c-4387-860c-d09ffcbc81fa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "49f736ab-5360-4639-badd-e475d8407cf4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "482263c1-297a-462d-9f2f-e04e42423ee8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f5e8aefc-c41e-41f4-be47-fa50f0efad7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e0653e86-ed88-43f5-8314-14cffd303149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.5 -2.5)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(roundrect_rratio 0.25)
+		(remove_unused_layers no)
+		(uuid "131dc911-cb7b-4c3d-90cb-b08fdd10bacd")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 -2.5)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ea123b6-b0f7-4779-a21f-3d4e920d59d6")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 2.5)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "986b6264-ae57-40f2-bc42-b05f31087759")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 2.5)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25ed79cd-96b6-4055-8fb5-bb143c775cf8")
+	)
+	(pad "A" thru_hole circle
+		(at -3.1 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35ed79cd-96b6-4055-8fb5-bb143c775cf8")
+	)
+	(pad "K" thru_hole circle
+		(at 3.1 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45ed79cd-96b6-4055-8fb5-bb143c775cf8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/SW_Push_Highly_KS01-BL-13.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

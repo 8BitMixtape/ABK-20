@@ -34585,7 +34585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:TACTILE-PTH_6mm_SMD"
+		(property "Footprint" "8Bitmixtape_reworked:SW_Push_Highly_KS01-BL-13"
 			(at 116.84 168.91 0)
 			(effects
 				(font
