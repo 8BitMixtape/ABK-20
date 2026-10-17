@@ -205,7 +205,7 @@
 		)
 	)
 	(fp_text user "+B"
-		(at 12.8 1.25 0)
+		(at 12.8 3.75 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -260,7 +260,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "5" thru_hole circle
-		(at 15.0 1.25)
+		(at 15.0 3.75)
 		(size 1.8 1.8)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")

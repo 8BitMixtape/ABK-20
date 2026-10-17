@@ -13311,7 +13311,7 @@
 			)
 		)
 		(fp_text user "+B"
-			(at 12.8 1.25 0)
+			(at 12.8 3.75 0)
 			(layer "F.SilkS")
 			(uuid "3d451ec7-0584-43b1-ab4a-b68d6682aec8")
 			(effects
@@ -13388,7 +13388,7 @@
 			(uuid "0a12899d-5dee-4b1f-9934-45ffa43d8f40")
 		)
 		(pad "5" thru_hole circle
-			(at 15 1.25)
+			(at 15 3.75)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
