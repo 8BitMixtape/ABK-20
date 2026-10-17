@@ -6938,7 +6938,7 @@
 			(uuid "5c356358-ae6e-45e7-83f1-0a5390b333c7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d_models/SW_Toggle_SPDT_MTS102_RedCap.wrl"
+		(model "${KIPRJMOD}/3d_models/SW_Toggle_SPDT_SubMini_RedCap.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

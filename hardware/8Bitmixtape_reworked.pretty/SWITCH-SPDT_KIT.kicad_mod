@@ -207,7 +207,7 @@
   (pad 1 thru_hole circle (at 0 -2.7178) (size 1.8796 1.8796) (drill 1.016) (layers F&B.Cu F.Paste F.SilkS F.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 1.8796 1.8796) (drill 1.016) (layers F&B.Cu F.Paste F.SilkS F.Mask))
   (pad 3 thru_hole circle (at 0 2.7178) (size 1.8796 1.8796) (drill 1.016) (layers F&B.Cu F.Paste F.SilkS F.Mask))
-	(model "${KIPRJMOD}/3d_models/SW_Toggle_SPDT_MTS102_RedCap.wrl"
+	(model "${KIPRJMOD}/3d_models/SW_Toggle_SPDT_SubMini_RedCap.wrl"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz -90 0 0))
