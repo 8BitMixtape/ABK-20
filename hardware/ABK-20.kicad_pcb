@@ -13208,7 +13208,7 @@
 			(uuid "3b0b2dde-0be0-4488-bd40-974399b74199")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d_models/SW_PUSH_6mm_H13mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.step"
 			(offset
 				(xyz 0 0 0)
 			)
