@@ -2360,6 +2360,17 @@
 			(uuid "5ff6abbb-22ca-4da0-aed4-ec048db50e90")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/Potentiometer_Bourns_PTL30_Single_Slide_LED.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
 		(layer "F.Cu")
