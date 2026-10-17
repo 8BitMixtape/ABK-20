@@ -26,14 +26,14 @@
     (solder_mask_margin 0.01))
   (pad 1 smd rect (at -2.794 -1.6) (size 1.9 1.2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.01))
-  (model ${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl
-    (at (xyz 0 0 0))
+  
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 180))
   )
-	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
-		(offset (xyz 0 0 0))
+	
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+		(offset (xyz 0 0 0))
 )

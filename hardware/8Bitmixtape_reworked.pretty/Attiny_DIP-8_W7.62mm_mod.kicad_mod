@@ -32,14 +32,14 @@
     (solder_mask_margin 0.01) (clearance 0.01))
   (pad 8 thru_hole oval (at 7.62 0) (size 2.2 1.8) (drill 0.8 (offset 0.2 0)) (layers B.Cu B.Mask)
     (solder_mask_margin 0.01) (clearance 0.01))
-  (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-8_W7.62mm.wrl
-    (at (xyz 0 0 0))
+  
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
-		(offset (xyz 0 0 0))
+	
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
+		(offset (xyz 0 0 0))
 )

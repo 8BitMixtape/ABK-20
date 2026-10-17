@@ -25,14 +25,14 @@
     (solder_mask_margin 0.01))
   (pad 1 smd oval (at -2.794 0) (size 3.5 2.5) (layers B.Cu B.Paste B.Mask)
     (solder_mask_margin 0.01))
-  (model Potentiometers.3dshapes/Potentiometer_Piher_T16L_Single_Horizontal_MountLS.wrl
-    (at (xyz 0 0 0))
+  
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))
   )
-	(model "${KIPRJMOD}/3d_models/ALPHA-RD901F-40.step"
-		(offset (xyz 0 0 0))
+	
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(model "${KIPRJMOD}/3d_models/ALPHA-RD901F-40.step"
+		(offset (xyz 0 0 0))
 )

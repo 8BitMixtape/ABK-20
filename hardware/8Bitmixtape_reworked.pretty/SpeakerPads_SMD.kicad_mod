@@ -29,14 +29,14 @@
     (solder_mask_margin 0.01) (clearance 0.01))
   (pad 2 smd oval (at 0 3.048) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.01) (clearance 0.01))
-  (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x02_Pitch2.54mm.wrl
-    (offset (xyz 0 -1.269999980926514 0))
+  
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 270))
   )
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
-		(offset (xyz 0 0 0))
+	
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+		(offset (xyz 0 0 0))
 )

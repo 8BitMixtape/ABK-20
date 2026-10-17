@@ -54,14 +54,14 @@
     (solder_mask_margin 0.01))
   (pad 1 thru_hole circle (at 0 7.62) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.01))
-  (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Angled_1x04_Pitch2.54mm.wrl
-    (at (xyz 0 -0.15 0))
+  
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 270))
   )
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.step"
-		(offset (xyz 0 0 0))
+	
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.step"
+		(offset (xyz 0 0 0))
 )
