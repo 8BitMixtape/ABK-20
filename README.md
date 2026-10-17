@@ -58,6 +58,16 @@ Dedicated hierarchical sub-sheet (`hardware/LED_Matrix.kicad_sch`) with the rast
 
 ---
 
+## PCB Layout & 3D Model View
+
+The 90×90 mm rounded-corner desktop PCB design features the centered 5×4 NeoPixel display matrix (using the 8.92 mm × 7.96 mm pixel grid with single-sided front-copper snake routing), surrounded by tactile controls, Bourns slide fader, audio jacks, and power stages:
+
+<p align="center">
+  <img src="docs/img/ABK-20_3D_layout.png" alt="ABK-20 PCB 3D Layout & Components" width="850" />
+</p>
+
+---
+
 ## ATtiny85 Pin Mapping
 
 | Pin | Physical | Port | Macro | Function / Description |
@@ -96,7 +106,8 @@ ABK-20/
 │   └── img/
 │       ├── ABK_prototype_randen.png  # Prototype console photo
 │       ├── schematic_page-1.png      # High-res schematic Page 1 render
-│       └── schematic_page-2.png      # High-res schematic Page 2 render
+│       ├── schematic_page-2.png      # High-res schematic Page 2 render
+│       └── ABK-20_3D_layout.png      # 3D PCB layout and component staging view
 └── production/                       # Fabrication deliverables (Gerbers, BOM)
 ```
 
