@@ -13078,12 +13078,12 @@
 			)
 		)
 	)
-	(footprint "8Bitmixtape_reworked:Potentiometer_Bourns_PTL20_Single_Slide_LED"
+	(footprint "8Bitmixtape_reworked:Potentiometer_Bourns_PTL30_Single_Slide_LED"
 		(layer "B.Cu")
 		(uuid "59f2ce65-2f65-4d20-bd4a-673f86bd9508")
 		(at 110 188)
-		(descr "Bourns PTL20 Series Slide Potentiometer with integrated LED, 20mm travel, https://www.bourns.com/docs/product-datasheets/ptl.pdf")
-		(tags "Bourns PTL20 slide potentiometer fader LED illuminated 20mm")
+		(descr "Bourns PTL30 Series Slide Potentiometer with integrated LED, 30mm travel, https://www.bourns.com/docs/product-datasheets/ptl.pdf")
+		(tags "Bourns PTL30 slide potentiometer fader LED illuminated 30mm")
 		(property "Reference" "RV1"
 			(at 0 -5.8 0)
 			(layer "F.SilkS")
@@ -13136,8 +13136,8 @@
 		(sheetfile "ABK-20.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -17.62 -4.62)
-			(end 17.62 -4.62)
+			(start -22.62 -4.62)
+			(end 22.62 -4.62)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13146,8 +13146,8 @@
 			(uuid "8c3de83c-2fc4-4ace-9841-9add6718bced")
 		)
 		(fp_line
-			(start -17.62 4.62)
-			(end -17.62 -4.62)
+			(start -22.62 4.62)
+			(end -22.62 -4.62)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13156,8 +13156,8 @@
 			(uuid "305bb9a0-e8d8-4a28-a780-a220e157bcb5")
 		)
 		(fp_line
-			(start 17.62 -4.62)
-			(end 17.62 4.62)
+			(start 22.62 -4.62)
+			(end 22.62 4.62)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13166,8 +13166,8 @@
 			(uuid "18fab59d-d1b8-40f5-87ea-3868f25eac6b")
 		)
 		(fp_line
-			(start 17.62 4.62)
-			(end -17.62 4.62)
+			(start 22.62 4.62)
+			(end -22.62 4.62)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13176,8 +13176,8 @@
 			(uuid "629eb426-8e4d-48be-b114-32c63d918d6f")
 		)
 		(fp_rect
-			(start -17.75 -4.75)
-			(end 17.75 4.75)
+			(start -22.75 -4.75)
+			(end 22.75 4.75)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -13187,8 +13187,8 @@
 			(uuid "a205dce3-4cc6-468b-8fc5-67817fde4592")
 		)
 		(fp_line
-			(start -17.5 -4.5)
-			(end 17.5 -4.5)
+			(start -22.5 -4.5)
+			(end 22.5 -4.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13197,8 +13197,8 @@
 			(uuid "b1c8caf9-aeea-4df1-b4b0-2945afc7e59f")
 		)
 		(fp_line
-			(start -17.5 4.5)
-			(end -17.5 -4.5)
+			(start -22.5 4.5)
+			(end -22.5 -4.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13207,8 +13207,8 @@
 			(uuid "74129442-eb84-4780-b559-6eba25d13890")
 		)
 		(fp_line
-			(start -10 -0.8)
-			(end 10 -0.8)
+			(start -18.5 -0.8)
+			(end 18.5 -0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13217,8 +13217,8 @@
 			(uuid "114678e4-a22a-4aa1-94b5-f915296a98f8")
 		)
 		(fp_line
-			(start -10 0.8)
-			(end -10 -0.8)
+			(start -18.5 0.8)
+			(end -18.5 -0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13227,8 +13227,8 @@
 			(uuid "1feb9521-6ac2-41ee-b68c-ef8ec9706537")
 		)
 		(fp_line
-			(start 10 -0.8)
-			(end 10 0.8)
+			(start 18.5 -0.8)
+			(end 18.5 0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13237,8 +13237,8 @@
 			(uuid "c49dede8-5870-47ab-8444-81253dbdeffd")
 		)
 		(fp_line
-			(start 10 0.8)
-			(end -10 0.8)
+			(start 18.5 0.8)
+			(end -18.5 0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13247,8 +13247,8 @@
 			(uuid "c054dca9-b07e-4d11-be2f-fa7aef895d85")
 		)
 		(fp_line
-			(start 17.5 -4.5)
-			(end 17.5 4.5)
+			(start 22.5 -4.5)
+			(end 22.5 4.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13257,8 +13257,8 @@
 			(uuid "a2cc5680-0d22-47dc-996f-ff591566b33b")
 		)
 		(fp_line
-			(start 17.5 4.5)
-			(end -17.5 4.5)
+			(start 22.5 4.5)
+			(end -22.5 4.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13267,8 +13267,8 @@
 			(uuid "2f9c6346-bfab-44cd-b6ef-06fd5bfa9634")
 		)
 		(fp_circle
-			(center -15.5 0)
-			(end -14.5 0)
+			(center -20.5 0)
+			(end -19.5 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13278,8 +13278,8 @@
 			(uuid "42f5fcc0-fd48-4222-a8ff-d382257a2582")
 		)
 		(fp_circle
-			(center 15.5 0)
-			(end 16.5 0)
+			(center 20.5 0)
+			(end 21.5 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13289,7 +13289,7 @@
 			(uuid "5d890169-5132-466c-afce-0f426aa97752")
 		)
 		(fp_text user "-E"
-			(at -12.8 3.75 0)
+			(at -17.8 3.75 0)
 			(layer "F.SilkS")
 			(uuid "0641aabf-3248-48ef-bdc9-a8c758f740d2")
 			(effects
@@ -13300,7 +13300,7 @@
 			)
 		)
 		(fp_text user "1"
-			(at -13 -1.25 0)
+			(at -18 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "0f5381b4-eeb0-467e-bd78-14f3f2871868")
 			(effects
@@ -13311,7 +13311,7 @@
 			)
 		)
 		(fp_text user "+B"
-			(at 12.8 3.75 0)
+			(at 17.8 3.75 0)
 			(layer "F.SilkS")
 			(uuid "3d451ec7-0584-43b1-ab4a-b68d6682aec8")
 			(effects
@@ -13322,7 +13322,7 @@
 			)
 		)
 		(fp_text user "2"
-			(at -13 -3.75 0)
+			(at -18 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "a8137be7-c100-43c5-8bab-84c62fb24bb3")
 			(effects
@@ -13333,7 +13333,7 @@
 			)
 		)
 		(fp_text user "3"
-			(at 13 -1.25 0)
+			(at 18 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "b87183c3-ed34-499c-8778-2909345ab0e5")
 			(effects
@@ -13344,7 +13344,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -15 -1.25)
+			(at -20 -1.25)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -13355,7 +13355,7 @@
 			(uuid "679fe64f-50e3-444b-84b4-1fcf2d63fcd1")
 		)
 		(pad "2" thru_hole circle
-			(at -15 -3.75)
+			(at -20 -3.75)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -13366,7 +13366,7 @@
 			(uuid "f17c7c9d-339c-45de-9189-1d73a6bc6922")
 		)
 		(pad "3" thru_hole circle
-			(at 15 -1.25)
+			(at 20 -1.25)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -13377,7 +13377,7 @@
 			(uuid "ee35a07b-a048-4154-94c7-d5ea87784a7d")
 		)
 		(pad "4" thru_hole circle
-			(at -15 3.75)
+			(at -20 3.75)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -13388,7 +13388,7 @@
 			(uuid "0a12899d-5dee-4b1f-9934-45ffa43d8f40")
 		)
 		(pad "5" thru_hole circle
-			(at 15 3.75)
+			(at 20 3.75)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -13399,7 +13399,7 @@
 			(uuid "65f92b92-25aa-4ec5-a3a5-872ebf6accf1")
 		)
 		(pad "L" thru_hole circle
-			(at -15 1.25)
+			(at -20 1.25)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
