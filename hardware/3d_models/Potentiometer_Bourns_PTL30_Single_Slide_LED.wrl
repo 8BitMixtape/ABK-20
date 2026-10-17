@@ -50,12 +50,12 @@ Shape {
   }
   appearance Appearance {
     material Material {
-        diffuseColor 0.95 0.95 0.98
-        specularColor 0.6 0.6 0.6
-        emissiveColor 0.2 0.2 0.25
-        ambientIntensity 0.5
-        shininess 0.5
-        transparency 0.15
+        diffuseColor 1.0 0.50 0.0
+        specularColor 0.8 0.45 0.1
+        emissiveColor 0.65 0.32 0.0
+        ambientIntensity 0.6
+        shininess 0.6
+        transparency 0.1
     }
 }
 }
