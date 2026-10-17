@@ -29496,6 +29496,268 @@
 			)
 			(embedded_fonts no)
 		)
+			(symbol "ABK-20-rescue:SW_Push_LED"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push_LED"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:SW_Push_Highly_KS01-BL-13"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/445b24673c2c7fe28e59716d9a77095b/KS01+series.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Highly Electric KS01-BL-13 Illuminated Push Button (Unit A: Switch, Unit B: Bi-color LED)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Push_LED_1_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_Push_LED_2_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy -1.27 -1.27) (xy 0 1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.254) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0.15)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.524) (xy -2.54 -1.524) (xy -3.302 -1.524) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0.15)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -1.016) (xy -2.794 -2.286)
+				)
+				(stroke
+					(width 0.15)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.794 -2.286) (xy -2.032 -2.286) (xy -2.794 -2.286) (xy -2.794 -1.524)
+				)
+				(stroke
+					(width 0.15)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(hide yes)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(hide yes)
+					)
+				)
+				(number "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(text "slider with LED"
 		(exclude_from_sim no)
@@ -34560,7 +34822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mixtape_schematics:SW_Push")
+		(lib_id "ABK-20-rescue:SW_Push_LED")
 		(at 111.76 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34569,7 +34831,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b479808")
 		(property "Reference" "SW2"
-			(at 114.3 170.18 0)
+			(at 115.57 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34577,13 +34839,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 110.236 168.91 0)
+		(property "Value" "SW_Push_LED"
+			(at 107.95 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
+				))
 		)
 		(property "Footprint" "8Bitmixtape_reworked:SW_Push_Highly_KS01-BL-13"
 			(at 116.84 168.91 0)
@@ -34594,7 +34855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/445b24673c2c7fe28e59716d9a77095b/KS01+series.pdf"
 			(at 116.84 168.91 0)
 			(effects
 				(font
@@ -34603,12 +34864,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Highly Electric KS01-BL-13 Illuminated Push Button (Unit A: Switch, Unit B: Bi-color LED)"
 			(at 111.76 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -34622,6 +34884,75 @@
 				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
 					(reference "SW2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABK-20-rescue:SW_Push_LED")
+		(at 92.71 185.42 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b479808-0000-4000-8000-000000000002")
+		(property "Reference" "SW2"
+			(at 95.25 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push_LED"
+			(at 95.25 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8Bitmixtape_reworked:SW_Push_Highly_KS01-BL-13"
+			(at 111.76 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/445b24673c2c7fe28e59716d9a77095b/KS01+series.pdf"
+			(at 111.76 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Highly Electric KS01-BL-13 Illuminated Push Button (Unit A: Switch, Unit B: Bi-color LED)"
+			(at 111.76 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "5b479808-0000-4000-8000-00000000000a")
+		)
+		(pin "K"
+			(uuid "5b479808-0000-4000-8000-00000000000b")
+		)
+		(instances
+			(project "ABK-20"
+				(path "/586acb5e-8acc-4ed8-b81f-7b15963d193b"
+					(reference "SW2")
+					(unit 2)
 				)
 			)
 		)
