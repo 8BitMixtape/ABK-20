@@ -15809,6 +15809,17 @@
 			(uuid "506b94f1-4124-4b78-9198-ccad9147462f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/Potentiometer_Thumbwheel_16mm_B103.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
 		(layer "B.Cu")

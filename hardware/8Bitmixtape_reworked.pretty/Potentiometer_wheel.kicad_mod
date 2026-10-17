@@ -21,4 +21,10 @@
     (solder_mask_margin 0.01))
   (pad "" thru_hole oval (at 2.54 -5.08) (size 2.4 2) (drill oval 1.4 1.2) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at 2.54 5.08) (size 2.4 2) (drill oval 1.4 1.2) (layers *.Cu *.Mask))
+
+  (model "${KIPRJMOD}/3d_models/Potentiometer_Thumbwheel_16mm_B103.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
