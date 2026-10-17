@@ -2804,10 +2804,16 @@
 			(uuid "b1f11509-f81e-4309-98cb-469c24795af9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d_models/PJ3410.step"
-			(offset (xyz 0 0 0))
-			(scale (xyz 1 1 1))
-			(rotate (xyz 0 0 0))
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Push_SWITCH_hole"
@@ -6152,14 +6158,20 @@
 			(uuid "d62d41ae-718d-4568-a7b7-fd453901354e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d_models/PJ3410.step"
-			(offset (xyz 0 0 0))
-			(scale (xyz 1 1 1))
-			(rotate (xyz 0 0 0))
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-		(layer "F.Cu")
+		(layer "B.Cu")
 		(uuid "8319bdbc-e047-4d25-a6d7-4357677f0810")
 		(at 79.79 34.037)
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
@@ -9166,7 +9178,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "02066ed9-2bf3-4a7f-ba85-b2eee14d1002")
 		(at 92.11185 90.46405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -9365,7 +9377,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "0513cce1-7ed2-4f13-a5e3-49cd29588310")
 		(at 81.71185 86.66405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -10037,7 +10049,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Attiny_DIP-8_W7.62mm_mod"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "09f06e2b-f99e-411c-9ed4-96dbe18609bf")
 		(at 82.169 56.388)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
@@ -10809,7 +10821,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "0f233057-d2d8-4286-a0fb-1e82d71e4eb7")
 		(at 141.71185 86.66405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -10988,7 +11000,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "19c7088d-f847-4c5a-b3f5-bcdd6d2868ca")
 		(at 147.21185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -11369,7 +11381,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "27e2547f-850d-4ca8-b027-a4a034901b4b")
 		(at 107.71185 90.46405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -11568,7 +11580,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "29b2482e-534c-4e4c-bd04-361ea345229d")
 		(at 102.51185 86.66405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -11767,7 +11779,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "2f30ef47-0b7f-4b78-b371-f85322247eba")
 		(at 94.21185 41.66405)
 		(descr "Diode SMA (DO-214AC)")
@@ -12209,7 +12221,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "4284f53e-039b-4437-9bdb-1d2b19dbf3c3")
 		(at 86.91185 86.66405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -12388,7 +12400,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "4698ddb1-92d0-4229-a458-786c9faaa0bc")
 		(at 81.71185 90.46405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -13650,7 +13662,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "57f22148-ee91-4284-accb-4c80f0463056")
 		(at 92.11185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -13849,7 +13861,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "5b653a43-cc68-4025-9d0d-23512bd8c1c9")
 		(at 141.71185 90.46405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -14028,7 +14040,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "5f632e3d-3110-49a2-a4c9-80556313ba40")
 		(at 141.71185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -14227,7 +14239,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "65575b2d-5f83-4aa7-b5e1-5ffe6199334b")
 		(at 88.71185 41.66405)
 		(descr "Diode SMA (DO-214AC)")
@@ -14500,7 +14512,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:SO-8_fixed"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "667a7e74-806f-472e-a69a-614d1ee47dbe")
 		(at 145.71185 80.66405)
 		(descr "8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)")
@@ -14762,7 +14774,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "66eb3996-45e1-4010-a45a-802ca85b1aa5")
 		(at 97.31185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -14961,7 +14973,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "69d95898-acf0-4250-89f8-466a85e9af1d")
 		(at 147.21185 86.66405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -15140,7 +15152,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "70b6b3b7-0c5c-41ba-a599-3844249fa374")
 		(at 77.71185 45.66405)
 		(descr "Diode SMA (DO-214AC)")
@@ -15413,7 +15425,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "71bb778f-e54c-47cf-b60c-4f0d5191a248")
 		(at 97.31185 90.46405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -15612,7 +15624,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "8597f172-b89b-42fb-bd31-7676d11f507e")
 		(at 102.51185 90.46405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -15811,7 +15823,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "88a7795f-70b8-49a4-9a89-e07bc1652f16")
 		(at 97.31185 86.66405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -16010,7 +16022,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "a8893a21-636e-4f74-acfe-fb72a178e446")
 		(at 83.21185 45.66405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -16209,7 +16221,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "aaf80720-cccc-4cc8-872d-e70a02655b10")
 		(at 147.21185 90.46405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -16388,7 +16400,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "b0b6a6eb-19a2-44ea-b20b-6b2b4fd5867e")
 		(at 86.91185 90.46405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -16587,7 +16599,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "ba8b72bb-c7f1-4504-a739-9822633d81c5")
 		(at 77.71185 41.66405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -16766,7 +16778,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "ce94dc6f-7da3-43c7-9dee-e77d5a444cd7")
 		(at 102.51185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -16965,7 +16977,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "d4621e08-9573-4744-be11-ff86b597e2b5")
 		(at 83.21185 41.66405)
 		(descr "Capacitor SMD 1206, hand soldering")
@@ -17144,7 +17156,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "d502ad1d-3dcf-4118-805f-96e3962b1331")
 		(at 107.71185 86.66405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -17343,7 +17355,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "d79c32ef-1f62-46ca-b049-60021b378ace")
 		(at 88.71185 45.66405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -17542,7 +17554,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "dceded7e-d073-4dc1-b661-bd9bda5f5317")
 		(at 92.11185 86.66405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -17741,7 +17753,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:TACTILE-PTH_6mm_SMD"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "e52760cd-6e77-4cb0-9773-fcf312fff814")
 		(at 136.9568 103.9622 180)
 		(descr "OMRON SWITCH")
@@ -17882,7 +17894,7 @@
 		(pad "1" smd rect
 			(at -3.7592 2.2606 180)
 			(size 2 1.4)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 65 "Net-(R16-Pad2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -17892,7 +17904,7 @@
 		(pad "1" smd rect
 			(at 3.81 2.2606 180)
 			(size 2 1.4)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 65 "Net-(R16-Pad2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -17902,7 +17914,7 @@
 		(pad "2" smd rect
 			(at -3.7592 -2.2606 180)
 			(size 2 1.4)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "GND")
 			(pinfunction "2")
 			(pintype "passive")
@@ -17912,7 +17924,7 @@
 		(pad "2" smd rect
 			(at 3.81 -2.032 180)
 			(size 2 1.4)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "GND")
 			(pinfunction "2")
 			(pintype "passive")
@@ -17927,7 +17939,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "e65ce628-4f15-478e-b8e3-1fc145821236")
 		(at 81.71185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
@@ -18126,7 +18138,7 @@
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "e98f12fe-8f57-497c-b5dd-4fb200e1ed5f")
 		(at 86.91185 94.26405)
 		(descr "Resistor SMD 1206, hand soldering")
