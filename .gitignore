@@ -24,3 +24,8 @@ Thumbs.db
 # Backups and reports
 *-backups/
 *.rpt
+
+# Logs
+logs/
+*.log
+
