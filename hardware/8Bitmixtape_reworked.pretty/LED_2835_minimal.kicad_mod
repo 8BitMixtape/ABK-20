@@ -30,4 +30,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

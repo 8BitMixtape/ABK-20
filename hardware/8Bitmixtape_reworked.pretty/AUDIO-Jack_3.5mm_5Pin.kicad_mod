@@ -51,4 +51,9 @@
     (solder_mask_margin 0.01))
   (pad "" np_thru_hole circle (at 0.0635 5.0165) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask)
     (solder_mask_margin 0.01))
+	(model "${KIPRJMOD}/3d_models/PJ3410.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

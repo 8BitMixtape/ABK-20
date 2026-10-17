@@ -339,16 +339,10 @@
 			(uuid "edf8bf04-4dbd-4137-b84f-26f11550bfc9")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -550,16 +544,10 @@
 			(uuid "e28eeaab-0c8f-4348-b14c-9a6959ed97b6")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -761,16 +749,10 @@
 			(uuid "76fa2b37-52b6-4f14-b4c7-cd512da4fae1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -972,16 +954,10 @@
 			(uuid "c5bb3ea1-b703-431e-8050-55f4118f550a")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -1183,16 +1159,10 @@
 			(uuid "84ffb470-7e75-4fec-bb9f-1e4128a349cd")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint ""
@@ -1453,16 +1423,10 @@
 			(uuid "2e0a617b-e28e-4598-bcf3-e326d6289ec6")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -1664,16 +1628,10 @@
 			(uuid "fbc3e020-a658-483e-b918-4fa958efffc1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -1875,16 +1833,10 @@
 			(uuid "0882eda8-e109-491d-9e36-8444176683b7")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -2086,16 +2038,10 @@
 			(uuid "1cf678d7-93d3-4f3f-acb5-231a19248038")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
@@ -2533,6 +2479,11 @@
 			(uuid "b1f11509-f81e-4309-98cb-469c24795af9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/PJ3410.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "8Bitmixtape_reworked:Push_SWITCH_hole"
 		(layer "F.Cu")
@@ -2746,6 +2697,11 @@
 			(uuid "f258af78-4efd-4fd8-93b7-ae7a659032b5")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/SW_PUSH_6mm_H13mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
 		(layer "F.Cu")
@@ -2946,16 +2902,10 @@
 			(uuid "a6014042-36fd-4e96-baa9-b55330cccd49")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:SWITCH-SPDT_KIT"
@@ -5008,6 +4958,11 @@
 			(uuid "5c356358-ae6e-45e7-83f1-0a5390b333c7")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Straight_CK_OS102011MS2Q.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -5303,16 +5258,10 @@
 			(uuid "8e14b83c-95c7-4464-a8be-a3003fbd3b17")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -5514,16 +5463,10 @@
 			(uuid "a75bcb83-af94-427a-adf8-2d9bb8962c93")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
@@ -5961,6 +5904,11 @@
 			(uuid "d62d41ae-718d-4568-a7b7-fd453901354e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/PJ3410.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
 		(layer "F.Cu")
@@ -6161,16 +6109,10 @@
 			(uuid "1040f9e8-97e1-4a7b-86f9-04fa2a167fc8")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:USB_C_6Pin_PowerOnly"
@@ -6630,16 +6572,10 @@
 			(uuid "39f5d119-c35b-4deb-97f5-0898fded8491")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:LED_2835_minimal"
@@ -6832,16 +6768,10 @@
 			(uuid "d96bf326-37ac-487e-bfa6-c6f8ee5c979f")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_PLCC-2.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -7043,16 +6973,10 @@
 			(uuid "aa2f7c5c-8eb2-403b-b031-45605f6b4389")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -7254,16 +7178,10 @@
 			(uuid "18e0d32e-0f72-4c80-8162-effd29417a33")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MountingHole_3.2mm_M3"
@@ -7655,16 +7573,10 @@
 			(uuid "11143812-7e95-4d12-81e2-f22bed79d2a5")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -7866,16 +7778,10 @@
 			(uuid "ae9e221d-2435-4d67-b92e-f77248e6b959")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -8077,16 +7983,10 @@
 			(uuid "1d7148aa-5096-4e33-b870-eb295540313d")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Mixtape_NEO_WS2812B"
@@ -8288,16 +8188,10 @@
 			(uuid "993c357d-b7b8-4faf-a6a7-93c862d8d416")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.39 0.39 0.39)
-			)
-			(rotate
-				(xyz 0 0 180)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MountingHole_3.2mm_M3"
@@ -8582,16 +8476,10 @@
 			(uuid "d881a1b2-e998-484d-b748-bd76d8725442")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
@@ -8761,16 +8649,10 @@
 			(uuid "57c66feb-fd9a-4b04-a98a-35446fe7f110")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Angled_1x04_Pitch2.54mm-flip"
@@ -9254,16 +9136,10 @@
 			(uuid "e5f691b4-c7a0-42b3-8db2-6ba30ea985d1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Angled_1x04_Pitch2.54mm.wrl"
-			(offset
-				(xyz 0 -3.809999943 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 270)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Attiny_DIP-8_W7.62mm_mod"
@@ -9533,16 +9409,10 @@
 			(uuid "70db0627-c21f-4943-bcb4-4b78353535a9")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-8_W7.62mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Angled_1x04_Pitch2.54mm-flip"
@@ -10026,16 +9896,10 @@
 			(uuid "25ed0f6e-6bc7-4b98-9bd9-05e6d6d0dee1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Angled_1x04_Pitch2.54mm.wrl"
-			(offset
-				(xyz 0 -3.809999943 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 270)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
@@ -10205,16 +10069,10 @@
 			(uuid "6c4c0faf-ecd4-40e5-9c21-7f801896c7c6")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -10404,16 +10262,10 @@
 			(uuid "fd227f8e-9cea-49fd-89d1-328377e4b459")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Sync_jumper"
@@ -10586,16 +10438,10 @@
 			(uuid "9f9c4334-14c8-44fe-8326-0bd0caf438c5")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0612.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0612_1632Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -10785,16 +10631,10 @@
 			(uuid "2d1043a1-6750-4de7-bc2e-cc2e1359670d")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -10984,16 +10824,10 @@
 			(uuid "0f9b5b24-fd63-45db-a46f-35ec04c9de72")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
@@ -11605,16 +11439,10 @@
 			(uuid "08070dae-c143-40db-bdc0-946a43568747")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -11804,16 +11632,10 @@
 			(uuid "6ce8e5e9-6256-4697-b999-f92ae2804485")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:BAT_Holder_AAA-new_noHole"
@@ -12063,6 +11885,11 @@
 			(uuid "862b5af8-a027-4a73-8b93-f61ac5d56f5c")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2466_1xAAA.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "8Bitmixtape_reworked:SpeakerPads_SMD"
 		(layer "B.Cu")
@@ -12307,16 +12134,10 @@
 			(uuid "fa229814-9df8-409e-a089-2b926ce45228")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x02_Pitch2.54mm.wrl"
-			(offset
-				(xyz 0 -1.269999981 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 270)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Socket_Strip_Straight_2x03_Pitch2.54mm"
@@ -12619,16 +12440,10 @@
 			(uuid "91a97bf3-699e-41bd-b523-f0459187f73c")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x03_Pitch2.54mm.wrl"
-			(offset
-				(xyz -1.269999981 -2.539999962 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 270)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x03_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:BAT_Holder_AAA-new_noHole"
@@ -12878,6 +12693,11 @@
 			(uuid "4dc6d878-c39d-492b-b994-5935a2c3e16d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2466_1xAAA.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
 		(layer "B.Cu")
@@ -13066,16 +12886,10 @@
 			(uuid "2cac6281-fd43-4a93-a4cb-7d4f0bdec9d4")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Potentiometer_Bourns_PTL30_Single_Slide_LED"
@@ -13575,16 +13389,10 @@
 			(uuid "87193166-fe75-413b-ad8d-6b65e37ad742")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -13774,16 +13582,10 @@
 			(uuid "0b123b41-b3a7-414f-b7e3-dc3a02a272fa")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
@@ -14309,16 +14111,10 @@
 			(uuid "b767e9c5-6c59-409b-aee1-49c496984ca1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Housings_SOIC.3dshapes/SO-8_5.3x6.2mm_Pitch1.27mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -14508,16 +14304,10 @@
 			(uuid "7de03081-b1ae-4ea7-b689-dd7b0e80f85f")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
@@ -14687,16 +14477,10 @@
 			(uuid "d07090c3-d14e-4da8-b9ce-c3a6e2d2ae97")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
@@ -15159,16 +14943,10 @@
 			(uuid "8016dbba-d62f-486c-ba8f-52e312bc2124")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2"
@@ -15689,16 +15467,10 @@
 			(uuid "9cf2ad63-3696-48e8-b58f-fe841213e315")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -15888,16 +15660,10 @@
 			(uuid "a5dfa32b-f8ca-4691-9552-ed35e2be7a61")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -16087,16 +15853,10 @@
 			(uuid "5165f4e7-d986-48f2-9e1f-c905fa7c30f8")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
@@ -16266,16 +16026,10 @@
 			(uuid "af4057c9-4670-47a5-84ef-0798dbba4237")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -16465,16 +16219,10 @@
 			(uuid "4b627add-87da-46c6-8341-eb8cdd4f6936")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Potentiometer_backPads_noHole"
@@ -16687,16 +16435,10 @@
 			(uuid "04deaf3a-11e9-4877-a5e2-e6f27d396792")
 		)
 		(embedded_fonts no)
-		(model "Potentiometers.3dshapes/Potentiometer_Piher_T16L_Single_Horizontal_MountLS.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.393701 0.393701 0.393701)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KIPRJMOD}/3d_models/ALPHA-RD901F-40.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
@@ -16866,16 +16608,10 @@
 			(uuid "bd3d5038-7575-4e10-aeed-19e7ace4bf76")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -17065,16 +16801,10 @@
 			(uuid "bf77a4af-310e-4462-9e10-73ca99480067")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:C_1206_HandSoldering"
@@ -17244,16 +16974,10 @@
 			(uuid "2b7b33da-16e2-4945-8c69-8e6af60327e1")
 		)
 		(embedded_fonts no)
-		(model "Capacitors_SMD.3dshapes/C_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -17443,16 +17167,10 @@
 			(uuid "0d7dd38c-18dc-44a6-a5e7-499f7285691c")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -17642,16 +17360,10 @@
 			(uuid "91df0152-5301-46f9-9ffa-e67d1a6f8110")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:SW_SPST_FSMSM"
@@ -17945,16 +17657,10 @@
 			(uuid "4e3c6dea-ab53-4406-95c7-f51c470f9857")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_FSMSM.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -18144,16 +17850,10 @@
 			(uuid "18d3508f-70fa-444b-b5a1-21c8b516b364")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:TACTILE-PTH_6mm_SMD"
@@ -18336,6 +18036,11 @@
 			(uuid "3b0b2dde-0be0-4488-bd40-974399b74199")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/SW_PUSH_6mm_H13mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
 		(layer "B.Cu")
@@ -18524,16 +18229,10 @@
 			(uuid "2bbf5382-21f2-431b-82d6-c077d46c7b2b")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:R_1206_HandSoldering"
@@ -18723,16 +18422,10 @@
 			(uuid "26d13803-b62f-42ac-978e-bb1a96d032ec")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "8Bitmixtape_reworked:Bat_connector_SMD"

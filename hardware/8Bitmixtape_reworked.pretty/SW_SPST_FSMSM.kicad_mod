@@ -38,4 +38,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_FSMSM.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
