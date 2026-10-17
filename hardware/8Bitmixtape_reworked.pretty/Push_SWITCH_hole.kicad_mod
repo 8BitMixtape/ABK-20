@@ -24,7 +24,7 @@
     (solder_mask_margin 0.01))
   (pad "" thru_hole circle (at 0 0) (size 8 8) (drill 7.62) (layers *.Cu *.Mask)
     (solder_mask_margin 0.01) (solder_paste_margin -0.01) (clearance 0.01))
-	(model "${KIPRJMOD}/3d_models/SW_PUSH_6mm_H13mm.step"
+	(model "${KIPRJMOD}/3d_models/SW_Flashlight_12x8mm.wrl"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
