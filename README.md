@@ -20,9 +20,10 @@ The **ABK-20** is a modernized desktop hardware console redesign of the legendar
 * **Visual Display**: **20x WS2812B / SK6812 RGB NeoPixels** arranged in a 5-column × 4-row matrix for expressive animations, meters, and UI feedback.
 * **Illuminated Slide Fader**: Bourns PTL20 20mm slide potentiometer with an integrated lever LED tied to the status/data line (`PB0`).
 * **Tactile Controls**:
-  * **Rotary Potentiometer**: 10kΩ linear potentiometer (`POT2-CV1` on `PB4`) for parameter tweaking and modulation.
-  * **3-Way Navigation Switch**: Center-OFF toggle switch (`SW_SPDT_MSM` / `SW3`) on `PB3` for menu navigation and mode selection.
-  * **Tactile User Button**: Push button (`SW2`) on the `PB3` resistor ladder.
+  * **Illuminated Rotary Potentiometer**: 10kΩ vertical potentiometer (`POT2-CV1` on `PB4`, RV09 / Alpha RD901F compatible) with illuminated transparent knurled shaft.
+  * **Master Volume Control**: Side-mounted thumbwheel potentiometer (`POT3-Vol1`).
+  * **Navigation Switch**: MTS-102 sub-miniature toggle switch (`SW3`) on `PB3` for menu navigation and mode selection.
+  * **Illuminated User Button**: Highly KS01-BL-13 round illuminated push button (`SW2`) on the `PB3` resistor ladder.
   * **Hardware Reset Button**: Dedicated tactile push button (`SW4`) pulling `PB5` (Reset) to ground.
 * **Audio Circuit**:
   * High-speed 8-bit PWM audio synthesized via Timer1 64 MHz PLL.
@@ -64,6 +65,16 @@ The compact **75×80 mm** rounded-corner desktop PCB design features the centere
 
 <p align="center">
   <img src="docs/img/ABK-20_75x80_3D.png" alt="ABK-20 75x80 PCB 3D Layout & Components" width="650" />
+</p>
+
+### Hardware Variants & Comparison Showroom
+The repository includes a dedicated standalone showroom board ([`ABK-20_showcase_variants.kicad_pcb`](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20_showcase_variants.kicad_pcb)) for mechanical verification, 3D rendering, and rapid component swapping across various hardware options:
+* **Audio Jacks**: PJ-317 vertical, PJ-342 SMD gullwing, and CUI SJ1-3525N horizontal jacks.
+* **Faders & Pots**: 20mm and 30mm Bourns slide pots, Alpha RD901F vertical, and 16mm back-pad pots.
+* **Power & Battery**: 3x AAA on-board battery clip holders, barrel jack, and USB-C.
+
+<p align="center">
+  <img src="docs/img/ABK-20_showcase_variants_3D.png" alt="ABK-20 Hardware Variants Showroom" width="850" />
 </p>
 
 ---
