@@ -823,7 +823,7 @@
 							)
 						)
 					)
-					(number "VI"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -841,7 +841,7 @@
 							)
 						)
 					)
-					(number "GND"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -859,7 +859,7 @@
 							)
 						)
 					)
-					(number "VO"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -956,7 +956,7 @@
 							)
 						)
 					)
-					(number "VI"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -974,7 +974,7 @@
 							)
 						)
 					)
-					(number "GND"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -992,7 +992,7 @@
 							)
 						)
 					)
-					(number "VO"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -32409,7 +32409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_backPads_noHole"
+		(property "Footprint" "8Bitmixtape_reworked:Potentiometer_RV09_Vertical_ClearShaft"
 			(at 124.46 171.45 0)
 			(effects
 				(font
@@ -32549,7 +32549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
+		(property "Footprint" "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_PJ-317"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -32628,7 +32628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_5Pin"
+		(property "Footprint" "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_PJ-317"
 			(at 33.02 130.81 0)
 			(effects
 				(font
@@ -34495,7 +34495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Sync_jumper"
+		(property "Footprint" "8Bitmixtape_reworked:Sync_jumper_small"
 			(at 156.21 156.21 0)
 			(effects
 				(font
@@ -35144,13 +35144,13 @@
 				)
 			)
 		)
-		(pin "VI"
+		(pin "1"
 			(uuid "98d8bdd9-3866-4eea-a46c-764ac8cc8b76")
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "a01da4e6-8b39-4e95-a843-ed88de9d88fd")
 		)
-		(pin "VO"
+		(pin "3"
 			(uuid "c0f4f5bb-2b5c-4c87-9e63-dc78ac495425")
 		)
 		(instances
@@ -37636,7 +37636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:SWITCH-SPDT_KIT"
+		(property "Footprint" "8Bitmixtape_reworked:SW_Toggle_SPDT_MTS-102"
 			(at 69.85 182.88 0)
 			(effects
 				(font

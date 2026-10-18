@@ -29,3 +29,10 @@ Thumbs.db
 logs/
 *.log
 
+# Python cache
+__pycache__/
+*.pyc
+
+# 3D step backup
+step_backup/
+

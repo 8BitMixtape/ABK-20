@@ -1,0 +1,254 @@
+(footprint "SW_Toggle_SPDT_MTS-102"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Miniature Toggle Switch SPDT, MTS-102 style, M6x0.75 threaded bushing, 12.8x6.7mm body, 4.7mm pitch, 2.0x0.7mm solder lug tabs with oval slotted holes")
+	(tags "switch toggle SPDT MTS-102 MTS102 mini panel M6 4.7mm")
+	(property "Reference" "REF**"
+		(at 0 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-1001-4001-8001-000000000001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Toggle_SPDT_MTS-102"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "c1a2b3c4-1001-4001-8001-000000000002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1a2b3c4-1001-4001-8001-000000000003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Miniature Toggle Switch SPDT, M6 threaded bushing, 4.7mm pitch, oval slotted solder lug pads"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1a2b3c4-1001-4001-8001-000000000004")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.4 -3.35)
+		(end 6.4 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1a2b3c4-2001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 6.4 -3.35)
+		(end 6.4 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1a2b3c4-2001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start 6.4 3.35)
+		(end -6.4 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1a2b3c4-2001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start -6.4 3.35)
+		(end -6.4 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1a2b3c4-2001-4001-8001-000000000004")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c1a2b3c4-2001-4001-8001-000000000005")
+	)
+	(fp_line
+		(start -6.52 -3.47)
+		(end 6.52 -3.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 6.52 -3.47)
+		(end 6.52 3.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start 6.52 3.47)
+		(end -6.52 3.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start -6.52 3.47)
+		(end -6.52 -3.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000004")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000005")
+	)
+	(fp_line
+		(start -6.8 -3.8)
+		(end -6.8 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000006")
+	)
+	(fp_line
+		(start -6.8 -3.8)
+		(end -5.5 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1a2b3c4-3001-4001-8001-000000000007")
+	)
+	(fp_line
+		(start -6.9 -3.85)
+		(end 6.9 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1a2b3c4-4001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 6.9 -3.85)
+		(end 6.9 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1a2b3c4-4001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start 6.9 3.85)
+		(end -6.9 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1a2b3c4-4001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start -6.9 3.85)
+		(end -6.9 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1a2b3c4-4001-4001-8001-000000000004")
+	)
+	(pad "1" thru_hole oval
+		(at -4.7 0)
+		(size 2.5 3.8)
+		(drill oval 1.3 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1a2b3c4-5001-4001-8001-000000000001")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2.5 3.8)
+		(drill oval 1.3 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1a2b3c4-5001-4001-8001-000000000002")
+	)
+	(pad "3" thru_hole oval
+		(at 4.7 0)
+		(size 2.5 3.8)
+		(drill oval 1.3 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1a2b3c4-5001-4001-8001-000000000003")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/SW_Toggle_SPDT_MTS102_RedCap.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+

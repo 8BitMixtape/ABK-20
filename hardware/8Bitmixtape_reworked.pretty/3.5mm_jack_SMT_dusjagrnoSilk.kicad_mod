@@ -1,0 +1,213 @@
+(footprint "3.5mm_jack_SMT_dusjagrnoSilk"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J4"
+		(at 0.5 0 180)
+		(layer "Eco1.User")
+		(uuid "bfbacd93-23c0-4a2b-a6da-00a09bf1b4d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CV-Input jack"
+		(at -1.27 1.27 180)
+		(layer "F.Fab")
+		(uuid "59efea12-0ee0-4309-9259-a912257ec241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56646b5b-c463-48d2-99be-50ad825b18d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61e95edb-d569-450a-85eb-02c8f3a1b093")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -3.25)
+		(end 6 -3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "a0edc142-915f-4411-b0bf-d5ad001794f7")
+	)
+	(fp_line
+		(start -6 3.25)
+		(end -6 -3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "67bf2f00-067c-45bd-a3f1-5357a87cf75b")
+	)
+	(fp_line
+		(start 6 3.25)
+		(end -6 3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "290e88f5-cf30-4aae-b70d-7132793187fa")
+	)
+	(fp_line
+		(start 6.5 -3.25)
+		(end 6.5 3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "56e06080-530b-43a0-aaaa-af276da8f49f")
+	)
+	(fp_line
+		(start -8 -2.5)
+		(end -8 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5fbd933-0ac2-45e0-8377-567419e10bbb")
+	)
+	(fp_line
+		(start -8 2.5)
+		(end -6 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2503fe44-b9ba-407a-9a60-9e5f7f831e3c")
+	)
+	(fp_line
+		(start -6 -2.5)
+		(end -8 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a578c72-2b6f-4eb9-ab6e-98f0eee9775a")
+	)
+	(fp_line
+		(start -6 2.5)
+		(end -6 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cb87ff9-e688-4e83-a12c-bbab51b6843e")
+	)
+	(pad "1" smd rect
+		(at -3.913 3.624)
+		(size 1.8 2.404)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9482af84-f64f-44be-af1b-5b212859b100")
+	)
+	(pad "2" smd rect
+		(at 3.371 -3.624)
+		(size 1.662 2.404)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83e8bc8a-f694-4f77-89a4-f8c693d45546")
+	)
+	(pad "3" smd rect
+		(at -0.508 3.624)
+		(size 1.8 2.404)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f022d6a4-d723-45c8-8a66-245923e643b8")
+	)
+	(pad "4" smd rect
+		(at -3.913 -3.5605)
+		(size 1.8 2.531)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d271ee0a-b267-4920-bf69-bb3b40ffe8d3")
+	)
+	(pad "5" smd rect
+		(at 5.842 -3.6315)
+		(size 1.8 2.389)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a8790a3-9dcd-4eb3-a69b-b802867abf9b")
+	)
+	(pad "6" smd rect
+		(at 5.207 3.624)
+		(size 1.8 2.404)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "899a4fe2-f22c-4675-89b1-27f22deedff0")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "8408de8c-bcc7-4d53-8254-5bded066e86d")
+		(name "nofill")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.016 -2.032) (xy 6.096 -2.032) (xy 6.096 1.016) (xy 6.096 2.032) (xy 3.556 2.032) (xy -1.016 2.032)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/3d_models/AudioJack_3.5mm_PJ-342.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
