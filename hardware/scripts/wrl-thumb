@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+"""
+wrl-thumb: Fast thumbnail generator for VRML 2.0 (.wrl) 3D files in GNOME / Nautilus.
+Uses stl-thumb as rendering backend with component color extraction.
+Usage: wrl-thumb -s <size> <input.wrl> <output.png>
+"""
+import sys
+import os
+import re
+import math
+import struct
+import subprocess
+
+def parse_args():
+    size = 256
+    in_file = None
+    out_file = None
+
+    args = sys.argv[1:]
+    i = 0
+    while i < len(args):
+        if args[i] == '-s' and i + 1 < len(args):
+            size = int(args[i+1])
+            i += 2
+        elif not in_file:
+            in_file = args[i]
+            i += 1
+        elif not out_file:
+            out_file = args[i]
+            i += 1
+        else:
+            i += 1
+
+    return in_file, out_file, size
+
+def calc_normal(p1, p2, p3):
+    u = (p2[0]-p1[0], p2[1]-p1[1], p2[2]-p1[2])
+    v = (p3[0]-p1[0], p3[1]-p1[1], p3[2]-p1[2])
+    nx = u[1]*v[2] - u[2]*v[1]
+    ny = u[2]*v[0] - u[0]*v[2]
+    nz = u[0]*v[1] - u[1]*v[0]
+    l = math.sqrt(nx*nx + ny*ny + nz*nz)
+    if l < 1e-7:
+        return None
+    return (nx/l, ny/l, nz/l)
+
+def extract_color(text):
+    m = re.search(r'diffuseColor\s+([0-9.]+)\s+([0-9.]+)\s+([0-9.]+)', text)
+    if m:
+        r, g, b = float(m.group(1)), float(m.group(2)), float(m.group(3))
+        lum = 0.299 * r + 0.587 * g + 0.114 * b
+        if lum < 0.2:
+            diff_hex = "333336"
+            amb_hex = "111112"
+        else:
+            diff_hex = f"{min(255, int(r * 255)):02x}{min(255, int(g * 255)):02x}{min(255, int(b * 255)):02x}"
+            amb_hex = f"{min(255, int(r * 70)):02x}{min(255, int(g * 70)):02x}{min(255, int(b * 70)):02x}"
+        spec_hex = "eeeeee"
+        return amb_hex, diff_hex, spec_hex
+    return "222222", "888888", "ffffff"
+
+def main():
+    in_file, out_file, size = parse_args()
+    if not in_file or not out_file:
+        sys.exit(1)
+
+    try:
+        with open(in_file, 'r', errors='ignore') as f:
+            text = f.read()
+
+        amb_hex, diff_hex, spec_hex = extract_color(text)
+
+        shapes = text.split('Shape {')
+        triangles = []
+        for s in shapes[1:]:
+            pt_m = re.search(r'point\s*\[(.*?)\]', s, re.DOTALL)
+            idx_m = re.search(r'coordIndex\s*\[(.*?)\]', s, re.DOTALL)
+            if pt_m and idx_m:
+                raw_pts = pt_m.group(1).replace(',', ' ').split()
+                pts = [(float(raw_pts[i]), float(raw_pts[i+1]), float(raw_pts[i+2])) for i in range(0, len(raw_pts), 3)]
+                raw_idx = idx_m.group(1).replace(',', ' ').split()
+                poly = []
+                for token in raw_idx:
+                    v = int(token)
+                    if v == -1:
+                        if len(poly) == 3:
+                            n = calc_normal(pts[poly[0]], pts[poly[1]], pts[poly[2]])
+                            if n: triangles.append((n, pts[poly[0]], pts[poly[1]], pts[poly[2]]))
+                        elif len(poly) == 4:
+                            n1 = calc_normal(pts[poly[0]], pts[poly[1]], pts[poly[2]])
+                            if n1: triangles.append((n1, pts[poly[0]], pts[poly[1]], pts[poly[2]]))
+                            n2 = calc_normal(pts[poly[0]], pts[poly[2]], pts[poly[3]])
+                            if n2: triangles.append((n2, pts[poly[0]], pts[poly[2]], pts[poly[3]]))
+                        elif len(poly) > 4:
+                            for k in range(1, len(poly)-1):
+                                n = calc_normal(pts[poly[0]], pts[poly[k]], pts[poly[k+1]])
+                                if n: triangles.append((n, pts[poly[0]], pts[poly[k]], pts[poly[k+1]]))
+                        poly = []
+                    else:
+                        poly.append(v)
+
+        if not triangles:
+            sys.exit(1)
+
+        header = b'Binary STL' + b' ' * 70
+        out = bytearray(header[:80])
+        out.extend(struct.pack('<I', len(triangles)))
+        for n, p1, p2, p3 in triangles:
+            out.extend(struct.pack('<3f', n[0], n[1], n[2]))
+            out.extend(struct.pack('<3f', p1[0], p1[1], p1[2]))
+            out.extend(struct.pack('<3f', p2[0], p2[1], p2[2]))
+            out.extend(struct.pack('<3f', p3[0], p3[1], p3[2]))
+            out.extend(struct.pack('<H', 0))
+
+        temp_stl = f'/tmp/thumb_temp_{os.getpid()}.stl'
+        with open(temp_stl, 'wb') as f:
+            f.write(out)
+
+        env = os.environ.copy()
+        env['XDG_RUNTIME_DIR'] = '/run/user/1000'
+        env['WAYLAND_DISPLAY'] = 'wayland-0'
+
+        cmd = [
+            'stl-thumb',
+            '-m', amb_hex, diff_hex, spec_hex,
+            '-f', 'png',
+            '-s', str(size),
+            temp_stl,
+            out_file
+        ]
+        res = subprocess.run(cmd, capture_output=True, env=env)
+        if os.path.exists(temp_stl):
+            os.remove(temp_stl)
+
+        sys.exit(0 if os.path.exists(out_file) else 1)
+    except Exception:
+        sys.exit(1)
+
+if __name__ == '__main__':
+    main()

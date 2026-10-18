@@ -25,14 +25,9 @@
     (solder_mask_margin 0.01))
   (pad 1 smd oval (at -2.794 0) (size 3.5 2.5) (layers B.Cu B.Paste B.Mask)
     (solder_mask_margin 0.01))
-  
-    (scale (xyz 0.393701 0.393701 0.393701))
+  (model "${KIPRJMOD}/3d_models/Potentiometer_Alpha_16mm_BackPads.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-	
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
-	)
-	(model "${KIPRJMOD}/3d_models/ALPHA-RD901F-40.step"
-		(offset (xyz 0 0 0))
 )

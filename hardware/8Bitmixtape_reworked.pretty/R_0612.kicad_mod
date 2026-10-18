@@ -31,6 +31,6 @@
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0612_1632Metric.step"
+	(model "${KIPRJMOD}/3d_models/R_0612_1632Metric.wrl"
 		(offset (xyz 0 0 0))
 )

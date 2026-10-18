@@ -1,0 +1,302 @@
+(footprint "Potentiometer_Alpha_RD901F_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Taiwan Alpha RD901F 9mm Single Vertical Potentiometer, centered on shaft (0, 0), side support tabs at (-5, 0) and (+5, 0), 2.5mm pin pitch at Y=-7.5mm")
+	(tags "potentiometer vertical 9mm alpha RD901F RD901 Eurorack modular synth")
+	(property "Reference" "REF**"
+		(at 0 5.2 0)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-1001-4001-8001-000000000001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Alpha_RD901F_Vertical"
+		(at 0 -9.5 0)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-1001-4001-8001-000000000002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.taiwanalpha.com.tw/downloads?target=products&id=113"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d5e6f7-1001-4001-8001-000000000003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Taiwan Alpha RD901F 9mm Vertical Potentiometer, 2.5mm pin pitch, side support brackets, centered on shaft"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d5e6f7-1001-4001-8001-000000000004")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.8 -7.5)
+		(end 4.8 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-2001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 4.8 -7.5)
+		(end 4.8 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-2001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start 4.8 3.5)
+		(end -4.8 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-2001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start -4.8 3.5)
+		(end -4.8 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-2001-4001-8001-000000000004")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-2001-4001-8001-000000000005")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f4d5e6f7-2001-4001-8001-000000000006")
+	)
+	(fp_line
+		(start -4.9 3.6)
+		(end 4.9 3.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 4.9 3.6)
+		(end 4.9 1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start 4.9 -1.8)
+		(end 4.9 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start 4.9 -6.5)
+		(end 3.6 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000004")
+	)
+	(fp_line
+		(start -3.6 -6.5)
+		(end -4.9 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000005")
+	)
+	(fp_line
+		(start -4.9 -6.5)
+		(end -4.9 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000006")
+	)
+	(fp_line
+		(start -4.9 1.8)
+		(end -4.9 3.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000007")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.0 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000008")
+	)
+	(fp_text user "1"
+		(at -3.8 -8.9 0)
+		(layer "F.SilkS")
+		(uuid "f4d5e6f7-3001-4001-8001-000000000009")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6.8 -9.0)
+		(end 6.8 -9.0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4d5e6f7-4001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 6.8 -9.0)
+		(end 6.8 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4d5e6f7-4001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start 6.8 4.2)
+		(end -6.8 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4d5e6f7-4001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start -6.8 4.2)
+		(end -6.8 -9.0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4d5e6f7-4001-4001-8001-000000000004")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 -7.5)
+		(size 1.8 1.8)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4d5e6f7-5001-4001-8001-000000000001")
+	)
+	(pad "2" thru_hole circle
+		(at 0.0 -7.5)
+		(size 1.8 1.8)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4d5e6f7-5001-4001-8001-000000000002")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 -7.5)
+		(size 1.8 1.8)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4d5e6f7-5001-4001-8001-000000000003")
+	)
+	(pad "" thru_hole oval
+		(at -5.0 0.0)
+		(size 2.6 3.2)
+		(drill oval 1.4 2.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4d5e6f7-5001-4001-8001-000000000004")
+	)
+	(pad "" thru_hole oval
+		(at 5.0 0.0)
+		(size 2.6 3.2)
+		(drill oval 1.4 2.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4d5e6f7-5001-4001-8001-000000000005")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/ALPHA-RD901F-40.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
+

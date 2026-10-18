@@ -1,0 +1,5 @@
+[Thumbnailer Entry]
+TryExec=/usr/local/bin/wrl-thumb
+Exec=/usr/local/bin/wrl-thumb -s %s %i %o
+MimeType=model/vrml;x-world/x-vrml;application/x-wrl;
+

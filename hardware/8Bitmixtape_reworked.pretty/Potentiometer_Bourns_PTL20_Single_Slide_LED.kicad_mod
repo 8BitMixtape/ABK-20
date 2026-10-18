@@ -238,7 +238,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(pad "L" thru_hole circle
+	(pad "" thru_hole circle
 		(at -15.0 1.25)
 		(size 1.8 1.8)
 		(drill 1.2)
