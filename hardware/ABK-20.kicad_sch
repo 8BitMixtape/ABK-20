@@ -13864,24 +13864,6 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "RN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "R"
@@ -14173,24 +14155,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "RN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -32587,9 +32551,6 @@
 		(pin "2"
 			(uuid "44608d0a-1e40-47b4-8a07-27adb8212b3f")
 		)
-		(pin "6"
-			(uuid "3bda7ac8-796f-4109-bb55-410eb8425e3d")
-		)
 		(pin "3"
 			(uuid "9d3dfaea-53d3-46f8-a2ec-e8d6facd1aa1")
 		)
@@ -32665,9 +32626,6 @@
 		)
 		(pin "2"
 			(uuid "d19e04c1-ef12-4b5a-8bea-b0f97623ed25")
-		)
-		(pin "6"
-			(uuid "ec189e91-6c0e-4dd2-a5d2-631e5ee44d73")
 		)
 		(pin "3"
 			(uuid "7574451b-8ed3-487e-b46a-5987f3202b3d")
@@ -37377,7 +37335,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
