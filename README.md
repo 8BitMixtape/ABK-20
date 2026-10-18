@@ -77,6 +77,13 @@ The repository includes a dedicated standalone showroom board ([`ABK-20_showcase
   <img src="docs/img/ABK-20_showcase_variants_3D.png" alt="ABK-20 Hardware Variants Showroom" width="850" />
 </p>
 
+### Component Staging & Exploration
+Earlier component staging layout used during initial mechanical fit checks, 3D VRML model validation, and footprint library curation:
+
+<p align="center">
+  <img src="docs/img/ABK-20_3D_layout.png" alt="ABK-20 Component Staging Layout" width="850" />
+</p>
+
 ---
 
 ## ATtiny85 Pin Mapping
@@ -122,7 +129,9 @@ ABK-20/
 │       ├── ABK_prototype_randen.png  # Prototype console photo
 │       ├── schematic_page-1.png      # High-res schematic Page 1 render
 │       ├── schematic_page-2.png      # High-res schematic Page 2 render
-│       └── ABK-20_75x80_3D.png       # 3D PCB layout and component staging view
+│       ├── ABK-20_75x80_3D.png       # 3D PCB layout (75x80 mm compact)
+│       ├── ABK-20_showcase_variants_3D.png # 3D hardware variants showroom
+│       └── ABK-20_3D_layout.png      # 3D component staging layout
 └── production/                       # Fabrication deliverables (Gerbers, BOM)
 ```
 
