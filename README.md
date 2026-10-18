@@ -60,10 +60,10 @@ Dedicated hierarchical sub-sheet (`hardware/LED_Matrix.kicad_sch`) with the rast
 
 ## PCB Layout & 3D Model View
 
-The 90×90 mm rounded-corner desktop PCB design features the centered 5×4 NeoPixel display matrix (using the 8.92 mm × 7.96 mm pixel grid with single-sided front-copper snake routing), surrounded by tactile controls, Bourns slide fader, audio jacks, and power stages:
+The compact **75×80 mm** rounded-corner desktop PCB design features the centered 5×4 NeoPixel display matrix, framed by the Bourns illuminated slide fader, clear-shaft illuminated rotary potentiometer, 3-way toggle switch, tactile buttons, thumbwheel volume pot, audio jacks, and side expansion headers:
 
 <p align="center">
-  <img src="docs/img/ABK-20_3D_layout.png" alt="ABK-20 PCB 3D Layout & Components" width="850" />
+  <img src="docs/img/ABK-20_75x80_3D.png" alt="ABK-20 75x80 PCB 3D Layout & Components" width="650" />
 </p>
 
 ---
@@ -97,9 +97,12 @@ ABK-20/
 │   ├── ABK-20.kicad_pro              # KiCad 9 Project file
 │   ├── ABK-20.kicad_sch              # Main hierarchical schematic (Page 1)
 │   ├── LED_Matrix.kicad_sch          # 5x4 NeoPixel matrix sub-sheet (Page 2)
-│   ├── ABK-20.kicad_pcb              # PCB board layout
+│   ├── ABK-20.kicad_pcb              # Main 75x80 mm PCB board layout
+│   ├── ABK-20_showcase_variants.kicad_pcb # Standalone showroom board with alternative footprints
 │   ├── mixtape_schematics.kicad_sym  # Project symbol library (PTL20 fader, etc.)
-│   └── 8Bitmixtape_reworked.pretty/  # Project footprints (Bourns PTL20, SK6812, etc.)
+│   ├── 8Bitmixtape_reworked.pretty/  # Project footprints (Bourns PTL20, SK6812, etc.)
+│   ├── 3d_models/                    # Self-contained bundled VRML (.wrl) 3D models
+│   └── scripts/                      # 3D model generators and thumbnail utilities
 ├── docs/
 │   ├── ABK-20_schematic.pdf          # Multi-page A4 schematic export
 │   ├── HARDWARE_NOTES.md             # Hardware architecture and design notes
@@ -108,7 +111,7 @@ ABK-20/
 │       ├── ABK_prototype_randen.png  # Prototype console photo
 │       ├── schematic_page-1.png      # High-res schematic Page 1 render
 │       ├── schematic_page-2.png      # High-res schematic Page 2 render
-│       └── ABK-20_3D_layout.png      # 3D PCB layout and component staging view
+│       └── ABK-20_75x80_3D.png       # 3D PCB layout and component staging view
 └── production/                       # Fabrication deliverables (Gerbers, BOM)
 ```
 
