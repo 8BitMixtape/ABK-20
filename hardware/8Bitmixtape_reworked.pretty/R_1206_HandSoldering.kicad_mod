@@ -25,14 +25,9 @@
     (solder_mask_margin 0.01))
   (pad 2 smd rect (at 1.778 0) (size 1.3 1.7) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.01))
-  
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-	
+	(model "${KIPRJMOD}/3d_models/R_1206_3216Metric.wrl"
+		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
-	(model "${KIPRJMOD}/3d_models/R_1206_3216Metric.wrl"
-		(offset (xyz 0 0 0))
 )

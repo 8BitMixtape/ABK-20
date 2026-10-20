@@ -308,7 +308,18 @@
 		(uuid "b1c2d3e4-5001-4001-8001-000000000007")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3d_models/AudioJack_3.5mm_PJ-317_Black.wrl"
+	(model "/3d_models/PJ-317-W.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "/3d_models/AudioJack_3.5mm_PJ-317_Black.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -320,4 +331,3 @@
 		)
 	)
 )
-

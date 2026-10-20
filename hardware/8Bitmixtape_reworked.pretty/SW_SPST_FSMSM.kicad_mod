@@ -33,14 +33,9 @@
   (fp_line (start -5.95 -2) (end 5.95 -2) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask))
-  
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-	
+	(model "${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl"
+		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
-	(model "${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl"
-		(offset (xyz 0 0 0))
 )

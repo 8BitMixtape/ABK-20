@@ -29152,7 +29152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 97.79 57.222 90)
 			(effects
 				(font

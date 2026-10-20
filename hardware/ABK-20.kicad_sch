@@ -13792,24 +13792,6 @@
 			)
 			(symbol "JACK_TRS_6PINS_3_1_1"
 				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "S"
@@ -13837,7 +13819,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13856,6 +13838,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14091,24 +14091,6 @@
 			)
 			(symbol "JACK_TRS_6PINS_4_1_1"
 				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "S"
@@ -14136,7 +14118,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14155,6 +14137,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -31309,16 +31309,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 95.25) (xy 248.92 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1324a5-4b64-47ce-8299-0d5e9dc813d9")
-	)
-	(wire
-		(pts
 			(xy 222.25 124.46) (xy 222.25 127)
 		)
 		(stroke
@@ -31766,16 +31756,6 @@
 			(type default)
 		)
 		(uuid "f385d02d-813f-4634-ac9e-c71ab94083a0")
-	)
-	(wire
-		(pts
-			(xy 262.89 148.59) (xy 256.54 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f532323b-b3c6-449e-a8cd-0cd60189681e")
 	)
 	(wire
 		(pts
@@ -32665,7 +32645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 98.552 95.25 90)
 			(effects
 				(font
@@ -32732,7 +32712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 122.682 158.75 90)
 			(effects
 				(font
@@ -32802,7 +32782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 62.23 131.1148 0)
 			(effects
 				(font
@@ -32871,7 +32851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 223.2152 134.62 0)
 			(effects
 				(font
@@ -32940,7 +32920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 172.4152 111.76 0)
 			(effects
 				(font
@@ -33202,7 +33182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 137.16 107.442 90)
 			(effects
 				(font
@@ -33269,7 +33249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 135.89 169.672 90)
 			(effects
 				(font
@@ -33336,7 +33316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 65.532 121.92 90)
 			(effects
 				(font
@@ -33403,7 +33383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 65.532 140.97 90)
 			(effects
 				(font
@@ -33665,7 +33645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 74.422 149.86 90)
 			(effects
 				(font
@@ -33732,7 +33712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 80.772 149.86 90)
 			(effects
 				(font
@@ -33799,7 +33779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 85.852 149.86 90)
 			(effects
 				(font
@@ -33996,7 +33976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 156.21 99.822 90)
 			(effects
 				(font
@@ -34522,7 +34502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 232.1052 134.62 0)
 			(effects
 				(font
@@ -34944,7 +34924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 133.35 85.852 90)
 			(effects
 				(font
@@ -35076,7 +35056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "8Bitmixtape_reworked:TO-252-3_TabPin2"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -35492,7 +35472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 79.502 49.53 90)
 			(effects
 				(font
@@ -35671,8 +35651,8 @@
 		(at 30.48 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4aef9f")
 		(property "Reference" "J3"
@@ -36458,7 +36438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 154.94 37.592 90)
 			(effects
 				(font
@@ -36525,7 +36505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 184.15 28.702 90)
 			(effects
 				(font
@@ -36594,7 +36574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 142.24 40.3352 0)
 			(effects
 				(font
@@ -36663,7 +36643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 159.7152 60.96 0)
 			(effects
 				(font
@@ -37191,7 +37171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 107.6452 30.48 0)
 			(effects
 				(font
@@ -37238,8 +37218,8 @@
 		(at 19.05 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c607c06")
 		(property "Reference" "BT1"
@@ -37307,8 +37287,8 @@
 		(at 19.05 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c607cdc")
 		(property "Reference" "BT2"
@@ -37525,7 +37505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 50.292 119.38 90)
 			(effects
 				(font
@@ -37664,7 +37644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 75.438 60.96 90)
 			(effects
 				(font
@@ -37732,7 +37712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 69.088 63.5 90)
 			(effects
 				(font
@@ -37936,7 +37916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:C_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:C_1210_noGND"
 			(at 116.5352 30.48 0)
 			(effects
 				(font
@@ -38003,7 +37983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:R_1206_HandSoldering"
+		(property "Footprint" "007_dusjagr:R_1206_noGND_sm"
 			(at 109.982 149.86 90)
 			(effects
 				(font

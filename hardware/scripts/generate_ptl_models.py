@@ -91,7 +91,7 @@ def build_ptl_quads(travel=20, output_obj="/tmp/ptl20_v2.obj", lever_h=10.0):
     pins = []
     pin_locs = [
         (-pin_x, -3.75), (-pin_x, -1.25), (-pin_x, 1.25), (-pin_x, 3.75),
-        (pin_x, -1.25), (pin_x, 3.75) # +2.5mm shift
+        (pin_x, -3.75), (pin_x, 1.25) # aligned with KiCad footprint pads
     ]
     for px, py in pin_locs:
         bpy.ops.mesh.primitive_cube_add(size=1.0, location=(px, py, -1.75))
