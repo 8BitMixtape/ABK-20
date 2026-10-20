@@ -68,7 +68,7 @@ The compact **75×80 mm** rounded-corner desktop PCB design features the centere
 </p>
 
 ### Hardware Variants & Comparison Showroom
-The repository includes a dedicated standalone showroom board ([`ABK-20_showcase_variants.kicad_pcb`](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/ABK-20_showcase_variants.kicad_pcb)) for mechanical verification, 3D rendering, and rapid component swapping across various hardware options:
+The repository includes a dedicated standalone showroom board ([`ABK-20_showcase_variants.kicad_pcb`](hardware/ABK-20_showcase_variants.kicad_pcb)) for mechanical verification, 3D rendering, and rapid component swapping across various hardware options:
 * **Audio Jacks**: PJ-317 vertical, PJ-342 SMD gullwing, and CUI SJ1-3525N horizontal jacks.
 * **Faders & Pots**: 20mm and 30mm Bourns slide pots, Alpha RD901F vertical, and 16mm back-pad pots.
 * **Power & Battery**: 3x AAA on-board battery clip holders, barrel jack, and USB-C.

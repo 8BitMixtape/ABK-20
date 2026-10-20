@@ -104,7 +104,7 @@ ABK-20/
 
 #### The Power of Hierarchical Sheets:
 Notice that the 5×4 NeoPixel matrix lives in its own hierarchical sheet:
-[`hardware/LED_Matrix.kicad_sch`](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/hardware/LED_Matrix.kicad_sch)
+[`hardware/LED_Matrix.kicad_sch`](../hardware/LED_Matrix.kicad_sch)
 
 Any variant project can simply import this sheet as a hierarchical block. You never have to redraw or re-wire the 20 NeoPixels!
 
