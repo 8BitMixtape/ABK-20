@@ -23,6 +23,7 @@ Thumbs.db
 
 # Backups and reports
 *-backups/
+rescue-backup/
 *.rpt
 
 # Logs
