@@ -133,7 +133,10 @@ ABK-20/
 │       ├── ABK-20_75x80_3D.png       # 3D PCB layout (75x80 mm compact)
 │       ├── ABK-20_showcase_variants_3D.png # 3D hardware variants showroom
 │       └── ABK-20_3D_layout.png      # 3D component staging layout
-└── production/                       # Fabrication deliverables (Gerbers, BOM)
+└── production/                       # Fabrication deliverables
+    ├── bom/
+    │   └── ibom.html                 # Interactive HTML Bill of Materials
+    └── MASK/                         # DIY PCB chemical etching masks (SVG, PDF)
 ```
 
 ---
