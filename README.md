@@ -125,6 +125,7 @@ ABK-20/
 │   ├── ABK-20_schematic.pdf          # Multi-page A4 schematic export
 │   ├── HARDWARE_NOTES.md             # Hardware architecture and design notes
 │   ├── DESIGN_VARIANTS_GUIDE.md      # Guide for creating custom layouts & variants
+│   ├── datasheets/                   # Key component datasheets (Bourns fader, switches, pots)
 │   └── img/
 │       ├── ABK_prototype_randen.png  # Prototype console photo
 │       ├── schematic_page-1.png      # High-res schematic Page 1 render
