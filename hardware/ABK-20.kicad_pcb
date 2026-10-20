@@ -3234,6 +3234,254 @@
 			)
 		)
 	)
+	(footprint "8Bitmixtape_reworked:BAT_Holder_AAA-new_noHole"
+		(layer "F.Cu")
+		(uuid "3ce36e91-a048-4867-9d0a-f37669ab9365")
+		(at 200.533 66.421)
+		(property "Reference" "BT2"
+			(at 0 -3.81 0)
+			(layer "Eco2.User")
+			(uuid "8928fe90-49f6-4398-8c77-f99fcdddb0f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 0.254 3.81 0)
+			(layer "Eco2.User")
+			(uuid "b7242a86-09c9-484b-9623-d5973672a7a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e435278-9c46-4e32-ba8e-31120bf6f05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39b1ec50-a27b-473b-8fd5-aa52eae36da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 23.662 0.134)
+			(end 23.662 -0.366)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1da1a71f-789a-4357-8439-b722aba4ad5e")
+		)
+		(fp_line
+			(start 23.662 0.134)
+			(end 24.162 0.134)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba5c86f2-ed3f-43b2-9cfd-a4b122f07804")
+		)
+		(fp_line
+			(start 24.162 -0.766)
+			(end 24.562 -0.766)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "069d65ae-d601-42aa-bbb0-3c87c408e249")
+		)
+		(fp_line
+			(start 24.162 -0.366)
+			(end 23.662 -0.366)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "506132de-4e0c-4970-aa11-b99fd689a8a7")
+		)
+		(fp_line
+			(start 24.162 -0.366)
+			(end 24.162 -0.766)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6632c494-6e06-430c-b11d-75db3b37d099")
+		)
+		(fp_line
+			(start 24.162 0.534)
+			(end 24.162 0.134)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b192e4a-cf34-420b-98c1-7e684e8397a7")
+		)
+		(fp_line
+			(start 24.562 -0.766)
+			(end 24.562 -0.366)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3176af5d-14a9-4f6f-a864-6241f6a5a628")
+		)
+		(fp_line
+			(start 24.562 -0.366)
+			(end 25.062 -0.366)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea314031-4a7b-4db0-9f67-cd5123416759")
+		)
+		(fp_line
+			(start 24.562 0.134)
+			(end 24.562 0.534)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f834dcd1-956d-4b85-ab90-177b37e685fb")
+		)
+		(fp_line
+			(start 24.562 0.534)
+			(end 24.162 0.534)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f6095332-e422-4d22-86cd-db67f050d0d7")
+		)
+		(fp_line
+			(start 25.062 -0.366)
+			(end 25.062 0.134)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "501f7f66-747c-4efb-9de5-3484f6983be4")
+		)
+		(fp_line
+			(start 25.062 0.134)
+			(end 24.562 0.134)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a5324c4e-54c0-4b62-a74c-c9b4764ccd7a")
+		)
+		(fp_line
+			(start -27.18 -5.786)
+			(end -27.178 5.334)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "0463ff51-52c8-4073-85f0-f979d8d8e17c")
+		)
+		(fp_line
+			(start -27.18 -5.786)
+			(end 27.18 -5.786)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "4a3ba861-4f8b-4ede-b37a-3530b7280c8f")
+		)
+		(fp_line
+			(start -27.18 5.334)
+			(end 27.18 5.334)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "c1adea11-f8ed-4a22-ad73-70341655efe0")
+		)
+		(fp_line
+			(start 27.178 5.334)
+			(end 27.18 -5.786)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "73f6f848-d440-4d81-a55a-302ebf31504f")
+		)
+		(fp_line
+			(start 31 -0.116)
+			(end -31 -0.116)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "837c0cc1-74c7-412d-af7b-e1950c566a03")
+		)
+		(pad "1" smd rect
+			(at 29.5 -0.116)
+			(size 4 7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(solder_mask_margin 0.01)
+			(uuid "34185b3f-9f98-477d-8c8b-ebcb12f8dc89")
+		)
+		(pad "2" smd rect
+			(at -29.5 -0.116)
+			(size 4 7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(solder_mask_margin 0.01)
+			(uuid "be7f73e8-d21d-4f0e-9872-7e0bc6d72c2c")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/BatteryHolder_Keystone_2466_1xAAA.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "8Bitmixtape_reworked:AUDIO-Jack_3.5mm_PJ-317"
 		(layer "F.Cu")
 		(uuid "3d6b167a-994c-4dd9-8e28-80237f9445da")
