@@ -5,6 +5,7 @@
 [![KiCad 9](https://img.shields.io/badge/EDA-KiCad%209-blue.svg)](https://www.kicad.org/)
 [![Hardware](https://img.shields.io/badge/Hardware-ATtiny85-orange.svg)](https://www.microchip.com/en-us/product/attiny85)
 [![OSHW](https://img.shields.io/badge/OSHW-Open%20Source%20Hardware-green.svg)](https://www.oshwa.org/)
+[![License: CERN-OHL-S-2.0](https://img.shields.io/badge/License-CERN--OHL--S--2.0-blue.svg)](LICENSE)
 
 <p align="center">
   <img src="docs/img/ABK_prototype_randen.png" alt="ABK-20 Prototype" width="550" />
@@ -143,4 +144,5 @@ ABK-20/
 
 ## License
 
-Open Source Hardware (OSHW). See [LICENSE](LICENSE) for details.
+Licensed under the **[CERN Open Hardware Licence Version 2 – Strongly Reciprocal](LICENSE)** (CERN-OHL-S-2.0).
+

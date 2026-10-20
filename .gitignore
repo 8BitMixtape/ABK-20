@@ -19,6 +19,7 @@ kicad_build/
 Thumbs.db
 *~
 *.swp
+#*#
 .vscode/
 
 # Backups and reports

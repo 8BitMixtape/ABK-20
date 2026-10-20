@@ -37310,7 +37310,7 @@
 			)
 		)
 		(property "Footprint" "8Bitmixtape_reworked:BAT_Holder_AAA-new_noHole"
-			(at 19.05 60.706 90)
+			(at 36.068 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
