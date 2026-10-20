@@ -36,3 +36,6 @@ __pycache__/
 # 3D step backup
 step_backup/
 
+# svg2shenzhen intermediate cache
+**/.svg2shenzhen-cache/
+
