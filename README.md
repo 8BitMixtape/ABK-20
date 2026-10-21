@@ -126,6 +126,7 @@ ABK-20/
 │   ├── ABK-20_schematic.pdf          # Multi-page A4 schematic export
 │   ├── HARDWARE_NOTES.md             # Hardware architecture and design notes
 │   ├── DESIGN_VARIANTS_GUIDE.md      # Guide for creating custom layouts & variants
+│   ├── AMP_AUTO_SHUTDOWN_CIRCUIT.md  # Headphone jack auto-shutdown design for v0.3
 │   ├── datasheets/                   # Key component datasheets (Bourns fader, switches, pots)
 │   └── img/
 │       ├── ABK_prototype_randen.png  # Prototype console photo

@@ -84,3 +84,11 @@ When routing the PCB, place capacitors according to the following strict proximi
   * This preserves the full sub-bass and low-frequency bytebeat rumble down to single-digit frequencies.
 * **Power Supply Decoupling**:
   * Dedicated high-frequency ceramic bypass capacitor `C8 = 100nF` placed right across PAM8002 Pin 6 (`VCC`) and Pin 7 (`GND`) to suppress digital switching buzz.
+
+---
+
+## 8. Headphone Jack Auto-Shutdown Upgrade (Planned for v0.3)
+
+* In v0.2, the PAM8002 Pin 1 (`SHT`) is hardwired to GND, drawing $4\text{–}6\text{ mA}$ idle even when headphones are plugged in.
+* For revision v0.3, the spare Ring switch contacts on `Jack2` (Pins 3 & 5) combined with a $100\text{k}\Omega$ pull-up resistor enable **autonomous hardware auto-shutdown ($< 0.5\,\mu\text{A}$)** whenever a 3.5mm plug is inserted.
+* Detailed schematic, operational truth table, and prototype bodge instructions are documented in [AMP_AUTO_SHUTDOWN_CIRCUIT.md](AMP_AUTO_SHUTDOWN_CIRCUIT.md).
