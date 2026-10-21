@@ -92,3 +92,15 @@ When routing the PCB, place capacitors according to the following strict proximi
 * In v0.2, the PAM8002 Pin 1 (`SHT`) is hardwired to GND, drawing $4\text{–}6\text{ mA}$ idle even when headphones are plugged in.
 * For revision v0.3, the spare Ring switch contacts on `Jack2` (Pins 3 & 5) combined with a $100\text{k}\Omega$ pull-up resistor enable **autonomous hardware auto-shutdown ($< 0.5\,\mu\text{A}$)** whenever a 3.5mm plug is inserted.
 * Detailed schematic, operational truth table, and prototype bodge instructions are documented in [AMP_AUTO_SHUTDOWN_CIRCUIT.md](AMP_AUTO_SHUTDOWN_CIRCUIT.md).
+
+---
+
+## 9. Star Grounding & Audio Isolation (Planned for v0.3)
+
+* **The Problem (Common-Impedance Ground Coupling)**:
+  * In v0.2, the return currents from the 20× NeoPixels switch at their internal $\sim 1.2\text{ kHz}$ PWM frequency through the shared ground copper plane back to the USB-C port.
+  * Because `POT3-Vol1` ground, `Jack2` ground, and `C3` ground are tapped along this same path, the $1.2\text{ kHz}$ switching current creates an audible AC voltage drop across the ground plane ($V = I \cdot R_{gnd}$) that is directly audible in headphones at Volume = 0.
+* **The v0.3 Architecture**:
+  * **Dedicated Analog Audio Ground Trace**: Give the entire audio chain (`POT3-Vol1` pin 3, `Jack2` pin 1, `C3` ground, `U2` pin 7, and `C6` bypass) its own isolated star-ground trace that routes directly back to the USB-C ground entry (`J5` pins A12/B12).
+  * **Digital / Matrix Ground Separation**: All 20 NeoPixel ground pins return on a separate digital copper pour, completely preventing heavy LED PWM current from flowing under or through the audio path.
+
