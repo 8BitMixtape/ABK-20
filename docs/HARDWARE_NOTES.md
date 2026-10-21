@@ -104,3 +104,38 @@ When routing the PCB, place capacitors according to the following strict proximi
   * **Dedicated Analog Audio Ground Trace**: Give the entire audio chain (`POT3-Vol1` pin 3, `Jack2` pin 1, `C3` ground, `U2` pin 7, and `C6` bypass) its own isolated star-ground trace that routes directly back to the USB-C ground entry (`J5` pins A12/B12).
   * **Digital / Matrix Ground Separation**: All 20 NeoPixel ground pins return on a separate digital copper pour, completely preventing heavy LED PWM current from flowing under or through the audio path.
 
+---
+
+## 10. PB3 Analog Resistor Ladder Calibration (Buttons & Toggle Switch)
+
+Pin PB3 (ADC3) multiplexes the navigation buttons and toggle switch through an analog resistor divider.
+
+### Hardware Measurements & Calibration Table (at $V_{CC} \approx 5.0\text{V}$)
+
+| Control State | Measured Voltage | Nominal ADC (10-bit) | Recommended Detection Range |
+| :--- | :---: | :---: | :---: |
+| **Idle / Released** (Center toggle, no button) | $2.62\text{ V}$ | $\approx 536$ | $> 450$ |
+| **Toggle Switch Physical UP** | $1.36\text{ V}$ | $\approx 278$ | $240\text{ -- }310$ |
+| **Toggle Switch Physical DOWN** | $1.74\text{ V}$ | $\approx 356$ | $320\text{ -- }420$ |
+| **Button 3 (SW4) Pressed Solo** | $1.00\text{ V}$ | $\approx 205$ | $185\text{ -- }235$ |
+| **Button 3 (SW4) + Toggle Physical UP** | $0.72\text{ V}$ | $\approx 147$ | $< 155$ |
+| **Button 3 (SW4) + Toggle Physical DOWN** | $0.83\text{ V}$ | $\approx 170$ | $155\text{ -- }180$ |
+
+> [!NOTE]
+> On standard SPDT toggle switches (e.g. MTS-102), the internal contact pivots opposite the lever arm: flipping the lever physically UP connects the middle contact to the bottom PCB pin ($1.36\text{V}$), while flipping DOWN connects to the top pin ($1.74\text{V}$). All states provide non-overlapping windows of $30\text{--}60$ ADC counts.
+
+---
+
+## 11. Potentiometer & Slide Fader Calibration (4.7k Series Resistor)
+
+Both analog inputs have a $4.7\text{k}\Omega$ series resistor in line with $V_{CC}$, restricting the wiper sweep to $\frac{10\text{k}}{10\text{k} + 4.7\text{k}} \times V_{CC} \approx 0.68 \times V_{CC}$ (ADC counts $\approx 15\text{--}670$).
+
+### Polarity & Scaling
+
+| Control | Pin | Physical Sweep | Raw ADC Range | Polarity | Scaling Math ($0\text{--}255$) |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **Rotary Pot** (`POT2-CV1`) | `PB4` / `ADC2` | CCW (Min) $\to$ CW (Max) | $670 \to 15$ | **Inverted** | `val = ((670 - raw) * 100) >> 8` |
+| **Slide Fader** (`RV1`) | `PB2` / `ADC1` | DOWN (Min) $\to$ UP (Max) | $15 \to 670$ | **Direct** | `val = ((raw - 15) * 100) >> 8` |
+
+
+
