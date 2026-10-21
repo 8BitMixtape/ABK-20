@@ -96,3 +96,4 @@ Only **one additional passive component** is required: a single **$100\text{k}\O
 2. Solder a $100\text{k}\Omega$ surface-mount or through-hole resistor between `U2` Pin 1 and `U2` Pin 6 ($V_{CC}$).
 3. Solder a thin kynar/enamelled wire from `U2` Pin 1 to **`Jack2` Pin 5**.
 4. Bridge a short wire from **`Jack2` Pin 3** to **GND** (e.g. `Jack2` Pin 1).
+
