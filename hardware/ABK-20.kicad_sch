@@ -15789,9 +15789,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "POT_6"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -32331,6 +32328,7 @@
 		(lib_name "POT_6")
 		(lib_id "ABK-20-rescue1:POT")
 		(at 124.46 171.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37573,7 +37571,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:SW_Toggle_SPDT_MTS-102"
+		(property "Footprint" "8Bitmixtape_reworked:SW_Toggle_SPDT_SubMini_SMTS-103"
 			(at 69.85 182.88 0)
 			(effects
 				(font

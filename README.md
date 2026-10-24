@@ -87,6 +87,23 @@ Earlier component staging layout used during initial mechanical fit checks, 3D V
 
 ---
 
+## Frontplate Design & Enclosure Integration
+
+A dedicated **1:1 scale laser-cut / CNC frontplate** ($77\times 92\text{ mm}$, $R=3.0\text{ mm}$) has been designed with component cutouts derived directly from the KiCad layout, incorporating $+1.0\text{ mm}$ side overhangs and $+6.0\text{ mm}$ top/bottom overhangs for enclosure mounting:
+
+<p align="center">
+  <img src="docs/img/ABK-20_frontplate_preview.png" alt="ABK-20 Frontplate Design (Window Version)" width="400" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/img/ABK-20_frontplate_discrete_preview.png" alt="ABK-20 Frontplate Design (Discrete LEDs)" width="400" />
+</p>
+
+All vector files, mechanical drawings, and fabrication guides are organized in the dedicated [**`hardware/frontplate/`**](hardware/frontplate/) directory:
+* **Main Frontplate SVG (Window Style)**: [`hardware/frontplate/ABK-20_frontplate.svg`](hardware/frontplate/ABK-20_frontplate.svg) ($42\times 30\text{ mm}$ opening for tinted/smoked acrylic diffuser).
+* **Alternative Frontplate SVG (Discrete LEDs)**: [`hardware/frontplate/ABK-20_frontplate_discrete_leds.svg`](hardware/frontplate/ABK-20_frontplate_discrete_leds.svg) (20 individual $\varnothing 4.5\text{ mm}$ pixel apertures).
+* **Mechanical Specification & Guide**: [**`hardware/frontplate/README.md`**](hardware/frontplate/README.md) (complete coordinate tables, drill diameters, and assembly notes).
+
+---
+
 ## ATtiny85 Pin Mapping
 
 | Pin | Physical | Port | Macro | Function / Description |
