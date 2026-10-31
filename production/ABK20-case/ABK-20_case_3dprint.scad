@@ -9,10 +9,10 @@ pcb_width = 75.0; // [50:0.1:120]
 pcb_depth = 80.0; // [50:0.1:120]
 // PCB thickness in mm
 pcb_thickness = 1.6; // [1.0:0.1:2.5]
-// PCB corner radius in mm (set to 0 for sharp-cornered DIY PCBs)
-pcb_corner_radius = 0.5; // [0:0.1:10]
-// Radial clearance around the PCB inside the shell (per side: 1.0 adds 2mm total width & depth)
-pcb_xy_clearance = 1.00; // [0:0.05:5]
+// PCB corner radius in mm (ABK-20 PCB = 2.0mm)
+pcb_corner_radius = 2.0; // [0:0.1:10]
+// Radial clearance around the PCB inside the shell (0.35 adds 0.7mm total width & depth)
+pcb_xy_clearance = 0.35; // [0:0.05:5]
 // Distance from PCB center (Z=0) to the underside of the top shell ceiling
 pcb_to_ceiling = 8.1; // [4:0.1:20]
 // Internal depth below PCB center (Z=0) to clear bottom components (audio jacks reach -10.8mm)
@@ -93,17 +93,17 @@ u1_pocket_y = 10.35;
 // Cut openings for top-mounted audio jacks (earlier prototype board variant)
 cut_top_jack_openings = false;
 // Opening cutout style
-top_jack_cutout_style = "notch"; // [notch:U-Notch Open to Top Edge (Clearance for Plugs), window:Enclosed Rectangular Window, circular_holes:Circular Holes for Vertical Bushings]
+top_jack_cutout_style = "window"; // [notch:U-Notch Open to Top Edge (Clearance for Plugs), window:Enclosed Rectangular Window, circular_holes:Circular Holes for Vertical Bushings]
 // Extend cutout towards the side walls
-top_jack_extend_to_side = "inner_wall"; // [inner_wall:Flush to inner face of side wall (Solid Side Wall), centered:Centered at jack body, outer_wall:Cut through side wall]
+top_jack_extend_to_side = "centered"; // [inner_wall:Flush to inner face of side wall (Solid Side Wall), centered:Centered at jack body, outer_wall:Cut through side wall]
 // Width of each jack cutout (used for centered mode, or inner span)
-top_jack_cutout_w = 14.0; // [10:0.5:25]
+top_jack_cutout_w = 14.5; // [10:0.5:25]
 // Cutout start Y position behind jack body (PCB coords, jack body rear is at Y=27.57)
-top_jack_y_start = 26.5; // [20:0.5:35]
+top_jack_y_start = 26.0; // [20:0.5:35]
 // Cutout end Y position for enclosed window mode
-top_jack_window_y_end = 43.5; // [35:0.5:46]
+top_jack_window_y_end = 41.5; // [35:0.5:46]
 // Corner radius of the jack opening
-top_jack_corner_r = 1.0; // [0:0.1:4]
+top_jack_corner_r = 1.4; // [0:0.1:4]
 // Opening width/diameter in the back wall for the top-mounted jacks
 top_jack_wall_cutout_w = 8.0; // [6:0.1:18]
 

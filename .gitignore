@@ -9,6 +9,7 @@ _autosave-*
 fp-info-cache
 *.lck
 *.tmp
+*$.*
 
 # KiCad 9 local settings / caches
 *.kicad_dru-bak

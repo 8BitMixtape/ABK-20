@@ -35408,7 +35408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8Bitmixtape_reworked:Angled_1x04_Pitch2.54mm-flip"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 251.46 152.4 0)
 			(effects
 				(font

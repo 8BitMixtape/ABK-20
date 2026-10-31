@@ -112,15 +112,16 @@ A dedicated OpenSCAD front panel ([`ABK-20_frontplate_3dprint.scad`](production/
 
 ### 3. Parametric Enclosures (`production/ABK20-case/`)
 * **3D-Printable Snap-Fit Enclosure** ([`ABK-20_case_3dprint.scad`](production/ABK20-case/ABK-20_case_3dprint.scad), [`.stl`](production/ABK20-case/ABK-20_case_3dprint.stl), [`.3mf`](production/ABK20-case/ABK-20_case_3dprint.3mf)):
-  * Two-part direct-fit enclosure (`top_shell` + `bottom_cover`) designed for supportless FDM 3D printing.
-  * Direct port clearances for USB-C, dual 3.5mm jacks, side volume thumbwheel, slide fader, and tactile controls.
+  * Two-part direct-fit enclosure (`top_shell` + `bottom_cover`) designed for supportless FDM 3D printing with integrated 5×4 NeoPixel baffle grid.
+  * **Prototype Hardware Support (Preset: `"perfect Proto"`)**: Specifically tailored for early prototype boards with top-mounted PJ-317 audio jacks. Adds beveled rectangular window cutouts ($14.5\times 15.5\text{ mm}$, $R=1.4\text{ mm}$) centered over each jack and widens lateral board clearance to $1.5\text{ mm}$ for effortless PCB insertion around the side thumbwheel volume pot.
+  * **Standard Production (Preset: `"ABK-20_diffuser_grid"`)**: Solid continuous top face with rear-exiting audio jack ports.
 * **Laser-Cut Desktop Console ("Chistli")** ([`ABK-20_case.scad`](production/ABK20-case/ABK-20_case.scad)):
   * Parametric finger-jointed desktop chassis in 3mm acrylic or wood with an ergonomic $12^\circ$ playing tilt.
   * Extended side cheeks with custom corner radii and Eurorack rail mounting options.
-* **Enclosure Engineering Review**: [**`production/ABK20-case/CASE_DESIGN_NOTES.md`**](production/ABK20-case/CASE_DESIGN_NOTES.md) (kinematics, tolerances, and assembly techniques).
+* **Enclosure Documentation**: [**`production/ABK20-case/README.md`**](production/ABK20-case/README.md) & [**`CASE_DESIGN_NOTES.md`**](production/ABK20-case/CASE_DESIGN_NOTES.md).
 
 <p align="center">
-  <img src="docs/img/ABK-20_case_3dprint_assembly.png" alt="ABK-20 3D-Printed Snap-Fit Enclosure Assembly" width="390" />
+  <img src="docs/img/ABK-20_case_3dprint_proto_assembly.png" alt="ABK-20 3D-Printed Snap-Fit Enclosure (Prototype Top Jacks)" width="390" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/img/ABK-20_case_lasercut_assembly.png" alt="ABK-20 Laser-Cut Desktop Console" width="390" />
 </p>
