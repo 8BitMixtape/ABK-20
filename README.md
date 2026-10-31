@@ -165,6 +165,8 @@ The ABK-20 features a dedicated, highly optimized build of **TinyAudioBoot** for
   * Occupies $\le 1\text{ KB}$ at address `0x1C00`, maximizing flash memory to **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) for user sketches.
 * **ISP Flashing & Fuses**:
   * Quick one-liner AVRDUDE flash commands and fuse reference (`lfuse: 0xe1`, `hfuse: 0xdd`, `efuse: 0xfe`) are detailed in [**`software/tools/bootloader/burn_bootloader.md`**](software/tools/bootloader/burn_bootloader.md).
+* **Architecture & Evolution**:
+  * Comprehensive breakdown of all circuit and firmware differences compared to the original v3.0–v3.2 bootloader in [**`software/tools/bootloader/BOOTLOADER_EVOLUTION_AND_DIFFERENCES.md`**](software/tools/bootloader/BOOTLOADER_EVOLUTION_AND_DIFFERENCES.md).
 
 ---
 

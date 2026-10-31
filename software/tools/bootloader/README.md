@@ -23,6 +23,7 @@
 ```
 tools/bootloader/
 ├── README.md                                  # Complete technical architecture & user guide
+├── BOOTLOADER_EVOLUTION_AND_DIFFERENCES.md    # Detailed comparison with original TinyAudioBoot
 ├── burn_bootloader.md                         # Quick one-liner AVRDUDE flash commands
 ├── src/
 │   ├── TinyAudioBoot.c                        # Unified C source (Standard & Skipper modes)
