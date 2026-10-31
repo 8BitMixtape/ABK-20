@@ -87,20 +87,43 @@ Earlier component staging layout used during initial mechanical fit checks, 3D V
 
 ---
 
-## Frontplate Design & Enclosure Integration
+## Frontplate & Enclosure Ecosystem
 
-A dedicated **1:1 scale laser-cut / CNC frontplate** ($77\times 92\text{ mm}$, $R=3.0\text{ mm}$) has been designed with component cutouts derived directly from the KiCad layout, incorporating $+1.0\text{ mm}$ side overhangs and $+6.0\text{ mm}$ top/bottom overhangs for enclosure mounting:
+The repository provides fully parametric OpenSCAD designs and production deliverables in [`production/`](production/):
+
+### 1. Parametric 3D-Printed Frontplate (`production/ABK20-case/`)
+A dedicated OpenSCAD front panel ([`ABK-20_frontplate_3dprint.scad`](production/ABK20-case/ABK-20_frontplate_3dprint.scad)) designed for standard 16 HP ($80.96 \times 92.28\text{ mm}$) Eurorack rails or the desktop laser-cut chassis:
+* **Integrated 5×4 Baffle Grid**: Extends downward to the PCB to completely isolate each NeoPixel and prevent optical light bleed between cells.
+* **Selectable Matrix Styles** (via OpenSCAD Customizer):
+  * **`diffuser_grid`**: Integrated $0.20\text{ mm}$ translucent 3D-printed diffuser skin (single-extruder M600 filament swap: white on bed, colored panel face).
+  * **`open_frame_grid`**: Crisp open apertures with elegant top edge bevels.
+  * **`window_recess`**: Stepped frame recess for an acrylic window insert.
+* **Mounting & Cutouts**: M3 Eurorack mounting slots with counterbore recesses, underside PCB corner standoffs, and precise cutouts for the slide fader, pots, switches, buttons, and expansion headers.
+* **Pre-Rendered STL**: [`ABK-20_frontplate_3dprint.stl`](production/ABK20-case/ABK-20_frontplate_3dprint.stl) and configuration presets in [`ABK-20_frontplate_3dprint.json`](production/ABK20-case/ABK-20_frontplate_3dprint.json).
 
 <p align="center">
-  <img src="docs/img/ABK-20_frontplate_preview.png" alt="ABK-20 Frontplate Design (Window Version)" width="400" />
+  <img src="docs/img/ABK-20_frontplate_3dprint.png" alt="ABK-20 3D-Printed Frontplate" width="390" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/img/ABK-20_frontplate_discrete_preview.png" alt="ABK-20 Frontplate Design (Discrete LEDs)" width="400" />
+  <img src="docs/img/ABK-20_frontplate_baffle_grid.png" alt="5x4 NeoPixel Matrix Baffle Grid (Underside)" width="390" />
 </p>
 
-All vector files, mechanical drawings, and fabrication guides are organized in the dedicated [**`hardware/frontplate/`**](hardware/frontplate/) directory:
-* **Main Frontplate SVG (Window Style)**: [`hardware/frontplate/ABK-20_frontplate.svg`](hardware/frontplate/ABK-20_frontplate.svg) ($42\times 30\text{ mm}$ opening for tinted/smoked acrylic diffuser).
-* **Alternative Frontplate SVG (Discrete LEDs)**: [`hardware/frontplate/ABK-20_frontplate_discrete_leds.svg`](hardware/frontplate/ABK-20_frontplate_discrete_leds.svg) (20 individual $\varnothing 4.5\text{ mm}$ pixel apertures).
-* **Mechanical Specification & Guide**: [**`hardware/frontplate/README.md`**](hardware/frontplate/README.md) (complete coordinate tables, drill diameters, and assembly notes).
+### 2. Laser-Cut Frontplates (`production/frontplate/`)
+* **Vector Artwork Panels** ([`production/frontplate/ABK_frontplate_02.svg`](production/frontplate/ABK_frontplate_02.svg), [`output.pdf`](production/frontplate/output.pdf)): High-detail laser cutting and surface engraving artwork with silkscreen labeling and control indicators.
+
+### 3. Parametric Enclosures (`production/ABK20-case/`)
+* **3D-Printable Snap-Fit Enclosure** ([`ABK-20_case_3dprint.scad`](production/ABK20-case/ABK-20_case_3dprint.scad), [`.stl`](production/ABK20-case/ABK-20_case_3dprint.stl), [`.3mf`](production/ABK20-case/ABK-20_case_3dprint.3mf)):
+  * Two-part direct-fit enclosure (`top_shell` + `bottom_cover`) designed for supportless FDM 3D printing.
+  * Direct port clearances for USB-C, dual 3.5mm jacks, side volume thumbwheel, slide fader, and tactile controls.
+* **Laser-Cut Desktop Console ("Chistli")** ([`ABK-20_case.scad`](production/ABK20-case/ABK-20_case.scad)):
+  * Parametric finger-jointed desktop chassis in 3mm acrylic or wood with an ergonomic $12^\circ$ playing tilt.
+  * Extended side cheeks with custom corner radii and Eurorack rail mounting options.
+* **Enclosure Engineering Review**: [**`production/ABK20-case/CASE_DESIGN_NOTES.md`**](production/ABK20-case/CASE_DESIGN_NOTES.md) (kinematics, tolerances, and assembly techniques).
+
+<p align="center">
+  <img src="docs/img/ABK-20_case_3dprint_assembly.png" alt="ABK-20 3D-Printed Snap-Fit Enclosure Assembly" width="390" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/img/ABK-20_case_lasercut_assembly.png" alt="ABK-20 Laser-Cut Desktop Console" width="390" />
+</p>
 
 ---
 
@@ -119,9 +142,29 @@ All vector files, mechanical drawings, and fabrication guides are organized in t
 
 ## Firmware & Web Flasher
 
-The ABK-20 is fully compatible with the sound sketches and web player in:
-* **[8Bit-Vintage Firmware Repository](https://github.com/8BitMixtape/8Bit-Vintage)**
-* **[Online Web Audio Player & Flasher](https://8bitmixtape.github.io/8Bit-Vintage/)**
+* **[ABK-20 Online Web Audio Player & Flasher](https://8bitmixtape.github.io/ABK-20/)** (hosted directly from [`docs/index.html`](docs/index.html))
+* **[Software & Sketches Suite](software/)** (PlatformIO build environment, `hex2wav` pipeline, and 30+ sound sketches)
+* Also compatible with the [8Bit-Vintage Firmware Repository](https://github.com/8BitMixtape/8Bit-Vintage)
+
+---
+
+## TinyAudioBoot Bootloader (ABK-20 Custom Edition)
+
+The ABK-20 features a dedicated, highly optimized build of **TinyAudioBoot** for ATtiny85 running at 16 MHz internal PLL, fully documented in [**`software/tools/bootloader/`**](software/tools/bootloader/):
+
+* **Skipper Edition** ([`TinyAudioBoot_Skipper_ABK-20.hex`](software/tools/bootloader/hex/TinyAudioBoot_Skipper_ABK-20.hex), 960 bytes):
+  * **Instant Boot**: Starts the active synthesizer sketch in $< 25\text{ ms}$ upon normal power-on.
+  * **Upload Mode on Demand**: Enters a 30-second audio upload window *only* when holding button **`SW2`** during power-up or reset.
+* **Standard Edition** ([`TinyAudioBoot_Standard_ABK-20.hex`](software/tools/bootloader/hex/TinyAudioBoot_Standard_ABK-20.hex), 874 bytes):
+  * Provides an automatic 5-second audio upload window on every power cycle.
+* **Silent Standby on PB1**:
+  * Actively clamps `PB1` to GND during bootloader standby so there are zero pops, clicks, or 1 Hz ticking chirps in headphones or speaker.
+* **Page-Write Bi-Color Visuals**:
+  * Alternates **Green $\leftrightarrow$ Red** on every 64-byte flash page write for real-time visual progress monitoring.
+* **Flash Budget**:
+  * Occupies $\le 1\text{ KB}$ at address `0x1C00`, maximizing flash memory to **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) for user sketches.
+* **ISP Flashing & Fuses**:
+  * Quick one-liner AVRDUDE flash commands and fuse reference (`lfuse: 0xe1`, `hfuse: 0xdd`, `efuse: 0xfe`) are detailed in [**`software/tools/bootloader/burn_bootloader.md`**](software/tools/bootloader/burn_bootloader.md).
 
 ---
 
@@ -129,33 +172,41 @@ The ABK-20 is fully compatible with the sound sketches and web player in:
 
 ```
 ABK-20/
-├── hardware/
-│   ├── ABK-20.kicad_pro              # KiCad 9 Project file
+├── .agents/                          # Antigravity agent rules & 8Bit Mixtape skills
+├── docs/                             # Web Player, distribution media & documentation
+│   ├── index.html                    # Online Web Audio Flasher & synthesizer player
+│   ├── apps.json & apps.js           # Sound track catalog metadata & registry
+│   ├── wav/                          # Production 8-bit bootloader audio streams (.wav)
+│   ├── audio/                        # 30-second audio preview MP3s
+│   ├── gifs/                         # Animated 5x4 matrix LED previews (solid clean mode)
+│   ├── manuals/                      # Individual user manuals for each sound application
+│   ├── ABK-20_schematic.pdf          # Multi-page A4 schematic export
+│   └── datasheets/                   # Component datasheets (Bourns faders, switches, pots)
+├── hardware/                         # KiCad 8 EDA design source files
+│   ├── ABK-20.kicad_pro              # KiCad project file
 │   ├── ABK-20.kicad_sch              # Main hierarchical schematic (Page 1)
 │   ├── LED_Matrix.kicad_sch          # 5x4 NeoPixel matrix sub-sheet (Page 2)
 │   ├── ABK-20.kicad_pcb              # Main 75x80 mm PCB board layout
 │   ├── ABK-20_showcase_variants.kicad_pcb # Standalone showroom board with alternative footprints
-│   ├── mixtape_schematics.kicad_sym  # Project symbol library (PTL20 fader, etc.)
-│   ├── 8Bitmixtape_reworked.pretty/  # Project footprints (Bourns PTL20, SK6812, etc.)
-│   ├── 3d_models/                    # Self-contained bundled VRML (.wrl) 3D models
-│   └── scripts/                      # 3D model generators and thumbnail utilities
-├── docs/
-│   ├── ABK-20_schematic.pdf          # Multi-page A4 schematic export
-│   ├── HARDWARE_NOTES.md             # Hardware architecture and design notes
-│   ├── DESIGN_VARIANTS_GUIDE.md      # Guide for creating custom layouts & variants
-│   ├── AMP_AUTO_SHUTDOWN_CIRCUIT.md  # Headphone jack auto-shutdown design for v0.3
-│   ├── datasheets/                   # Key component datasheets (Bourns fader, switches, pots)
-│   └── img/
-│       ├── ABK_prototype_randen.png  # Prototype console photo
-│       ├── schematic_page-1.png      # High-res schematic Page 1 render
-│       ├── schematic_page-2.png      # High-res schematic Page 2 render
-│       ├── ABK-20_75x80_3D.png       # 3D PCB layout (75x80 mm compact)
-│       ├── ABK-20_showcase_variants_3D.png # 3D hardware variants showroom
-│       └── ABK-20_3D_layout.png      # 3D component staging layout
-└── production/                       # Fabrication deliverables
-    ├── bom/
-    │   └── ibom.html                 # Interactive HTML Bill of Materials
-    └── MASK/                         # DIY PCB chemical etching masks (SVG, PDF)
+│   ├── mixtape_schematics.kicad_sym  # Project symbol library
+│   ├── 8Bitmixtape_reworked.pretty/  # Project footprint library
+│   ├── 3d_models/                    # Self-contained bundled 3D models
+│   ├── bom/                          # Hardware schematic BOM exports
+│   └── reports/                      # DRC and ERC verification reports
+├── production/                       # Physical manufacturing & fabrication deliverables
+│   ├── bom/                          # Interactive HTML Bill of Materials (iBOM)
+│   ├── gerbers/                      # Standard fabrication drill & Gerber archives
+│   ├── MASK/                         # High-res vector masks for DIY PCB chemical etching
+│   ├── frontplate/                   # Laser-cut / CNC front panel vector drawings (SVG)
+│   └── ABK20-case/                   # 3D printable enclosures and mechanical drawings
+└── software/                         # Embedded C++ firmware, tools & asset pipelines
+    ├── platformio.ini                # PlatformIO ATtiny85 @ 16 MHz build configuration
+    ├── src/                          # 30+ algorithmic sound sketches (.cpp)
+    ├── include/                      # Hardware pinouts & shared sound engine headers (.h)
+    ├── scripts/                      # Asset pipelines (build_wavs, gen_previews, gen_audio_previews)
+    └── tools/
+        ├── bootloader/               # TinyAudioBoot sources, Makefile & precompiled HEX binaries
+        └── hex2wav/                  # Standalone Hex-to-Audio bootloader converter
 ```
 
 ---

@@ -19,7 +19,8 @@ kicad_build/
 Thumbs.db
 *~
 *.swp
-#*#
+\#*#
+\#*
 .vscode/
 
 # Backups and reports
@@ -42,3 +43,7 @@ step_backup/
 **/.svg2shenzhen-cache/
 
 *.bak_*
+
+# PlatformIO
+.pio/
+
