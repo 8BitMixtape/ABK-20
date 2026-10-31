@@ -101,6 +101,8 @@ u1_pocket_y = 10.35;
 /* [Acoustic Speaker Waveguide Chimney & Grill] */
 // Add integrated downward acoustic waveguide chimney from panel underside to PCB
 add_speaker_chimney = true;
+// Clearance between bottom of chimney and PCB surface (mm, 0 = flush contact seal, 0.15 = nominal clearance)
+chimney_pcb_clearance = 0.15; // [0.00:0.05:2.00]
 // Chimney funnel wall thickness (mm)
 chimney_wall = 1.2; // [0.8:0.1:2.5]
 // Chimney acoustic horn flare (mm expansion per side from PCB to panel)
@@ -568,19 +570,21 @@ module front_plate_3d() {
         }
       }
 
-      // 4. Downward Acoustic Waveguide Chimney Horn (from Z = -baffle_depth up to Z = 0)
-      if (add_speaker_chimney && baffle_depth > 0) {
+      // 4. Downward Acoustic Waveguide Chimney Horn (from PCB to underside of plate)
+      if (add_speaker_chimney) {
+        z_chimney_bot = z_pcb_top + chimney_pcb_clearance;
         translate([speaker_pcb_x, speaker_pcb_y, 0])
-          SpeakerChimneyBlock3D(z_bot = -baffle_depth, z_top = 0.01);
+          SpeakerChimneyBlock3D(z_bot = z_chimney_bot, z_top = 0.01);
       }
     }
 
     // --- Subtractions ---
 
     // A. Acoustic Chimney Inner Horn Bore
-    if (add_speaker_chimney && baffle_depth > 0) {
+    if (add_speaker_chimney) {
+      z_chimney_bot = z_pcb_top + chimney_pcb_clearance;
       translate([speaker_pcb_x, speaker_pcb_y, 0])
-        SpeakerChimneyBore3D(z_bot = -baffle_depth - 0.5, z_top = 0.5);
+        SpeakerChimneyBore3D(z_bot = z_chimney_bot - 0.5, z_top = 0.5);
     }
 
     // A. 5x4 NeoPixel Matrix Light Chambers

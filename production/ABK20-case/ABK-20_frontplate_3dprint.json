@@ -42,7 +42,8 @@
             "pcb_thickness": "1.6",
             "pcb_to_ceiling": "8.1",
             "show_pcb": "true",
-            "panel_alignment": "symmetric"
+            "panel_alignment": "symmetric",
+            "chimney_pcb_clearance": "0.15"
         },
         "ABK-20_Diffuser_Skin": {
             "add_component_pockets": "true",
@@ -85,7 +86,8 @@
             "pcb_thickness": "1.6",
             "pcb_to_ceiling": "8.1",
             "show_pcb": "true",
-            "panel_alignment": "symmetric"
+            "panel_alignment": "symmetric",
+            "chimney_pcb_clearance": "0.15"
         },
         "ABK-20_Flat_Laser_Style": {
             "add_eurorack_slots": "true",
@@ -124,7 +126,8 @@
             "pcb_thickness": "1.6",
             "pcb_to_ceiling": "8.1",
             "show_pcb": "true",
-            "panel_alignment": "symmetric"
+            "panel_alignment": "symmetric",
+            "chimney_pcb_clearance": "0.15"
         },
         "ABK-20_Open_Frames": {
             "add_component_pockets": "true",
@@ -167,7 +170,8 @@
             "pcb_thickness": "1.6",
             "pcb_to_ceiling": "8.1",
             "show_pcb": "true",
-            "panel_alignment": "symmetric"
+            "panel_alignment": "symmetric",
+            "chimney_pcb_clearance": "0.15"
         },
         "ABK-20_Prototype_Top_Jacks": {
             "$fn": "64",
@@ -239,7 +243,8 @@
             "u1_pocket_x": "-30",
             "u1_pocket_y": "10.35",
             "z_plate_bot": "0",
-            "panel_alignment": "symmetric"
+            "panel_alignment": "symmetric",
+            "chimney_pcb_clearance": "0.15"
         },
         "test_pink": {
             "$fn": "64",
@@ -311,7 +316,8 @@
             "u1_pocket_x": "-30",
             "u1_pocket_y": "10.35",
             "z_plate_bot": "0",
-            "panel_alignment": "symmetric"
+            "panel_alignment": "symmetric",
+            "chimney_pcb_clearance": "0.15"
         },
         "protoFront_speaker": {
             "$fn": "64",
@@ -393,7 +399,8 @@
             "u1_pocket_w": "10",
             "u1_pocket_x": "-30",
             "u1_pocket_y": "10.35",
-            "z_plate_bot": "0"
+            "z_plate_bot": "0",
+            "chimney_pcb_clearance": "0.15"
         }
     }
 }
