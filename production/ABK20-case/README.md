@@ -86,3 +86,16 @@ The top shell is printed **face down** directly on the build bed (`Z = 0`), requ
 ## 6. Engineering Notes & Kinematics
 
 For in-depth analysis of PCB insertion kinematics, thumbwheel clearances, button reach, and tolerance stacking, read [**`CASE_DESIGN_NOTES.md`**](CASE_DESIGN_NOTES.md).
+
+---
+
+## 7. Acoustic Optimization & Speaker Back-Chamber Design
+
+For maximum audio fidelity, punch, and low-end bass reproduction from the rear-mounted micro-speaker ($20 \times 8.5\text{ mm}$ driven by the onboard PAM8002 BTL amplifier), refer to [**`ACOUSTIC_OPTIMIZATION_PLAN.md`**](ACOUSTIC_OPTIMIZATION_PLAN.md).
+
+It covers:
+* **Dipole Cancellation Prevention**: Perimeter gasket sealing against the PCB.
+* **Acoustic Pod / Back-Chamber ($V_b \approx 2.0\text{ cm}^3$)**: Integrating an acoustic cup and tuned bass-reflex port ($f_b \approx 420\text{ Hz}$) into the 3D-printed bottom shell.
+* **PCB Soundboard Modes**: Utilizing the $75 \times 80\text{ mm}$ FR4 natural bending resonance ($280 - 380\text{ Hz}$) and silicone O-ring decoupling.
+* **Acoustic Polyfill**: Internal chamber stuffing to increase apparent compliance by $15-20\%$.
+
