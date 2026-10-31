@@ -674,7 +674,7 @@
       "plot": "../production/MASK/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../production/ABK20-case/ABK-20.step",
       "svg": "",
       "vrml": ""
     },
