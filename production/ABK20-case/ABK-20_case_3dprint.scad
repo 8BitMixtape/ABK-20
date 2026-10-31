@@ -110,8 +110,8 @@ top_jack_wall_cutout_w = 8.0; // [6:0.1:18]
 /* [Acoustic Speaker Waveguide Chimney & Grill] */
 // Add integrated downward acoustic waveguide chimney from ceiling to PCB
 add_speaker_chimney = true;
-// Clearance between bottom of chimney and PCB surface (mm)
-chimney_pcb_clearance = 0.15; // [0.05:0.05:1.00]
+// Clearance between bottom of chimney and PCB surface (mm, 0 = flush contact seal, 0.15 = nominal clearance)
+chimney_pcb_clearance = 0.15; // [0.00:0.05:2.00]
 // Chimney funnel wall thickness (mm)
 chimney_wall = 1.2; // [0.8:0.1:2.5]
 // Chimney acoustic horn flare (mm expansion per side from PCB to ceiling)
