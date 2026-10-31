@@ -126,6 +126,28 @@ A dedicated OpenSCAD front panel ([`ABK-20_frontplate_3dprint.scad`](production/
   <img src="docs/img/ABK-20_case_lasercut_assembly.png" alt="ABK-20 Laser-Cut Desktop Console" width="390" />
 </p>
 
+### 4. Acoustic Optimization & Waveguide Engineering
+The repository includes a comprehensive acoustic engineering architecture to solve the acoustic dipole short-circuit on rear-mounted micro-speakers and dramatically enhance bass/mid punch on physical hardware:
+* **Master Engineering Plan**: [**`production/ABK20-case/ACOUSTIC_OPTIMIZATION_PLAN.md`**](production/ABK20-case/ACOUSTIC_OPTIMIZATION_PLAN.md)
+  * **Downward Acoustic Chimney Waveguide**: Integrated directly into both the 3D-printed case ceiling and Eurorack faceplate. Tapers downward to seal against the PCB acoustic holes, transforming the $8.1\text{ mm}$ airspace into an acoustic horn with $+3\text{ to }+6\text{ dB}$ higher acoustic projection and zero internal sound spill.
+  * **8 Classic Vintage Sound Grill Styles** (selectable via `speaker_grill_style`):
+    * **`horiz_slots`**: Classic Dieter Rams / Braun T3 tiered horizontal slits.
+    * **`horiz_4slots`**: 4 thin horizontal slits (retro 70s/80s Hi-Fi cassette deck).
+    * **`soundwave`**: 7 graduated vertical slits forming an analog synth graphic EQ waveform.
+    * **`braun_dots`**: 19-hole staggered precision dot matrix (Braun ET66 / T41).
+    * **`chevron`**: $45^\circ$ angled Japanese synth louvers (Roland TR/TB style).
+    * **`radial`**: 1950s transistor radio radial dial spoke starburst.
+    * **`slots`**: Classic 5 vertical Eurorack slots.
+    * **`aperture`**: Open framed window for real speaker cloth or brass wire mesh.
+  * **Modular Acoustic Kit** ([`production/ABK20-case/ABK-20_speaker_acoustic_kit.scad`](production/ABK20-case/ABK-20_speaker_acoustic_kit.scad)):
+    * Parametric sealed and Helmholtz bass-reflex back-box cups (Standard $2.4\text{ cm}^3$, XL $5.1\text{ cm}^3$, and MAX $6.3\text{ cm}^3$) with extended snorkel ducts tuned to $280-360\text{ Hz}$.
+    * **Support-Free Printing**: Continuous flat PCB support keel at $Z = \text{depth}$ with $\le 45^\circ$ transitional chamfers prints 100% support-free when oriented flange-down.
+  * **Precision Centering**: Added `panel_alignment = "symmetric"` to resolve legacy SVG viewBox offsets, achieving exact $2.98\text{ mm}$ symmetrical PCB margins and balanced top jack outer walls.
+
+<p align="center">
+  <img src="production/ABK20-case/img/classic_grill_showcase.png" alt="Classic Acoustic Speaker Grill Showcase" width="650" />
+</p>
+
 ---
 
 ## ATtiny85 Pin Mapping

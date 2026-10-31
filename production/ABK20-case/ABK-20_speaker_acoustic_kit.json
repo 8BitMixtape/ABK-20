@@ -1,0 +1,34 @@
+{
+    "parameterSets": {
+        "big one": {
+            "$fn": "60",
+            "chimney_bottom_l": "21.6",
+            "chimney_bottom_r": "3.32",
+            "chimney_bottom_w": "8.6",
+            "chimney_height": "8.1",
+            "chimney_wall": "1.2",
+            "down_vent_d": "2.4",
+            "horn_flare": "1.5",
+            "max_depth": "14",
+            "max_l": "35",
+            "max_w": "17",
+            "part_to_show": "cup_pipe_ext_max_14mm",
+            "pipe_inner_d": "3.5",
+            "pipe_wall": "1",
+            "pod_flange": "1.2",
+            "pod_l": "28",
+            "pod_r": "4.5",
+            "pod_w": "15",
+            "pod_wall": "1.4",
+            "slot_h": "2.8",
+            "slot_l": "24",
+            "slot_w": "1.8",
+            "wire_notch_h": "1.4",
+            "wire_notch_w": "3",
+            "xl_depth": "12",
+            "xl_l": "34",
+            "xl_w": "17"
+        }
+    },
+    "fileFormatVersion": "1"
+}

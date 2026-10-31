@@ -107,6 +107,30 @@ top_jack_corner_r = 1.4; // [0:0.1:4]
 // Opening width/diameter in the back wall for the top-mounted jacks
 top_jack_wall_cutout_w = 8.0; // [6:0.1:18]
 
+/* [Acoustic Speaker Waveguide Chimney & Grill] */
+// Add integrated downward acoustic waveguide chimney from ceiling to PCB
+add_speaker_chimney = true;
+// Clearance between bottom of chimney and PCB surface (mm)
+chimney_pcb_clearance = 0.15; // [0.05:0.05:1.00]
+// Chimney funnel wall thickness (mm)
+chimney_wall = 1.2; // [0.8:0.1:2.5]
+// Chimney acoustic horn flare (mm expansion per side from PCB to ceiling)
+chimney_flare = 1.5; // [0.0:0.1:4.0]
+// Cut speaker acoustic grill in the top faceplate
+cut_speaker_grill = true;
+// Speaker grill design style
+speaker_grill_style = "horiz_slots"; // [horiz_slots:Classic Braun Horizontal Slits (3 Tiered), horiz_4slots:Retro Hi-Fi 4 Thin Slits, slots:Classic Synth 5 Vertical Slots, soundwave:Analog Synth Audio Waveform / EQ, braun_dots:Dieter Rams T3 Staggered Dot Matrix (19 Holes), chevron:80s Japanese Synth 45° Louvers, radial:Vintage Transistor Radio Radial Star, aperture:Framed Open Aperture (for Mesh/Cloth)]
+// Width of each grill slot (mm)
+speaker_slot_w = 1.4; // [0.8:0.1:2.5]
+// Length of each grill slot (mm)
+speaker_slot_l = 6.4; // [3:0.1:10]
+// Pitch/spacing between grill slots (mm)
+speaker_slot_pitch = 3.4; // [2:0.1:5]
+// Speaker center X (PCB coords)
+speaker_pcb_x = 0.223;
+// Speaker center Y (PCB coords)
+speaker_pcb_y = -12.565;
+
 /* [Side & Back Wall Cutouts] */
 // Add cutout on the right side wall for the thumbwheel potentiometer (POT3-Vol1)
 add_thumbwheel_cutout = true;
@@ -226,9 +250,115 @@ module rounded_rect_center(w, d, r) {
   actual_r = min(r, min(w, d) / 2);
   if (actual_r > 0) {
     offset(r=actual_r, $fn=64)
-      square([max(0.01, w - 2 * actual_r), max(0.01, d - 2 * actual_r)], center=true);
+      square([max(0.05, w - 2 * actual_r), max(0.05, d - 2 * actual_r)], center=true);
   } else {
     square([w, d], center=true);
+  }
+}
+
+// ---------------------------------------------------------
+// Speaker Acoustic Waveguide & Grill Modules
+// ---------------------------------------------------------
+module SpeakerGrillCutouts2D(grill_style="horiz_slots") {
+  if (grill_style == "slots" || grill_style == "vert_slots") {
+    // Style 1: Classic Synth 5 Vertical Rounded Slots
+    slot_w = speaker_slot_w;
+    slot_h = speaker_slot_l;
+    pitch = speaker_slot_pitch;
+    for (i = [-2 : 1 : 2]) {
+      translate([i * pitch, 0])
+        rounded_rect_center(slot_w, slot_h, slot_w / 2);
+    }
+  } else if (grill_style == "horiz_slots") {
+    // Style 2: Classic Braun / Dieter Rams Horizontal Slits (3 tiered slots following stadium curve)
+    rounded_rect_center(18.0, 1.3, 0.65);
+    translate([0,  2.3]) rounded_rect_center(15.2, 1.3, 0.65);
+    translate([0, -2.3]) rounded_rect_center(15.2, 1.3, 0.65);
+  } else if (grill_style == "horiz_4slots") {
+    // Style 2b: 4 Thin Horizontal Slits (Retro Hi-Fi cassette deck style)
+    for (y = [-3.15, -1.05, 1.05, 3.15]) {
+      w_slit = (abs(y) > 2.0) ? 14.5 : 18.0;
+      translate([0, y])
+        rounded_rect_center(w_slit, 1.1, 0.55);
+    }
+  } else if (grill_style == "soundwave") {
+    // Style 3: Audio Waveform / Graphic EQ Slits (7 vertical bars with graduated heights)
+    pit = 2.4;
+    w_bar = 1.2;
+    heights = [2.8, 4.4, 5.8, 6.8, 5.8, 4.4, 2.8];
+    for (i = [0 : 6]) {
+      translate([(i - 3) * pit, 0])
+        rounded_rect_center(w_bar, heights[i], w_bar / 2);
+    }
+  } else if (grill_style == "braun_dots" || grill_style == "mesh") {
+    // Style 4: Dieter Rams / Braun T3 Staggered Precision Dot Matrix (19 holes)
+    d_hole = 1.3;
+    for (x = [-7.5 : 2.5 : 7.5]) {
+      translate([x, 0]) circle(d=d_hole, $fn=24);
+    }
+    for (x = [-6.25 : 2.5 : 6.25]) {
+      translate([x,  2.2]) circle(d=d_hole, $fn=24);
+      translate([x, -2.2]) circle(d=d_hole, $fn=24);
+    }
+  } else if (grill_style == "chevron" || grill_style == "slanted") {
+    // Style 5: 80s Japanese Synth / Walkman 45-degree Angled Slits
+    intersection() {
+      rounded_rect_center(19.5, 7.2, 2.8);
+      for (i = [-5 : 1 : 5]) {
+        translate([i * 3.2, 0])
+          rotate([0, 0, 45])
+            rounded_rect_center(1.3, 16.0, 0.65);
+      }
+    }
+  } else if (grill_style == "radial") {
+    // Style 6: 1950s Transistor Radio Radial Dial Spoke Aperture
+    intersection() {
+      rounded_rect_center(19.5, 7.2, 2.8);
+      union() {
+        circle(d=2.6, $fn=32);
+        for (a = [0 : 30 : 150]) {
+          rotate([0, 0, a])
+            rounded_rect_center(1.3, 18.0, 0.65);
+        }
+      }
+    }
+  } else if (grill_style == "aperture") {
+    // Style 7: Open Framed Aperture for Custom Fabric or Metal Mesh
+    rounded_rect_center(20.0, 7.5, 3.2);
+  }
+}
+
+module SpeakerChimneyBlock3D(z_bot, z_top) {
+  bot_w = 21.6 + chimney_wall * 2;
+  bot_d = 8.6 + chimney_wall * 2;
+  bot_r = 3.32 + chimney_wall;
+  top_w = 21.6 + (chimney_flare + chimney_wall) * 2;
+  top_d = 8.6 + (chimney_flare + chimney_wall) * 2;
+  top_r = 3.32 + chimney_flare + chimney_wall;
+  hull() {
+    translate([0, 0, z_bot])
+      linear_extrude(0.1)
+        rounded_rect_center(bot_w, bot_d, bot_r);
+    translate([0, 0, z_top - 0.1])
+      linear_extrude(0.1)
+        rounded_rect_center(top_w, top_d, top_r);
+  }
+}
+
+module SpeakerChimneyBore3D(z_bot, z_top) {
+  bot_w = 21.6;
+  bot_d = 8.6;
+  bot_r = 3.32;
+  top_w = bot_w + chimney_flare * 2;
+  top_d = bot_d + chimney_flare * 2;
+  top_r = bot_r + chimney_flare;
+  hull() {
+    translate([0, 0, z_bot])
+      linear_extrude(0.1)
+        rounded_rect_center(bot_w, bot_d, bot_r);
+    translate([0, 0, z_top])
+      linear_extrude(0.1)
+        rounded_rect_center(top_w, top_d, top_r);
   }
 }
 
@@ -285,6 +415,12 @@ module TopFaceCutouts2D() {
     if (cut_sw1_hole) {
       translate([-14.72, 34.27])
         circle(d=5.8, $fn=36);
+    }
+
+    // 7b. Speaker Acoustic Grill in Top Faceplate
+    if (cut_speaker_grill) {
+      translate([speaker_pcb_x, speaker_pcb_y])
+        SpeakerGrillCutouts2D(speaker_grill_style);
     }
 
     // 8. Optional Prototype Top-Mounted Audio Jacks (Jack1 & Jack2)
@@ -457,6 +593,20 @@ module top_shell() {
           linear_extrude(z_ceiling_inner - z_grid_bot + 0.01)
             square([led_grid_outer_w, led_grid_outer_h], center=true);
       }
+
+      // Integrated Acoustic Waveguide Chimney Horn (from PCB to ceiling)
+      if (add_speaker_chimney) {
+        z_chimney_bot = z_pcb_top + chimney_pcb_clearance;
+        translate([speaker_pcb_x, speaker_pcb_y, 0])
+          SpeakerChimneyBlock3D(z_bot=z_chimney_bot, z_top=z_ceiling_inner + 0.01);
+      }
+    }
+
+    // 1c. Cut Acoustic Chimney Inner Horn Bore
+    if (add_speaker_chimney) {
+      z_chimney_bot = z_pcb_top + chimney_pcb_clearance;
+      translate([speaker_pcb_x, speaker_pcb_y, 0])
+        SpeakerChimneyBore3D(z_bot=z_chimney_bot - 0.5, z_top=z_ceiling_inner + 0.5);
     }
 
     // 1a. Cut 5x4 NeoPixel light cells (or window) up to diffuser_cover_thickness from the top outer face
