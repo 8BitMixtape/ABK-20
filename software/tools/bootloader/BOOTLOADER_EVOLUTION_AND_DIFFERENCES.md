@@ -15,9 +15,9 @@ This document details the architectural evolution, engineering challenges, and t
 | **PB3 Multiplexing Logic** | Simple CMOS digital logic (`PINB & (1<<PB3)`) | Digital audio input | **Internal 8-bit ADC Ladder Decoder** (`ADCH <= 60`) |
 | **Button Debounce & Release**| None (contact bounce caused demodulator freeze)| N/A | **ADC release loop + 20ms settling delay** |
 | **Visual Progress Feedback** | Single LED toggle | **Alternating Green $\leftrightarrow$ Red** per 64B page | **Alternating Green $\leftrightarrow$ Red** per 64B page |
-| **Binary Footprint** | $\approx 1.2\text{ KB} - 1.8\text{ KB}$ | **874 bytes** | **960 bytes** |
-| **Bootloader Flash Base** | Varied ($0\text{x1800} \to 2\text{ KB}$ section) | **$0\text{x1C00}$ ($\le 1\text{ KB}$ boundary)** | **$0\text{x1C00}$ ($\le 1\text{ KB}$ boundary)** |
-| **Flash Left for Synthesizer**| $\approx 6,144$ bytes | **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) | **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) |
+| **Binary Footprint** | **1,006 bytes** (only 18B headroom before 1KB overflow) | **874 bytes** (-132B reduction) | **960 bytes** (includes ADC & debounce in < 1KB) |
+| **Bootloader Flash Base** | **$0\text{x1C00}$** (1 KB boundary) | **$0\text{x1C00}$** (1 KB boundary) | **$0\text{x1C00}$** (1 KB boundary) |
+| **Flash Left for Synthesizer**| **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) | **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) | **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) |
 
 ---
 
@@ -113,15 +113,17 @@ This document details the architectural evolution, engineering challenges, and t
 
 ---
 
-### E. Flash Memory Budget & Addressing
-* **The Problem in Original Bootloaders**:
-  Older builds consumed between $1.2\text{ KB}$ and $1.8\text{ KB}$, requiring linkers to set the bootloader start address to `0x1800` (reserving $2\text{ KB}$). This left only $6,144$ bytes for synthesizer sketches.
-* **The ABK-20 Solution**:
-  By using optimized inline assembly delays, efficient `pgm_read_word` primitives, and consolidating the codebase:
-  - **Standard Edition**: **874 bytes** ($\le 1\text{ KB}$)
-  - **Skipper Edition**: **960 bytes** ($\le 1\text{ KB}$)
+### E. Flash Memory Budget & The 1 KB Boundary
+* **The Baseline in Original Bootloader**:
+  The original `TinyAudioBoot_LedPB0.hex` binary occupied **1,006 bytes** (`0x1C00` to `0x1FEE`). While it did fit within 1 KB, it left a razor-thin margin of **only 18 bytes** before overflowing into a 2 KB partition (`0x1800`).
+* **The ABK-20 Challenge & Solution**:
+  Adding the internal ADC peripheral setup, button ladder threshold checks, release polling loop, 20 ms electrical settling delay, and bi-color page alternating logic would have added $> 150$ bytes—blowing past the 1,024-byte ceiling and forcing a 2 KB boundary (which would have stolen 1,024 bytes of flash from user synth sketches).
+
+  To prevent this, the C codebase was systematically refactored using lean `pgm_read_word` macros, register-level bit-ops, and unified compile-time flags:
+  - **Standard Edition**: Compressed down to **874 bytes** (a 132-byte reduction from the 1,006-byte original).
+  - **Skipper Edition**: Incorporates all ADC ladder decoding, button debouncing, and release loops in just **960 bytes**—preserving 64 bytes of headroom inside the 1 KB partition.
   
-  Both fit strictly within the standardized **1 KB boundary at `0x1C00`**, leaving a continuous **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) for synth sketches.
+  Both editions preserve the full **7,168 bytes** ($0\text{x0000} \to 0\text{x1BFF}$) for user sketches without sacrifice.
 
 ---
 
@@ -134,3 +136,4 @@ All bootloader artifacts are located in [`software/tools/bootloader/`](.):
 * **`hex/TinyAudioBoot_Standard_ABK-20.hex`**: 874-byte production binary (5s auto-window).
 * **`hex/TinyAudioBoot_Skipper_ABK-20.hex`**: 960-byte production binary (instant boot, SW2 entry).
 * **`burn_bootloader.md`**: AVRDUDE one-liner commands and fuse configuration (`lfuse:0xe1`, `hfuse:0xdd`, `efuse:0xfe`).
+
