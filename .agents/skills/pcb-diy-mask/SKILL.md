@@ -112,3 +112,23 @@ The script automatically finds the active Inkscape binary or AppImage:
    * Develop in 1% sodium hydroxide (NaOH) or sodium carbonate.
    * Etch in Ferric Chloride ($FeCl_3$) or Sodium Persulfate at $45-50^\circ\text{C}$ with aeration.
 
+---
+
+## 🔌 Non-Plated Assembly Guide: The 5 Dedicated Wire Bridges
+
+Because DIY etched PCBs do not have chemical through-hole copper plating (PTH), holes are bare fiberglass.
+
+![ABK-20 DIY Ground and Vias Guide](../../docs/img/ABK-20_diy_ground_and_vias_guide.png)
+
+### 1. Dedicated Vias (Must Solder Wire Pins on BOTH Sides)
+Drill these 5 holes with an Ø 0.8–0.9 mm bit, push a snipped resistor lead through, and solder on **both top and bottom**:
+* **Via 1 at `(86.82, 44.45) mm`** (`GND`): Master ground link connecting bottom power GND (`J4`/`J5`) to the top NeoPixel ground plane.
+* **Via 2 at `(91.88, 44.50) mm`** (`VCC`): Master +5V power link to the ATtiny85 and NeoPixels.
+* **Via 3 at `(89.31, 44.42) mm`** (`NEO1-DIN`): ATtiny85 PB0 data signal to the first NeoPixel.
+* **Via 4 at `(134.75, 39.07) mm`** (`GNDA`): Analog audio ground bridge for the PAM8002 power amp.
+* **Via 5 at `(143.29, 63.08) mm`** (`GNDA`): Analog audio ground bridge for the thumbwheel volume pot.
+
+### 2. THT Component Solder-Side Mapping
+* **Front Components (`U1`, `RV1`, `SW2`, `SW3`, `POT2-CV1`, `J1`, `J2`)**: Solder pins on **Bottom (`B.Cu`) only**. Zero tracks are trapped beneath component bodies.
+* **Back Components (`Jack1`, `Jack2`, `POT3-Vol1`, `J5` tabs)**: Solder pins on **Top (`F.Cu`) only**. Solder the 4 through-hole tabs of `J5` (USB-C) on the top side to create extra heavy-duty ground ties.
+
