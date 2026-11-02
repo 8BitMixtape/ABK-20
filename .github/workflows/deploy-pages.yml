@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - rev-0.3
+      - rev-0.4
   workflow_dispatch:
 
 permissions:
