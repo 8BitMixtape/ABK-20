@@ -172,6 +172,32 @@ To eliminate non-standard BOM values (such as the single $6.8\text{k}\Omega$ res
    #define THRESH_TOGGLEUP_BOTH_UP  230  // Midpoint between 256 and 205
    ```
 
+---
+
+## 13. DIY Etched PCB Assembly Lessons & Dual-Side Solder Checklist
+
+Physical assembly testing on double-sided chemical etched PCBs (without through-hole barrel plating / non-PTH) confirmed the entire ABK-20 circuit operates 100% once these two critical dual-sided solder connections are made:
+
+### 1. Reset Button (`SW4`) to ATtiny85 Pin 1 (`U1.1`)
+* **The Routing**: The trace linking Reset button `SW4` to `U1` Pin 1 (`PB5`) routes along the **top layer (`F.Cu`)**.
+* **The Assembly Rule**: Because DIP-8 sockets are normally soldered from the bottom, on a non-PTH DIY board the `B.Cu` joint does not reach the `F.Cu` trace. 
+* **Action**: **Solder `U1` Pin 1 on the TOP (`F.Cu`) layer** (or bend a thin wire up from the socket pin to the top pad). Without this, the Reset button will not reboot the ATtiny85.
+
+### 2. Audio Jacks (`Jack1` & `Jack2`) on the Backside (`B.Cu`)
+* **The Routing**: The 3.5mm jack bodies are mounted on the **back (`B.Cu`)**, and their audio signal traces (`Sound_OUT`, `AudioProg`, and Tip contacts) route along **`B.Cu`**.
+* **The Assembly Rule**: Do not solder the jacks only from the front side where the pin tips emerge.
+* **Action**: **Solder all jack pins directly on their `B.Cu` pads** right against the jack body to ensure solid connection to the audio and bootloader signals.
+
+### 3. Summary of Dual-Side Solder Points for Non-PTH Boards
+| Component | Physical Mount Side | Solder on F.Cu (Top) | Solder on B.Cu (Bottom) | Reason |
+| :--- | :---: | :---: | :---: | :--- |
+| **`U1` Pin 1** (Reset) | Front (`F.Cu`) | **YES (Crucial!)** | **YES** | Connects `F.Cu` trace to `SW4` Reset button. |
+| **`U1` Pins 2–8** | Front (`F.Cu`) | No (Socket covers) | **YES** | All other MCU tracks route on `B.Cu`. |
+| **`Jack1` & `Jack2`** | Back (`B.Cu`) | **YES** (Ground tab) | **YES (Crucial!)** | Signal traces route on `B.Cu`. |
+| **`J5` USB-C Tabs** | Back (`B.Cu`) | **YES** (Shield tabs) | **YES** (SMD pads) | Front tabs add heavy top ground anchor. |
+| **`RV1` Slide Pot** | Front (`F.Cu`) | No (Body covers) | **YES** | Solder on `B.Cu`; Pin 3 ties via dedicated ground via. |
+
+
 
 
 
