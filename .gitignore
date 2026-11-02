@@ -1,5 +1,6 @@
 # KiCad temporary and auto-save files
 *.kicad_prb
+*.kicad_prl
 *-save.kicad_pcb
 *-save.kicad_sch
 _autosave-*

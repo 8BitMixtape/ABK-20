@@ -35385,7 +35385,8 @@
 	(symbol
 		(lib_name "CONN_01X04_3")
 		(lib_id "ABK-20-rescue1:CONN_01X04")
-		(at 251.46 152.4 180)
+		(at 251.46 152.4 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35393,7 +35394,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4b1f07")
 		(property "Reference" "J2"
-			(at 251.46 158.75 0)
+			(at 251.46 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36625,7 +36626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "22uF"
 			(at 107.315 29.21 0)
 			(effects
 				(font

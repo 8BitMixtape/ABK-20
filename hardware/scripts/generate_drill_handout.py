@@ -68,7 +68,7 @@ def generate_handout(pcb_path, output_png, output_pdf):
     ax_hdr.axis('off')
     ax_hdr.text(0.0, 0.70, "ABK-20 DIY PCB DRILLING HANDOUT & PIN HOLE MAP",
                 color='#1f2328', fontsize=14.0, weight='bold', fontfamily='sans-serif')
-    ax_hdr.text(0.0, 0.22, "Hardware Rev 0.3 • Authoritative KiCad DRL Engine • 86 Holes Total • 4 Carbide Bit Sizes • A4 Landscape",
+    ax_hdr.text(0.0, 0.22, f"Authoritative KiCad DRL Engine • {len(holes)} Holes Total • 4 Drill Bit Sizes • Standard A4 Landscape",
                 color='#57606a', fontsize=8.0, fontfamily='sans-serif')
     ax_hdr.plot([0.0, 1.0], [0.0, 0.0], color='#d0d7de', lw=1.0)
 
@@ -151,8 +151,8 @@ def generate_handout(pcb_path, output_png, output_pdf):
     add_callout("Jack1 (Audio In)\n5x Ø 1.2 mm (Pins)\n2x Ø 1.3 mm (Pegs)",
                 (84.61, 31.90), (46.0, 24.0), color_12, 'left')
 
-    # 2. Vias 1, 2, 3 (GND, VCC, DIN) - Above U1
-    add_callout("VIAS 1, 2, 3 (GND/VCC/DIN)\n3x Ø 0.8 mm Holes\n[Solder wire both sides!]",
+    # 2. Vias 3, 4, 5 (GND, VCC, DIN) - Above U1
+    add_callout("VIAS 3, 4, 5 (GND/VCC/DIN)\n3x Ø 0.8 mm Holes\n[Solder wire both sides!]",
                 (89.31, 44.42), (46.0, 43.0), color_08, 'left')
 
     # 3. U1 (ATtiny85 Socket) - Left Middle
@@ -209,8 +209,8 @@ def generate_handout(pcb_path, output_png, output_pdf):
                 (147.93, 59.77), (158.0, 56.0), color_10, 'left')
 
     # 14. RV1 (Bourns Slide Pot PTL20) - Right Edge
-    add_callout("RV1 Slide Pot (PTL20)\n5x Ø 1.2 mm (Pins)\n1x Ø 1.2 mm (Peg)",
-                (143.77, 59.88), (158.0, 75.0), color_12, 'left')
+    add_callout("RV1 Slide Pot (PTL20)\n6x Ø 1.0 mm (Pins & Peg)\n[Bourns PTL20 Slider]",
+                (143.77, 59.88), (158.0, 75.0), color_10, 'left')
 
     # 15. J2 Header (1x04) - Bottom Right
     add_callout("J2 Header\n4x Ø 1.0 mm Holes\n[P4 to P7]",
@@ -226,17 +226,17 @@ def generate_handout(pcb_path, output_png, output_pdf):
     ty = 0.95
     ax_side.text(0.06, ty, "DRILL BIT SELECTION & CHECKLIST", color='#1f2328', fontsize=10.0, weight='bold')
     ty -= 0.032
-    ax_side.text(0.06, ty, "Work from smallest to largest • 86 Holes Total", color='#57606a', fontsize=7.2)
+    ax_side.text(0.06, ty, f"Work from smallest to largest • {len(holes)} Holes Total", color='#57606a', fontsize=7.2)
 
     ty -= 0.045
-    # Step 1: 0.8 mm
+    # Step 1: 0.8 - 0.9 mm
     box1 = FancyBboxPatch((0.05, ty - 0.145), 0.90, 0.155, boxstyle="round,pad=0,rounding_size=0.015",
                           facecolor='#ffffff', edgecolor=color_08, linewidth=1.3)
     ax_side.add_patch(box1)
-    ax_side.text(0.08, ty - 0.025, "[ ] STEP 1: Ø 0.8 mm BIT (32 Holes)", color=color_08, fontsize=8.0, weight='bold')
+    ax_side.text(0.08, ty - 0.025, "[ ] STEP 1: Ø 0.8–0.9 mm BIT (34 Holes)", color=color_08, fontsize=8.0, weight='bold')
     ax_side.text(0.08, ty - 0.060, "• 19x Speaker Sound Grill (Acoustic center)\n"
                                   "•  8x U1 ATtiny85 IC Socket (Pins 1–8)\n"
-                                  "•  5x Dedicated Vias (VIA 1, 2, 3, 4, 5)",
+                                  "•  7x Dedicated Vias (Wire stitched both sides)",
                  color='#24292f', fontsize=6.8, va='top')
 
     ty -= 0.175
@@ -244,26 +244,27 @@ def generate_handout(pcb_path, output_png, output_pdf):
     box2 = FancyBboxPatch((0.05, ty - 0.155), 0.90, 0.165, boxstyle="round,pad=0,rounding_size=0.015",
                           facecolor='#ffffff', edgecolor=color_10, linewidth=1.3)
     ax_side.add_patch(box2)
-    ax_side.text(0.08, ty - 0.025, "[ ] STEP 2: Ø 1.0 mm BIT (18 Holes)", color=color_10, fontsize=8.0, weight='bold')
-    ax_side.text(0.08, ty - 0.060, "•  4x J1 Pin Socket Header (1x04)\n"
+    ax_side.text(0.08, ty - 0.025, "[ ] STEP 2: Ø 1.0 mm BIT (22 Holes)", color=color_10, fontsize=8.0, weight='bold')
+    ax_side.text(0.08, ty - 0.060, "•  6x RV1 Slide Pot PTL20 (Pins & Peg)\n"
+                                  "•  4x J1 Pin Socket Header (1x04)\n"
                                   "•  4x J2 Pin Socket Header (1x04)\n"
+                                  "•  4x J5 USB-C Mechanical Shield Tabs\n"
                                   "•  3x POT2-CV1 Rotary Pot (Signal pins)\n"
-                                  "•  3x POT3-Vol1 Thumbwheel (Signal pins)\n"
-                                  "•  4x J5 USB-C Mechanical Shield Tabs",
+                                  "•  1x POT3-Vol1 Thumbwheel (Pad 3)",
                  color='#24292f', fontsize=6.8, va='top')
 
     ty -= 0.185
-    # Step 3: 1.2 - 1.3 mm
+    # Step 3: 1.1 - 1.3 mm
     box3 = FancyBboxPatch((0.05, ty - 0.170), 0.90, 0.180, boxstyle="round,pad=0,rounding_size=0.015",
                           facecolor='#ffffff', edgecolor=color_12, linewidth=1.3)
     ax_side.add_patch(box3)
-    ax_side.text(0.08, ty - 0.025, "[ ] STEP 3: Ø 1.2–1.3 mm BIT (33 Holes)", color=color_12, fontsize=8.0, weight='bold')
+    ax_side.text(0.08, ty - 0.025, "[ ] STEP 3: Ø 1.1–1.3 mm BIT (31 Holes)", color=color_12, fontsize=8.0, weight='bold')
     ax_side.text(0.08, ty - 0.060, "•  7x Jack1 (5 pins + 2 plastic pegs)\n"
                                   "•  7x Jack2 (5 pins + 2 plastic pegs)\n"
-                                  "•  6x RV1 Slide Pot (5 pins + 1 peg)\n"
                                   "•  6x SW2 Pushbutton KS01 (4 sw + 2 LED)\n"
                                   "•  3x SW3 SPDT Sub-mini Toggle\n"
-                                  "•  4x Pot Side Bracket Tabs (POT2/POT3)",
+                                  "•  4x Pot Side Bracket Tabs (POT2/POT3)\n"
+                                  "•  4x J5 USB-C Alignment Pegs",
                  color='#24292f', fontsize=6.8, va='top')
 
     ty -= 0.200
@@ -272,8 +273,7 @@ def generate_handout(pcb_path, output_png, output_pdf):
                           facecolor='#ffffff', edgecolor=color_76, linewidth=1.3)
     ax_side.add_patch(box4)
     ax_side.text(0.08, ty - 0.025, "[ ] STEP 4: LARGE HOLES (SW1 Switch)", color=color_76, fontsize=8.0, weight='bold')
-    ax_side.text(0.08, ty - 0.055, "•  2x Ø 1.5–2.0 mm: SW1 power switch legs\n"
-                                  "•  1x Ø 7.5–8.0 mm: SW1 center button hole\n"
+    ax_side.text(0.08, ty - 0.055, "•  1x Ø 7.5–8.0 mm: SW1 center button hole\n"
                                   "   (Use step drill bit or round needle file)",
                  color='#24292f', fontsize=6.8, va='top')
 
@@ -303,7 +303,10 @@ def generate_handout(pcb_path, output_png, output_pdf):
     print(f"[+] Successfully generated drill handout PDF:   {output_pdf}")
 
 if __name__ == '__main__':
-    pcb = 'hardware/ABK-20_DIY.kicad_pcb'
+    import sys
+    pcb = sys.argv[1] if len(sys.argv) > 1 else 'hardware/ABK-20.kicad_pcb'
+    if not os.path.exists(pcb):
+        pcb = 'hardware/ABK-20_DIY.kicad_pcb'
     out_png = 'docs/img/ABK-20_diy_drill_handout.png'
     out_pdf = 'docs/fabrication/ABK-20_DIY_DRILL_HANDOUT.pdf'
     os.makedirs(os.path.dirname(out_png), exist_ok=True)

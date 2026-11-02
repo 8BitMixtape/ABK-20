@@ -8,7 +8,7 @@
 	(property "Reference" "POT3-Vol1"
 		(at -0.08 -2.54 180)
 		(layer "Eco2.User")
-		(uuid "fff062b6-49dd-422e-a789-5c64fff51c9f")
+		(uuid "64c809cf-e391-4482-aa40-928a25b97aec")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "POT 10k"
 		(at -0.08 3.048 180)
 		(layer "F.Fab")
-		(uuid "577e515d-6dd8-4619-bc29-ae49f9e89d83")
+		(uuid "28e26c7e-f79f-46c9-ad69-720aaedacf87")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f2e4fbf-06bf-4b2f-89f5-c34d2e69bac4")
+		(uuid "777f33cd-0930-4ce8-83f2-e0d99feeaf25")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "be366c07-50e9-470b-b362-828656839ebc")
+		(uuid "7767610c-b6b1-46ae-9e7f-eb1d3a8dd4b7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c62be661-a8e6-4590-9ef2-01b448aef1dd")
+		(uuid "dbbb7e6a-70fe-4262-869b-8f567ad5d896")
 	)
 	(fp_line
 		(start -6.53 5.29)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5475860c-d8b7-41db-9c57-7adb9a5cd625")
+		(uuid "ee058458-4126-41b3-a039-c9e0197d17e4")
 	)
 	(fp_line
 		(start 6.37 -5.51)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5696b0b3-0aaf-4e22-aa9d-a3cf00e9b490")
+		(uuid "dc887fa2-ff02-44ee-ad76-caa2f6f67dba")
 	)
 	(fp_line
 		(start 6.37 5.29)
@@ -90,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "55da35a4-dc4e-46b2-916b-8e578d97b812")
+		(uuid "22c3ed4d-d207-4a46-9c44-3799284fcd29")
 	)
 	(fp_circle
 		(center -0.08 -0.11)
@@ -101,7 +101,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "0b556f78-8fcb-43fd-aad3-0bfa320bc7c7")
+		(uuid "1d1eefdc-eadf-45db-a049-02c15ef75666")
 	)
 	(fp_circle
 		(center -0.08 -0.11)
@@ -112,7 +112,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c4201001-321b-42a4-9bc3-c217781852dd")
+		(uuid "b92ce00a-c67a-481a-82b8-8ecaebdb7cb4")
 	)
 	(pad "" thru_hole oval
 		(at 2.54 -5.08)
@@ -120,7 +120,7 @@
 		(drill oval 1.4 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7af56445-4392-4dd6-a03a-8d2f5560578d")
+		(uuid "8194bfa2-6206-4a58-95ec-c31168e48886")
 	)
 	(pad "" thru_hole oval
 		(at 2.54 5.08)
@@ -128,40 +128,40 @@
 		(drill oval 1.4 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f3bc89f7-e238-4885-95ae-9dad24e5fca5")
+		(uuid "fa2dcf25-6d72-467d-95ce-51a2bb50dfb6")
 	)
 	(pad "1" thru_hole oval
-		(at -6.858 4.1)
+		(at -7.239 4.1)
 		(size 4 2)
 		(drill 1
-			(offset -1 0)
+			(offset -0.6 0)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.01)
-		(uuid "00d49287-4b8f-4393-b6be-b8de68893de7")
+		(uuid "23538003-c184-4f9c-bc13-b760861a5741")
 	)
 	(pad "2" thru_hole oval
-		(at -6.858 0)
+		(at -7.239 0)
 		(size 4 2)
 		(drill 1
-			(offset -1 0)
+			(offset -0.6 0)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.01)
-		(uuid "794abee4-3518-454c-b437-726f8266a3a0")
+		(uuid "14c7a433-fd1c-44ac-9f57-0af4f9e2c928")
 	)
 	(pad "3" thru_hole oval
-		(at -6.858 -4.1)
+		(at -7.239 -4.1)
 		(size 4 2)
 		(drill 1
-			(offset -1 0)
+			(offset -0.6 0)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.01)
-		(uuid "551ec47a-8727-4658-ae93-14100319c4a5")
+		(uuid "4af47eeb-4749-4907-8bcd-e74be6ce4483")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/Potentiometer_Thumbwheel_16mm_B103.wrl"

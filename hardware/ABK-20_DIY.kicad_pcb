@@ -2607,7 +2607,7 @@
 		(pad "" thru_hole circle
 			(at -15 1.25 270)
 			(size 2.2 2.2)
-			(drill 1.2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "c019641b-7be7-4d62-8437-042adf7d24ac")
@@ -2615,7 +2615,7 @@
 		(pad "1" thru_hole rect
 			(at -15 -1.25 270)
 			(size 2.2 2.2)
-			(drill 1.2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 52 "Net-(R11-Pad2)")
@@ -2626,7 +2626,7 @@
 		(pad "2" thru_hole circle
 			(at -15 -3.75 270)
 			(size 2.2 2.2)
-			(drill 1.2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 50 "Net-(R7-Pad2)")
@@ -2637,7 +2637,7 @@
 		(pad "3" thru_hole circle
 			(at 15 -1.25 270)
 			(size 2.2 2.2)
-			(drill 1.2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -2648,7 +2648,7 @@
 		(pad "4" thru_hole circle
 			(at -15 3.75 270)
 			(size 2.2 2.2)
-			(drill 1.2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -2659,7 +2659,7 @@
 		(pad "5" thru_hole circle
 			(at 15 3.75 270)
 			(size 2.2 2.2)
-			(drill 1.2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 53 "Net-(RV1B-A)")
