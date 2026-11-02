@@ -17,8 +17,8 @@
 
 The button network alters the DC bias on `PB3` (ADC3) to distinguish multiple inputs without interfering with AudioBoot:
 * **Idle / Audio Bias**: $\sim 0.50 \times V_{CC}$ ($\sim 512$ ADC count)
-* **Toggle Left** (`SW3` pin 1 via R3 22k): $\sim 0.33 \times V_{CC}$ ($\sim 341$ ADC count)
-* **Toggle Right** (`SW3` pin 3 via R4||R5 11k): $\sim 0.25 \times V_{CC}$ ($\sim 256$ ADC count)
+* **Toggle Switch DOWN** (`SW3` pin 1 via R3 22k): $\sim 0.33 \times V_{CC}$ ($\sim 341$ ADC count)
+* **Toggle Switch UP** (`SW3` pin 3 via R4||R5 11k): $\sim 0.25 \times V_{CC}$ ($\sim 256$ ADC count)
 * **Push Button** (`SW2` via R16 6.8k): $\sim 0.19 \times V_{CC}$ ($\sim 195$ ADC count)
 
 ---
@@ -136,6 +136,42 @@ Both analog inputs have a $4.7\text{k}\Omega$ series resistor in line with $V_{C
 | :--- | :--- | :--- | :---: | :---: | :--- |
 | **Rotary Pot** (`POT2-CV1`) | `PB4` / `ADC2` | CCW (Min) $\to$ CW (Max) | $670 \to 15$ | **Inverted** | `val = ((670 - raw) * 100) >> 8` |
 | **Slide Fader** (`RV1`) | `PB2` / `ADC1` | DOWN (Min) $\to$ UP (Max) | $15 \to 670$ | **Direct** | `val = ((raw - 15) * 100) >> 8` |
+
+---
+
+## 12. Future Improvement: All-22k Unified Resistor Ladder (Rev 0.4+)
+
+To eliminate non-standard BOM values (such as the single $6.8\text{k}\Omega$ resistor on `R16`) and significantly improve ADC noise margins under heavy NeoPixel PWM load, the `PB3` resistor ladder can be unified so that **all resistors use the identical $22\text{k}\Omega$ value**:
+
+### Proposed Configuration
+* **Idle Audio Bias (VCC/2)**: `R1` ($22\text{k}\Omega$ pull-up) & `R2` ($22\text{k}\Omega$ pull-down) — *unchanged to keep AudioBoot AC bias centered*.
+* **Push Button (`SW2`)**: `R16` changed to **$22\text{k}\Omega$** (replaces $6.8\text{k}\Omega$).
+* **Toggle Switch UP (`SW3` Pin 3)**: `R4` & `R5` populated with two **$22\text{k}\Omega$ in parallel** ($11.0\text{k}\Omega$ combined).
+* **Toggle Switch DOWN (`SW3` Pin 1)**: `R3` populated with two **$22\text{k}\Omega$ in series** ($44.0\text{k}\Omega$ combined) or a single $47\text{k}\Omega$. *(On future PCB revisions, provide two pads `R3A` and `R3B` in series)*.
+
+### Decoded States & Threshold Margins ($V_{CC} = 5.0\text{V}$)
+
+| Control State | Active Resistors to GND | Total $R_{GND}$ | Voltage at PB3 | ADC Count (10-bit) | Noise Margin (Gap) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Idle / Neutral** (Toggle Center, Button Released) | `R2` ($22\text{k}$) | $22.0\text{ k}\Omega$ | $2.50\text{ V}$ | **512** | **102 counts** ($0.50\text{V}$) |
+| **Toggle DOWN** (`SW3` Pos 1) | `R2` + `R3` ($44\text{k}$) | $14.67\text{ k}\Omega$ | $2.00\text{ V}$ | **409** | **68 counts** ($0.33\text{V}$) |
+| **Button SW2 Solo** | `R2` + `R16` ($22\text{k}$) | $11.00\text{ k}\Omega$ | $1.67\text{ V}$ | **341** | **49 counts** ($0.24\text{V}$) |
+| **Button SW2 + Toggle DOWN** | `R2` + `R16` + `R3` | $8.80\text{ k}\Omega$ | $1.43\text{ V}$ | **292** | **37 counts** ($0.18\text{V}$) |
+| **Toggle UP** (`SW3` Pos 2) | `R2` + `R4` $\parallel$ `R5` ($11\text{k}$) | $7.33\text{ k}\Omega$ | $1.25\text{ V}$ | **256** | **51 counts** ($0.25\text{V}$) |
+| **Button SW2 + Toggle UP** | `R2` + `R4` $\parallel$ `R5` + `R16` | $5.50\text{ k}\Omega$ | $1.00\text{ V}$ | **205** | — |
+
+### Key Improvements:
+1. **Unified BOM**: Entire ladder is populated with 7 pieces of standard $22\text{k}\Omega$ (no $6.8\text{k}\Omega$, $10\text{k}\Omega$, or odd values required).
+2. **Robust Noise Immunity**: Minimum ADC gap between any two states increases from **22.7 counts** ($0.11\text{V}$) to **36.5 counts** ($0.18\text{V}$) — a **+60% margin boost** that prevents debounce jitter when 20 NeoPixels switch PWM current.
+3. **Firmware Midpoint Thresholds**:
+   ```cpp
+   #define THRESH_IDLE_TOGGLEDOWN   460  // Midpoint between 512 and 409
+   #define THRESH_TOGGLEDOWN_SW2    375  // Midpoint between 409 and 341
+   #define THRESH_SW2_BOTH_DOWN     316  // Midpoint between 341 and 292
+   #define THRESH_BOTH_DOWN_TOGGLEUP 274 // Midpoint between 292 and 256
+   #define THRESH_TOGGLEUP_BOTH_UP  230  // Midpoint between 256 and 205
+   ```
+
 
 
 
