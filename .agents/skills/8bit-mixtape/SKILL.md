@@ -8,7 +8,7 @@ description: Comprehensive domain knowledge, historical lineage, hardware varian
 This skill captures the philosophy, history, hardware architecture, firmware conventions, and creative workflows developed across 15+ years of the **8Bit Mixtape** and the **Center for Alternative Coconut Research (CACR)**.
 
 > For an in-depth chronicle, hardware comparisons, and design deep-dive, see the companion document:  
-> [docs/HISTORY_AND_ARCHITECTURE.md](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/docs/HISTORY_AND_ARCHITECTURE.md)
+> [docs/history/HISTORY_AND_ARCHITECTURE.md](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/docs/history/HISTORY_AND_ARCHITECTURE.md)
 
 ---
 
@@ -104,13 +104,13 @@ The hallmark feature of the 8Bit Mixtape NEO is eliminating dedicated hardware p
 >    - Keep flash $\le 6,300$ bytes (under TinyAudioBoot ceiling).
 >    - Compile with `pio run` to produce `.pio/build/attiny85/firmware.wav`.
 >    - The user uploads and tests physically on the hardware.
->    - **DO NOT** generate GIFs, MP3s, manuals, or update `docs/apps.json` / `docs/index.html` during this phase.
+>    - **DO NOT** generate GIFs, MP3s, manuals, or update `web/apps.json` / `web/index.html` during this phase.
 > 2. **Phase 2 (Publishing & Asset Generation - ONLY ON EXPLICIT USER COMMAND)**:
 >    - Only when the user is satisfied and gives the explicit command:
 >      - Generate matrix preview GIF (`scripts/gen_previews.py`).
->      - Write manual (`docs/manuals/<APP_ID>_MANUAL.md`).
+>      - Write manual (`web/manuals/<APP_ID>_MANUAL.md`).
 >      - Generate preview MP3 (`scripts/gen_audio_previews.py`).
->      - Copy WAV to `docs/wav/<app_id>.wav`, register in `docs/apps.json`, and sync `docs/apps.js`.
+>      - Copy WAV to `web/wav/<app_id>.wav`, register in `web/apps.json`, and sync `web/apps.js`.
 >      - Commit and push to GitHub.
 
 ---
@@ -168,6 +168,6 @@ output = (t >> 7 | t | t >> 6) * 10 + 4 * (t & t >> 13 | t >> 6);
 * **Headphone Jack Auto-Shutdown (Candidate for PCB Revision v0.3+)**:
   * In v0.2, PAM8002 Pin 1 (`SHT`) is hardwired to GND, pulling $4\text{–}6\text{ mA}$ quiescent idle current even when headphones are plugged in.
   * In v0.3, the spare Ring switch on `Jack2` (PJ-317 Pins 3 & 5) paired with a $100\text{k}\Omega$ pull-up resistor to $V_{CC}$ enables **autonomous hardware auto-shutdown ($< 0.5\,\mu\text{A}$)** when a 3.5mm plug is inserted.
-  * Full specification, truth table, and bodge guide: [docs/AMP_AUTO_SHUTDOWN_CIRCUIT.md](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/docs/AMP_AUTO_SHUTDOWN_CIRCUIT.md).
+  * Full specification, truth table, and bodge guide: [docs/hardware/AMP_AUTO_SHUTDOWN_CIRCUIT.md](file:///home/dusjagr/Documents/8bit_Mixtape/ABK-20/docs/hardware/AMP_AUTO_SHUTDOWN_CIRCUIT.md).
 * **Star Grounding & Audio Isolation (v0.3)**:
   * Route a dedicated clean analog ground trace for `POT3-Vol1`, `Jack2`, `C3`, and `U2` directly back to the USB-C ground entry, completely separating it from the heavy $1.2\text{ kHz}$ switching ground return of the 20× NeoPixels to eliminate ground-bounce hissing.

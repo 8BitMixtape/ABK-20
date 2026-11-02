@@ -56,7 +56,7 @@ Dedicated hierarchical sub-sheet (`hardware/LED_Matrix.kicad_sch`) with the rast
   <img src="docs/img/schematic_page-2.png" alt="ABK-20 Schematic Page 2" width="850" />
 </p>
 
-📄 **[Download Complete Multi-Page Schematic PDF (A4)](docs/ABK-20_schematic.pdf)**
+📄 **[Download Complete Multi-Page Schematic PDF (A4)](docs/hardware/ABK-20_schematic.pdf)**
 
 ---
 
@@ -165,7 +165,7 @@ The repository includes a comprehensive acoustic engineering architecture to sol
 
 ## Firmware & Web Flasher
 
-* **[ABK-20 Online Web Audio Player & Flasher](https://8bitmixtape.github.io/ABK-20/)** (hosted directly from [`docs/index.html`](docs/index.html))
+* **[ABK-20 Online Web Audio Player & Flasher](https://8bitmixtape.github.io/ABK-20/)** (hosted directly from [`web/index.html`](web/index.html))
 * **[Software & Sketches Suite](software/)** (PlatformIO build environment, `hex2wav` pipeline, and 30+ sound sketches)
 * Also compatible with the [8Bit-Vintage Firmware Repository](https://github.com/8BitMixtape/8Bit-Vintage)
 
@@ -198,15 +198,25 @@ The ABK-20 features a dedicated, highly optimized build of **TinyAudioBoot** for
 ```
 ABK-20/
 ├── .agents/                          # Antigravity agent rules & 8Bit Mixtape skills
-├── docs/                             # Web Player, distribution media & documentation
+├── web/                              # Web AudioBoot player & sound app catalog (GitHub Pages)
 │   ├── index.html                    # Online Web Audio Flasher & synthesizer player
 │   ├── apps.json & apps.js           # Sound track catalog metadata & registry
 │   ├── wav/                          # Production 8-bit bootloader audio streams (.wav)
 │   ├── audio/                        # 30-second audio preview MP3s
 │   ├── gifs/                         # Animated 5x4 matrix LED previews (solid clean mode)
-│   ├── manuals/                      # Individual user manuals for each sound application
-│   ├── ABK-20_schematic.pdf          # Multi-page A4 schematic export
-│   └── datasheets/                   # Component datasheets (Bourns faders, switches, pots)
+│   └── manuals/                      # Individual user manuals for each sound application
+├── docs/                             # Project documentation, hardware notes & datasheets
+│   ├── hardware/                     # Circuit notes, engineering summaries & schematics
+│   │   ├── HARDWARE_NOTES.md         # Hardware & circuit design notes
+│   │   ├── REV03_ENGINEERING_SUMMARY.md # Engineering breakdown
+│   │   ├── AMP_AUTO_SHUTDOWN_CIRCUIT.md # LM4871 amp shutoff specification
+│   │   ├── DESIGN_VARIANTS_GUIDE.md  # Alternative layout variants
+│   │   └── ABK-20_schematic.pdf      # Multi-page A4 schematic export
+│   ├── datasheets/                   # Component datasheets (Bourns faders, switches, pots)
+│   ├── fabrication/                  # DIY etching & drilling guides (ABK-20_DIY_DRILL_HANDOUT.pdf)
+│   ├── history/                      # 8Bit Mixtape lineage & Coconut doctrine (HISTORY_AND_ARCHITECTURE.md)
+│   ├── software/                     # Software developer guides (WORKFLOW_GIF_GENERATION.md)
+│   └── img/                          # Images, 3D renders & diagrams
 ├── hardware/                         # KiCad 8 EDA design source files
 │   ├── ABK-20.kicad_pro              # KiCad project file
 │   ├── ABK-20.kicad_sch              # Main hierarchical schematic (Page 1)
@@ -217,7 +227,7 @@ ABK-20/
 │   ├── 8Bitmixtape_reworked.pretty/  # Project footprint library
 │   ├── 3d_models/                    # Self-contained bundled 3D models
 │   ├── bom/                          # Hardware schematic BOM exports
-│   └── reports/                      # DRC and ERC verification reports
+│   └── scripts/                      # Layout, 3D WRL & thumbnail scripts
 ├── production/                       # Physical manufacturing & fabrication deliverables
 │   ├── bom/                          # Interactive HTML Bill of Materials (iBOM)
 │   ├── gerbers/                      # Standard fabrication drill & Gerber archives

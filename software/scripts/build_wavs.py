@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Build every sound app listed in docs/apps.json and publish its AudioBoot WAV
-to docs/wav/<id>.wav for the GitHub Pages player.
+Build every sound app listed in web/apps.json and publish its AudioBoot WAV
+to web/wav/<id>.wav for the GitHub Pages player.
 
 The sketch is selected per build via PLATFORMIO_BUILD_SRC_FILTER, so
 platformio.ini is never modified. Only compiles — never uploads.
@@ -20,12 +20,12 @@ from pathlib import Path
 # Resolve repo root (supports running from software/scripts or root scripts/)
 _parent1 = Path(__file__).resolve().parents[1]
 _parent2 = Path(__file__).resolve().parents[2]
-ROOT = _parent2 if (_parent2 / "docs").exists() else _parent1
+ROOT = _parent2 if (_parent2 / "web").exists() else _parent1
 SOFTWARE_DIR = ROOT / "software" if (ROOT / "software").exists() else ROOT
 
-APPS_JSON = ROOT / "docs" / "apps.json"
-APPS_JS = ROOT / "docs" / "apps.js"  # loaded via <script>, works from file://
-WAV_OUT = ROOT / "docs" / "wav"
+APPS_JSON = ROOT / "web" / "apps.json"
+APPS_JS = ROOT / "web" / "apps.js"  # loaded via <script>, works from file://
+WAV_OUT = ROOT / "web" / "wav"
 ENV = "attiny85"
 BUILD_WAV = SOFTWARE_DIR / ".pio" / "build" / ENV / "firmware.wav"
 BUILD_HEX = SOFTWARE_DIR / ".pio" / "build" / ENV / "firmware.hex"

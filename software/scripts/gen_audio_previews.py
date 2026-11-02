@@ -7,7 +7,7 @@ Usage:
   python3 scripts/gen_audio_previews.py
 
 Outputs:
-  docs/audio/<app_id>.mp3
+  web/audio/<app_id>.mp3
 """
 import io
 import math
@@ -18,8 +18,8 @@ from pathlib import Path
 
 _p1 = Path(__file__).resolve().parents[1]
 _p2 = Path(__file__).resolve().parents[2]
-ROOT = _p2 if (_p2 / "docs").exists() else _p1
-AUDIO_DIR = ROOT / "docs" / "audio"
+ROOT = _p2 if (_p2 / "web").exists() else _p1
+AUDIO_DIR = ROOT / "web" / "audio"
 
 
 def write_wav_to_mp3(samples_uint8, sample_rate, out_mp3_path):

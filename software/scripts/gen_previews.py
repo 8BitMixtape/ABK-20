@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Render animated GIF previews of the 5x4 LED matrix for each sound app into
-docs/gifs/<id>.gif, using the same cell style as the old emulator
+web/gifs/<id>.gif, using the same cell style as the old emulator
 (30x24 px cells with a 1 px dark border -> 150x96 GIF).
 
 Usage:
@@ -20,9 +20,9 @@ from PIL import Image
 
 _p1 = Path(__file__).resolve().parents[1]
 _p2 = Path(__file__).resolve().parents[2]
-ROOT = _p2 if (_p2 / "docs").exists() else _p1
-APPS_JSON = ROOT / "docs" / "apps.json"
-GIF_DIR = ROOT / "docs" / "gifs"
+ROOT = _p2 if (_p2 / "web").exists() else _p1
+APPS_JSON = ROOT / "web" / "apps.json"
+GIF_DIR = ROOT / "web" / "gifs"
 
 MATRIX_W, MATRIX_H = 5, 4
 CELL_W, CELL_H = 30, 24
