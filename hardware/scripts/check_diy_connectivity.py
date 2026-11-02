@@ -16,7 +16,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Check DIY PCB connectivity for non-plated through-holes")
-    parser.add_argument("--pcb", default="hardware/ABK-20.kicad_pcb", help="Path to KiCad PCB")
+    parser.add_argument("--pcb", default="hardware/ABK-20_DIY.kicad_pcb", help="Path to KiCad PCB")
     args = parser.parse_args()
 
     pcb_path = os.path.abspath(args.pcb)

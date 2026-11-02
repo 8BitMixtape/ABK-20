@@ -303,7 +303,7 @@ def generate_handout(pcb_path, output_png, output_pdf):
     print(f"[+] Successfully generated drill handout PDF:   {output_pdf}")
 
 if __name__ == '__main__':
-    pcb = 'hardware/ABK-20.kicad_pcb'
+    pcb = 'hardware/ABK-20_DIY.kicad_pcb'
     out_png = 'docs/img/ABK-20_diy_drill_handout.png'
     out_pdf = 'docs/fabrication/ABK-20_DIY_DRILL_HANDOUT.pdf'
     os.makedirs(os.path.dirname(out_png), exist_ok=True)

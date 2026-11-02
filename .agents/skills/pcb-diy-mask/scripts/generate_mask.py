@@ -107,7 +107,7 @@ def get_board_bounds(svg_path):
 
 def main():
     parser = argparse.ArgumentParser(description='Generate DIY Photolithography & Etching Mask (A4 Pouch)')
-    parser.add_argument('--pcb', default='hardware/ABK-20.kicad_pcb', help='Path to KiCad PCB file')
+    parser.add_argument('--pcb', default='hardware/ABK-20_DIY.kicad_pcb', help='Path to KiCad PCB file')
     parser.add_argument('--out-dir', default='production/MASK', help='Output directory')
     parser.add_argument('--board-name', default='ABK-20 SYNTHESIZER', help='Project / Board title')
     parser.add_argument('--rev', default='REV 0.3', help='Hardware revision string')
