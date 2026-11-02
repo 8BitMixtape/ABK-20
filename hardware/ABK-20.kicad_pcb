@@ -17780,7 +17780,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "22uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "47925ce9-58ee-4f36-a226-a297e9edbb32")
@@ -20396,6 +20396,15 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "caca0a6b-d6c3-4b88-acbf-c60b5b93324d")
+	)
+	(via
+		(at 145.8976 78.1558)
+		(size 2)
+		(drill 0.9)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "02a8748d-1d42-4587-9b74-f9a79ee3b681")
 	)
 	(via
 		(at 124.6632 96.774)
