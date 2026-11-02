@@ -218,12 +218,14 @@ ABK-20/
 │   ├── software/                     # Software developer guides (WORKFLOW_GIF_GENERATION.md)
 │   └── img/                          # Images, 3D renders & diagrams
 ├── hardware/                         # KiCad 8 EDA design source files
-│   ├── ABK-20.kicad_pro              # KiCad project file
-│   ├── ABK-20.kicad_sch              # Main hierarchical schematic (Page 1)
+│   ├── ABK-20.kicad_pro              # Factory Project: KiCad project file
+│   ├── ABK-20.kicad_sch              # Factory Project: Main hierarchical schematic (Page 1)
+│   ├── ABK-20.kicad_pcb              # Factory Project: Board layout (JLCPCB / PTH / SMT)
+│   ├── ABK-20_DIY.kicad_pro          # DIY Project: KiCad project file
+│   ├── ABK-20_DIY.kicad_sch          # DIY Project: Dedicated schematic (Page 1)
+│   ├── ABK-20_DIY.kicad_pcb          # DIY Project: Board layout (non-PTH / wire-vias / pilot marks)
+│   ├── ABK-20_showcase_variants.*    # Standalone showroom project with alternative footprints
 │   ├── LED_Matrix.kicad_sch          # 5x4 NeoPixel matrix sub-sheet (Page 2)
-│   ├── ABK-20.kicad_pcb              # Factory Manufacturing Edition (JLCPCB / PTH / SMT)
-│   ├── ABK-20_DIY.kicad_pcb          # DIY Chemical Etching Edition (non-PTH / wire-vias / pilot marks)
-│   ├── ABK-20_showcase_variants.kicad_pcb # Standalone showroom board with alternative footprints
 │   ├── mixtape_schematics.kicad_sym  # Project symbol library
 │   ├── 8Bitmixtape_reworked.pretty/  # Project footprint library
 │   ├── 3d_models/                    # Self-contained bundled 3D models
